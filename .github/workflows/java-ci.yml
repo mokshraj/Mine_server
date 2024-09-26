@@ -16,10 +16,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3  # Step to check out your code from GitHub.
 
-      - name: Set up JDK 11
+      - name: Set up JDK 
         uses: actions/setup-java@v3  # Step to set up Java Development Kit (JDK) version 11.
         with:
-          distribution: 'adopt'
+          distribution: 'openjdk'
           java-version: '11'
       
       - name: Compile the code
