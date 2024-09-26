@@ -24,3 +24,4 @@ jobs:
 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
+             sleep 20
