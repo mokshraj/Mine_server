@@ -21,6 +21,11 @@ jobs:
       # Add this step to confirm the Java version
       - name: Check Java Version
         run: java -version
+        
+      - name: Check public IP address using curl
+        run: |
+          echo "Fetching public IP address..."
+          curl ifconfig.me
 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar && sleep 20
