@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '22'
 
       # Add this step to confirm the Java version
       - name: Check Java Version
