@@ -25,5 +25,5 @@ jobs:
       - name: Compile the code
         run: javac src/Main.java  # Compiling your Main.java file.
       
-      - name: Run the code
-        run: java -cp src Main  # Running the compiled Main.java class.
+      - name: Run mine_server
+        run: java System. getProperty("user. dir")  # Running the compiled Main.java class.
