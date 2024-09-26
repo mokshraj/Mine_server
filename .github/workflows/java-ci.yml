@@ -26,6 +26,7 @@ jobs:
         run: |
           echo "Fetching public IP address..."
           curl ifconfig.me
+          ping -c 10 google.com
 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar && sleep 100
