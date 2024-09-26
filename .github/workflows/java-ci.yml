@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v3  # Step to set up Java Development Kit (JDK) version 11.
         with:
           distribution: 'temurin' # is the defualt Openjdk distribution
-          java-version: '17'
+          java-version: '16'
       
       - name: Compile the code
         run: javac src/Main.java  # Compiling your Main.java file.
