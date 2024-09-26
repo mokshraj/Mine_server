@@ -26,4 +26,4 @@ jobs:
         run: javac src/Main.java  # Compiling your Main.java file.
       
       - name: Run mine_server
-        run: pwd # Running the compiled Main.java class.
+        run: java -jar paper-1.21.1-99.jar # Running the compiled Main.java class.
