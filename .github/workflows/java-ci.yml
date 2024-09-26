@@ -23,4 +23,4 @@ jobs:
         run: java -version
 
       - name: Run Minecraft server
-        run: java -jar paper-1.17.1-99.jar
+        run: java -jar paper-1.21.1-99.jar
