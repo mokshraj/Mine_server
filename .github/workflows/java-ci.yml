@@ -3,9 +3,9 @@ name: Java CI
 # Define when the workflow should run
 on:
   push:
-    branches: [main]  # This means the workflow will run every time you push to the 'main' branch.
+    branches: [master]  # This means the workflow will run every time you push to the 'master' branch.
   pull_request:
-    branches: [main]
+    branches: [master]
 
 # Define the job
 jobs:
