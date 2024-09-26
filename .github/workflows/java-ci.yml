@@ -16,11 +16,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3  # Step to check out your code from GitHub.
 
-      - name: Set up JDK 
+      - name: Set up JDK 17 (openjdk)
         uses: actions/setup-java@v3  # Step to set up Java Development Kit (JDK) version 11.
         with:
-          distribution: 'openjdk'
-          java-version: '11'
+          distribution: 'termurin' #termurin is the defualt Openjdk distribution
+          java-version: '17'
       
       - name: Compile the code
         run: javac src/Main.java  # Compiling your Main.java file.
