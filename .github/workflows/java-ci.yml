@@ -29,7 +29,7 @@ jobs:
 
       - name: check internet avilability
         run: |
-          ping googl.com
+          ping -c googl.com
 
 
       - name: Run Minecraft server
