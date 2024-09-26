@@ -19,7 +19,7 @@ jobs:
       - name: Set up JDK 17 (openjdk)
         uses: actions/setup-java@v3  # Step to set up Java Development Kit (JDK) version 11.
         with:
-          distribution: 'termurin' #termurin is the defualt Openjdk distribution
+          distribution: 'temurin' # is the defualt Openjdk distribution
           java-version: '17'
       
       - name: Compile the code
