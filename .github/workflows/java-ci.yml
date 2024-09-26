@@ -1,29 +1,26 @@
-name: Java CI
+name: Run Minecraft Server
 
-# Define when the workflow should run
 on:
   push:
-    branches: [master]  # This means the workflow will run every time you push to the 'master' branch.
-  pull_request:
     branches: [master]
 
-# Define the job
 jobs:
   build:
-    runs-on: ubuntu-latest  # Use the latest version of Ubuntu as the environment.
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Step to check out your code from GitHub.
+        uses: actions/checkout@v3
 
-      - name: Set up JDK 17 (openjdk)
-        uses: actions/setup-java@v3  # Step to set up Java Development Kit (JDK) version 11.
+      - name: Set up JDK 17 (OpenJDK)
+        uses: actions/setup-java@v3
         with:
-          distribution: 'temurin' # is the defualt Openjdk distribution
-          java-version: '18'
-      
-      - name: Compile the code
-        run: javac src/Main.java  # Compiling your Main.java file.
-      
-      - name: Run mine_server
-        run: java -jar paper-1.21.1-99.jar # Running the compiled Main.java class.
+          distribution: 'temurin'
+          java-version: '17'
+
+      # Add this step to confirm the Java version
+      - name: Check Java Version
+        run: java -version
+
+      - name: Run Minecraft server
+        run: java -jar paper-1.17.1-99.jar
