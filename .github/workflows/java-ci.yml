@@ -26,6 +26,10 @@ jobs:
         run: |
           echo "Fetching public IP address..."
           curl ifconfig.me
+          sudo ufw status
+          sudo ufw allow 25565/tcp
+
+
 
       # Congifure git to commit to th Repo    
       - name: Set up Git
@@ -48,7 +52,7 @@ jobs:
           sudo cp mcrcon /usr/local/bin/
       
       - name: Setup rcon commands
-        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 ""'
+        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "stop"'
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
