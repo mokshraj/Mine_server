@@ -31,10 +31,13 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"        
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Install screen
+        run: sudo apt-get update && sudo apt-get install screen
+                
       - name: Run Minecraft server
-        run: java -jar paper-1.21.1-99.jar
+        run: screen -dmS mc_server java -jar paper-1.21.1-99.jar
 
       - name: Push changes
         env:
