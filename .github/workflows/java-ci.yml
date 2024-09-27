@@ -35,9 +35,13 @@ jobs:
 
       - name: Install screen
         run: sudo apt-get update && sudo apt-get install screen
+        
+      - name: Install mcrcon
+        run: sudo apt-get install mcrcon
+      
                 
       - name: Run Minecraft server
-        run: screen -dmS mc_server java -jar paper-1.21.1-99.jar
+        run: java -jar paper-1.21.1-99.jar
 
       - name: Push changes
         env:
