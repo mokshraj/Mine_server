@@ -29,4 +29,4 @@ jobs:
           ping -c 10 google.com
 
       - name: Run Minecraft server
-        run: java -jar paper-1.21.1-99.jar && sleep 100
+        run: java -jar paper-1.21.1-99.jar
