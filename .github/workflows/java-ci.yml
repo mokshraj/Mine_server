@@ -28,5 +28,19 @@ jobs:
           curl ifconfig.me
           ping -c 10 google.com
 
+      # Congifure git to commit to th Repo    
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"        
+
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
+
+        
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Using the built-in GITHUB_TOKEN
+        run: |
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin master
