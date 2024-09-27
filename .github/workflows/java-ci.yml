@@ -42,7 +42,7 @@ jobs:
       - name: Download and compile mcrcon
         run: |
           wget https://github.com/Tiiffi/mcrcon/archive/refs/heads/master.zip
-          unzip master.zip
+          unzip -o master.zip
           cd mcrcon-master
           make
           sudo cp mcrcon /usr/local/bin/
