@@ -26,7 +26,6 @@ jobs:
         run: |
           echo "Fetching public IP address..."
           curl ifconfig.me
-          ping -c 10 google.com
 
       # Congifure git to commit to th Repo    
       - name: Set up Git
@@ -37,7 +36,6 @@ jobs:
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
 
-        
       - name: Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Using the built-in GITHUB_TOKEN
