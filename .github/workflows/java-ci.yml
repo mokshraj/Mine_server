@@ -36,15 +36,22 @@ jobs:
       - name: Install screen
         run: sudo apt-get update && sudo apt-get install screen
 
-      - name: Install mcrcon
-        run: sudo apt-get install mcrcon
+      - name: Install dependencies
+        run: sudo apt-get install gcc make
+    
+      - name: Download and compile mcrcon
+        run: |
+          wget https://github.com/Tiiffi/mcrcon/archive/refs/heads/master.zip
+          unzip master.zip
+          cd mcrcon-master
+          make
+          sudo cp mcrcon /usr/local/bin/
       
       - name: Setup rcon commands
         run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "stop"'
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
-
       - name: Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Using the built-in GITHUB_TOKEN
