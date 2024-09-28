@@ -40,6 +40,15 @@ jobs:
       - name: Install screen
         run: sudo apt-get update && sudo apt-get install screen
 
+      - name: Install Node.js and Localtunnel
+        run: |
+          sudo apt-get install nodejs npm
+          npm install -g localtunnel
+          
+      - name: Start Localtunnel for port 25565
+        run: |
+          lt --port 25565 --subdomain mokshraj &
+
       - name: Install dependencies
         run: sudo apt-get install gcc make
     
