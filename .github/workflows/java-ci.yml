@@ -48,18 +48,32 @@ jobs:
         
       - name: Authenticate and Start Ngrok
         run: |
-         ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
-         nohup ngrok tcp 25565 > ngrok_1.log &
-         sleep 5  # Wait for Ngrok to initialize
-         nohup ngrok tcp 25575 > ngrok_2.log &
+         ngrok authtoken ${{ secrets.AUTH_NGROK }}  # Using the ngrok auth saved in secrets
+         nohup ngrok tcp 25565 > ngrok.log &
          sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
         run: |
-         NGROK_TCP_URL_1234=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
-         NGROK_TCP_URL_5678=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[1].public_url)
-         echo "Ngrok TCP Address for port 1234: $NGROK_TCP_URL_1234"
-         echo "Ngrok TCP Address for port 5678: $NGROK_TCP_URL_5678"
+         NGROK_TCP_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
+         echo "Ngrok TCP Address: $NGROK_TCP_URL"
+
+      - name: Create Serveo Tunnel for Mine_server
+        run: |
+         nohup ssh -o StrictHostKeyChecking=no -R mokshraj.serveo.net:69:localhost:25565 serveo.net > serveo1.log &
+         sleep 5  # Wait for the tunnel to establish
+
+      - name: Create Serveo Tunnel for MC_rcon
+        run: |
+         nohup ssh -o StrictHostKeyChecking=no -R mokshraj.serveo.net:1969:localhost:25575 serveo.net > serveo2.log &
+         sleep 5  # Wait for the tunnel to establish
+
+      - name: Display Serveo Logs
+        run: |
+         echo "Logs for Service 1:"
+         cat serveo1.log || echo "No output from serveo1.log"
+           
+         echo "Logs for Service 2:"
+         cat serveo2.log || echo "No output from serveo2.log"
 
 
       - name: Install dependencies
@@ -74,7 +88,10 @@ jobs:
           sudo cp mcrcon /usr/local/bin/
       
       - name: Setup rcon commands
-        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj";ssh -R mokshraj.serveo.net:69:localhost:25565 serveo.net;ssh -R mokshraj.serveo.net:1969:localhost:25575 serveo.net'
+        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"'
+
+      - name: Initialise Server save loop
+        run: bash server_save_loop.sh &
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
