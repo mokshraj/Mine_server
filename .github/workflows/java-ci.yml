@@ -48,7 +48,7 @@ jobs:
       - name: Start Localtunnel for port 25565
         run: |
           lt --port 25565 --subdomain mokshraj &
-          curl https://loca.lt/mytunnelpassword &
+          echo curl https://loca.lt/mytunnelpassword &
 
       - name: Install dependencies
         run: sudo apt-get install gcc make
