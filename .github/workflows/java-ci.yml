@@ -48,7 +48,7 @@ jobs:
         
       - name: Authenticate and Start Ngrok
         run: |
-         ngrok authtoken cr_1qZ55Q4KnpRwXhku3rfpp3TmczJ
+         ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
          ngrok http 8080
 
 
