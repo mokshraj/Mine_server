@@ -51,6 +51,8 @@ jobs:
          ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
          nohup ngrok tcp 25565 > ngrok.log &
          sleep 5  # Wait for Ngrok to initialize
+         nohup ngrok tcp 25575 > ngrok.log &
+         sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
         run: |
