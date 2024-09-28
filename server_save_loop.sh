@@ -5,4 +5,5 @@ do
     git add .
     git commit --allow-empty -m "server save"
     git push origin master
+    sleep 300
 done  

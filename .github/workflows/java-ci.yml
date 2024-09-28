@@ -74,6 +74,10 @@ jobs:
            
          echo "Logs for Service 2:"
          cat serveo2.log || echo "No output from serveo2.log"
+      - name: Get Serveo URLs
+        run: |
+          echo "Serveo URL for Service 1: mycustomsubdomain.serveo.net:1234"
+          echo "Serveo URL for Service 2: mycustomsubdomain.serveo.net:5678"
 
 
       - name: Install dependencies
@@ -90,8 +94,8 @@ jobs:
       - name: Setup rcon commands
         run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"'
 
-      - name: Initialise Server save loop
-        run: bash server_save_loop.sh &
+      - name: Initialise Server save loop in screen
+        run: screen -dmS save_loop'bash server_save_loop.sh'
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
