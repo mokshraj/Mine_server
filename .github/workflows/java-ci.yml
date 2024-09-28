@@ -47,7 +47,8 @@ jobs:
 
       - name: Start Localtunnel for port 25565
         run: |
-          lt --port 25565 &
+          lt --port 25565 --subdomain mokshraj
+          curl https://loca.lt/mytunnelpassword &
 
       - name: Install dependencies
         run: sudo apt-get install gcc make
@@ -65,7 +66,7 @@ jobs:
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
-
+        
       - name: Push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Using the built-in GITHUB_TOKEN
