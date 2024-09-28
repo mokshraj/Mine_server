@@ -94,8 +94,8 @@ jobs:
       - name: Setup rcon commands
         run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"'
 
-      - name: Initialise Server save loop in screen
-        run: screen -dmS save_loop'bash server_save_loop.sh'
+      - name: Initialise Server save loop
+        run: nohup while true; do git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git; git add .; git commit --allow-empty -m "server save"; git push origin master; sleep 3000; done &
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
