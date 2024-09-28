@@ -49,7 +49,7 @@ jobs:
       - name: Authenticate and Start Ngrok
         run: |
          ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
-         ngrok http 8080
+         ngrok http 25565 &
 
 
       - name: Install dependencies
