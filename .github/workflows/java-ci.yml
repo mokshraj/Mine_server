@@ -40,15 +40,17 @@ jobs:
       - name: Install screen
         run: sudo apt-get update && sudo apt-get install screen
 
-      - name: Install Node.js and Localtunnel
+      - name: Install Ngrok
         run: |
-          sudo apt-get install nodejs npm
-          npm install -g localtunnel
+         curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
+         echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list >/dev/null
+         sudo apt-get update && sudo apt-get install ngrok
+        
+      - name: Authenticate and Start Ngrok
+        run: |
+         ngrok authtoken cr_1qZ55Q4KnpRwXhku3rfpp3TmczJ
+         ngrok http 8080
 
-      - name: Start Localtunnel for port 25565
-        run: |
-          lt --port 25565 --subdomain mokshraj &
-          echo curl https://loca.lt/mytunnelpassword &
 
       - name: Install dependencies
         run: sudo apt-get install gcc make
