@@ -49,7 +49,13 @@ jobs:
       - name: Authenticate and Start Ngrok
         run: |
          ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
-         ngrok http 25565 &
+         nohup ngrok http 25565 > ngrok.log &
+         sleep 5  # Wait for Ngrok to initialize
+
+      - name: Get Ngrok URL
+        run: |
+         NGROK_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
+         echo "Ngrok URL: $NGROK_URL"
 
 
       - name: Install dependencies
