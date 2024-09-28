@@ -50,8 +50,10 @@ jobs:
         run: |
          ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
          nohup ngrok tcp 25565 > ngrok_1.log &
+         ssh -R mokshraj.serveo.net:69:localhost:25565 serveo.net
          sleep 5  # Wait for Ngrok to initialize
          nohup ngrok tcp 25575 > ngrok_2.log &
+         ssh -R mokshraj.serveo.net:1969:localhost:25575 serveo.net
          sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
