@@ -49,15 +49,17 @@ jobs:
       - name: Authenticate and Start Ngrok
         run: |
          ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
-         nohup ngrok tcp 25565 > ngrok.log &
+         nohup ngrok tcp 25565 > ngrok_1.log &
          sleep 5  # Wait for Ngrok to initialize
-         nohup ngrok tcp 25575 > ngrok.log &
+         nohup ngrok tcp 25575 > ngrok_2.log &
          sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
         run: |
-         NGROK_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
-         echo "Ngrok URL: $NGROK_URL"
+         NGROK_TCP_URL_1234=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
+         NGROK_TCP_URL_5678=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[1].public_url)
+         echo "Ngrok TCP Address for port 1234: $NGROK_TCP_URL_1234"
+         echo "Ngrok TCP Address for port 5678: $NGROK_TCP_URL_5678"
 
 
       - name: Install dependencies
@@ -72,7 +74,7 @@ jobs:
           sudo cp mcrcon /usr/local/bin/
       
       - name: Setup rcon commands
-        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 ""'
+        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"'
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
