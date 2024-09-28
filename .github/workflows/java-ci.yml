@@ -50,10 +50,8 @@ jobs:
         run: |
          ngrok authtoken 1qZ55Q4KnpRwXhku3rfpp3TmczJ_6pEZDGPYMd2ZMJqtARn83
          nohup ngrok tcp 25565 > ngrok_1.log &
-         ssh -R mokshraj.serveo.net:69:localhost:25565 serveo.net
          sleep 5  # Wait for Ngrok to initialize
          nohup ngrok tcp 25575 > ngrok_2.log &
-         ssh -R mokshraj.serveo.net:1969:localhost:25575 serveo.net
          sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
@@ -76,7 +74,7 @@ jobs:
           sudo cp mcrcon /usr/local/bin/
       
       - name: Setup rcon commands
-        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"'
+        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj";ssh -R mokshraj.serveo.net:69:localhost:25565 serveo.net;ssh -R mokshraj.serveo.net:1969:localhost:25575 serveo.net'
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
