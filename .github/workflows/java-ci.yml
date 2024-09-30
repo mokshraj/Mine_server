@@ -94,9 +94,10 @@ jobs:
         run: |
           sleep 5
           screen -ls | grep mysession
+          bash screen_test.sh
 
       - name: Initialise Server save loop
-        run: screen -dmS save_loop bash server_save_loop.sh
+        run: save_loop bash server_save_loop.sh
                 
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
