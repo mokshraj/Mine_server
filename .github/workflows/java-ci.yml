@@ -87,7 +87,10 @@ jobs:
           sudo cp mcrcon /usr/local/bin/
       
       - name: Setup rcon commands
-        run: screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"'
+        run: |
+          screen -dmS mysession bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "stop"'
+          sleep 5
+          screen -ls | grep my_session
 
       - name: Initialise Server save loop
         run: screen -dmS save_loop bash server_save_loop.sh
