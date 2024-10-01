@@ -116,10 +116,11 @@ jobs:
         run: |
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git status
+          git rm /home/runner/work/Mine_server/Mine_server/master.zip
+          git status
           git add .
           git status
           git commit -m "server save"
           git status
           git push origin master
           git status
-          git rm /home/runner/work/Mine_server/Mine_server/master.zip
