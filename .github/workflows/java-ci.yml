@@ -118,4 +118,4 @@ jobs:
           git status
           git push origin master
           git status
-          rm -f master.zip
+          rm -f /home/runner/work/Mine_server/Mine_server/master.zip
