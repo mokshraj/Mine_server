@@ -3,6 +3,6 @@ x=$(screen -ls | grep rcon)
 echo "Screen output: $x"
 if [ $((x)) == "" ]; then
   echo "rcon offlines"
-else;
+else
   echo "rcon live"
 fi
