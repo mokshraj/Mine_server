@@ -94,7 +94,6 @@ jobs:
         run: |
           sleep 5
           screen -ls | grep mysession
-          ls
           pwd
 
       - name: Initialise Server save loop
