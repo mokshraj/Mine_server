@@ -95,7 +95,7 @@ jobs:
           sleep 5
           screen -ls | grep mysession
           ls
-          bash screen_test.sh
+          pwd
 
       - name: Initialise Server save loop
         run: save_loop bash server_save_loop.sh
