@@ -93,8 +93,8 @@ jobs:
       - name: Screen Session check
         run: |
           sleep 5
-          screen -ls | grep mysession
           pwd
+          screen -ls | grep mysession
 
       - name: Initialise Server save loop
         run: save_loop bash server_save_loop.sh
