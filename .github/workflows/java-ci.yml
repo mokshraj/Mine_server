@@ -97,10 +97,12 @@ jobs:
           screen -ls | grep mysession
 
       - name: Initialise Server save loop
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x /home/runner/work/Mine_server/Mine_server/server_save_loop.sh
           bash /home/runner/work/Mine_server/Mine_server/server_save_loop.sh
-                
+        
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
         
