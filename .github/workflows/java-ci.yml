@@ -101,8 +101,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           screen -dms Save_loop bash -c 'chmod +x /home/runner/work/Mine_server/Mine_server/server_save_loop.sh; bash /home/runner/work/Mine_server/Mine_server/server_save_loop.sh'
-          bash /home/runner/work/Mine_server/Mine_server/screen_test.sh
           
+      - name: rcon test
+        run: |
+          bash /home/runner/work/Mine_server/Mine_server/screen_test.sh
+          sleep 30
+
       - name: Run Minecraft server
         run: java -jar paper-1.21.1-99.jar
         
