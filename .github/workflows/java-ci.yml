@@ -118,3 +118,4 @@ jobs:
           git status
           git push origin master
           git status
+          rm -f master.zip
