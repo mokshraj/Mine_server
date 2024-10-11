@@ -128,6 +128,6 @@ jobs:
       - name: Initialise Keep_alive
         run: |
           git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/mokshraj/Keep_alive.git
-          cd keep_alive
+          cd Keep_alive
           git commit --allow-empty -m "server-start"
           git push origin master
