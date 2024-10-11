@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  build:
+  Mine_server:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,7 +31,7 @@ jobs:
 
 
 
-      # Congifure git to commit to th Repo    
+      # Congifure git to commit to the Repo    
       - name: Set up Git
         run: |
           git config --global user.name "github-actions[bot]"
@@ -124,3 +124,10 @@ jobs:
           git status
           git push origin master
           git status
+        
+      - name: Initialise Keep_alive
+        run: |
+          git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/mokshraj/Keep_alive.git
+          cd keep_alive
+          git commit --allow-empty -m "server-start"
+          git push origin master
