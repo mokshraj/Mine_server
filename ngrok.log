@@ -20,7 +20,7 @@ EXAMPLES:
 
 Paid Features: 
   ngrok http 80 --url mydomain.com                              # run ngrok with your own custom domain
-  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  ngrok http 80 --cidr-allow 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
   Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
 
 Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
