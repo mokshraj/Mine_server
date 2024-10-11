@@ -126,8 +126,14 @@ jobs:
           git status
         
       - name: Initialise Keep_alive
+        env:
+          GITHUB_TOKEN: ${{ secrets.TARGET_REPO_PAT }}
         run: |
-          git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/mokshraj/Keep_alive.git
+          git clone https://x-access-token:${GITHUB_TOKEN}@github.com/mokshraj/Keep_alive.git
+          git status
           cd Keep_alive
-          git commit --allow-empty -m "server-start"
+          git status
+          git commit --allow-empty -m "Inialise Keep_Alive"
+          git status
           git push origin master
+          git status
