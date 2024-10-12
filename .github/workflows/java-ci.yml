@@ -75,7 +75,7 @@ jobs:
 
       - name: Create Serveo Tunnel for MC_rcon
         run: |
-         nohup ssh -T -o StrictHostKeyChecking=no -R mokshraj.serveo.net:1969:localhost:25575 serveo.net > serveo2.log &
+         screen -dmS serveo bash -c 'sleep 120;nohup ssh -T -o StrictHostKeyChecking=no -R mokshraj.serveo.net:1969:localhost:25575 serveo.net > serveo2.log'
          sleep 5  # Wait for the tunnel to establish
 
       - name: Display Serveo Logs
