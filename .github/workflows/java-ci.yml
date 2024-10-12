@@ -57,7 +57,18 @@ jobs:
          NGROK_TCP_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
          echo "Ngrok TCP Address: $NGROK_TCP_URL"
 
+      - name: Set up SSH for Serveo
+        run: |
+         # Create SSH directory and add private key
+         mkdir -p ~/.ssh
+         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+         chmod 600 ~/.ssh/id_rsa
+         # Add Serveo to known hosts to avoid interactive prompt
+         ssh-keyscan -H serveo.net >> ~/.ssh/known_hosts
+
       - name: Create Serveo Tunnel for Mine_server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
          nohup ssh -T -o StrictHostKeyChecking=no -R mokshraj:69:localhost:25565 serveo.net > serveo1.log &
          sleep 5  # Wait for the tunnel to establish
