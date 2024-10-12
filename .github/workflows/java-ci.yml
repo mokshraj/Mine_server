@@ -112,6 +112,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           screen -dms Save_loop bash -c 'chmod +x /home/runner/work/Mine_server/Mine_server/server_save_loop.sh; bash /home/runner/work/Mine_server/Mine_server/server_save_loop.sh'
+      
+      - name: Install Zrok
+        run: |
+          curl -LO https://github.com/openziti/zrok/releases/download/v0.2.1/zrok-linux-amd64
+          chmod +x zrok-linux-amd64
+          sudo mv zrok-linux-amd64 /usr/local/bin/zrok
           
       - name: rcon test
         run: |
@@ -119,7 +125,17 @@ jobs:
           sleep 5
 
       - name: Run Minecraft server
-        run: java -jar paper-1.21.1-99.jar
+        run: java -jar paper-1.21.1-99.jar > merver.log &
+
+      - name: Create Zrok Tunnel with DuckDNS
+        run: |
+          nohup zrok share tcp 25565 --custom mokshraj.duckdns.org > zrok.log 2>&1 &
+  
+      - name: Display Tunnel Info
+        run: cat zrok.log
+
+      - name: Merver log
+        run: tail -f merver.log
         
       - name: Push changes
         env:
