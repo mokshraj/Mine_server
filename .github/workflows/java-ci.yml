@@ -129,7 +129,7 @@ jobs:
 
       - name: Create Zrok Tunnel with DuckDNS
         run: |
-          nohup zrok share tcp 25565 --custom mokshraj.duckdns.org > zrok.log 2>&1 &
+          nohup zrok share tcp 25565 --custom mokshraj.duckdns.org > zrok.log &
   
       - name: Display Tunnel Info
         run: cat zrok.log
