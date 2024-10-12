@@ -70,7 +70,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-         nohup ssh -T -o StrictHostKeyChecking=no -R mokshraj:69:localhost:25565 serveo.net > serveo1.log &
+         nohup ssh -T -o StrictHostKeyChecking=no -R mokshraj.serveo.net:69:localhost:25565 serveo.net > serveo1.log &
          sleep 5  # Wait for the tunnel to establish
 
       - name: Create Serveo Tunnel for MC_rcon
