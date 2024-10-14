@@ -132,17 +132,14 @@ jobs:
 
       - name: Verify Zrok Installation
         run: |
-          ls -l /usr/local/bin/zrok
-          /usr/local/bin/zrok --version
-      
-      - name: Add /usr/local/bin to PATH
-        run: echo "/usr/local/bin" >> $GITHUB_PATH
+          ls -l /usr/bin/zrok
+          /usr/bin/zrok --version
 
       - name: Authenticate with Zrok
         env:
           ZROK_TOKEN: ${{ secrets.ZROK_TOKEN }}
         run: |
-          /usr/local/bin/zrok share init --token $ZROK_TOKEN
+          /usr/bin/zrok share init --token $ZROK_TOKEN
           
       - name: rcon test
         run: |
@@ -154,7 +151,7 @@ jobs:
 
       - name: Create Zrok Tunnel with DuckDNS
         run: |
-          nohup zrok share tcp 25565 --custom mokshraj.duckdns.org > zrok.log &
+          nohup /usr/bin/zrok share tcp 25565 --custom mokshraj.duckdns.org > zrok.log &
   
       - name: Display Tunnel Info
         run: cat zrok.log
