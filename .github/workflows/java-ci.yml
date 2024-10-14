@@ -113,48 +113,23 @@ jobs:
         run: |
           screen -dms Save_loop bash -c 'chmod +x /home/runner/work/Mine_server/Mine_server/server_save_loop.sh; bash /home/runner/work/Mine_server/Mine_server/server_save_loop.sh'
       
-      - name: Download and Install Zrok
-        run: |
-          (set -euo pipefail;curl -sSLf https://get.openziti.io/tun/package-repos.gpg \
-          | sudo gpg --dearmor --output /usr/share/keyrings/openziti.gpg;
-          sudo chmod a+r /usr/share/keyrings/openziti.gpg;
-          sudo tee /etc/apt/sources.list.d/openziti-release.list >/dev/null <<EOF;
-          deb [signed-by=/usr/share/keyrings/openziti.gpg] https://packages.openziti.org/zitipax-openziti-deb-stable debian main
-          EOF
-          sudo apt update;
-          sudo apt install zrok;
-          zrok version;)
-
-      - name: Find Zrok Binary
-        run: |
-          sudo find / -name zrok 2>/dev/null
-
-
-      - name: Verify Zrok Installation
-        run: |
-          ls -l /usr/bin/zrok
-          /usr/bin/zrok version
-
-      - name: Authenticate with Zrok
-        env:
-          ZROK_TOKEN: ${{ secrets.ZROK_TOKEN }}
-        run: |
-          /usr/bin/zrok config set --token $ZROK_TOKEN
-          
       - name: rcon test
         run: |
           bash /home/runner/work/Mine_server/Mine_server/screen_test.sh
           sleep 5
 
       - name: Run Minecraft server
-        run: java -jar paper-1.21.1-99.jar > merver.log &
-
-      - name: Create Zrok Tunnel with DuckDNS
         run: |
-          nohup /usr/bin/zrok share tcp 25565 --custom mokshraj.duckdns.org > zrok.log &
-  
-      - name: Display Tunnel Info
-        run: cat zrok.log
+          java -jar paper-1.21.1-99.jar > merver.log &
+          sleep 60
+
+      - name: Install Localtonet
+        run: |
+          wget https://localtonet.com/download/localtonet-linux-x64.zip
+          unzip localtonet-linux-x64.zip
+          chmod 777 ./localtonet
+          ./localtonet authtoken Strsohm1wTg6ByiE85cGPaK3buDvFVkO7 > localtonet.log
+          cat localtonet.log
 
       - name: Merver log
         run: tail -f merver.log
