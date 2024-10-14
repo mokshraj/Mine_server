@@ -125,6 +125,11 @@ jobs:
           sudo apt install zrok;
           zrok version;)
 
+      - name: Find Zrok Binary
+        run: |
+          sudo find / -name zrok 2>/dev/null
+
+
       - name: Verify Zrok Installation
         run: |
           ls -l /usr/local/bin/zrok
