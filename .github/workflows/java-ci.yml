@@ -90,11 +90,13 @@ jobs:
           sleep 5
 
       - name: Install Localtonet
+        env: 
+          AUTH_TOKEN: ${{ secrets.LOCALTONET_AUTH }}
         run: |
           wget https://localtonet.com/download/localtonet-linux-x64.zip
           unzip -o localtonet-linux-x64.zip
           chmod 777 ./localtonet
-          ./localtonet authtoken Strsohm1wTg6ByiE85cGPaK3buDvFVkO7 > localtonet.log &
+          ./localtonet authtoken $AUTH_TOKEN > localtonet.log &
           sleep 10
           cat localtonet.log
 
