@@ -133,7 +133,7 @@ jobs:
       - name: Verify Zrok Installation
         run: |
           ls -l /usr/bin/zrok
-          /usr/bin/zrok --version
+          /usr/bin/zrok version
 
       - name: Authenticate with Zrok
         env:
