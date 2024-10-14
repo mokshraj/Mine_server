@@ -420,3 +420,55 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   nohup.out
+
+[master 4bfd63b] server save
+ 1 file changed, 4 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   4f9bbe7..4bfd63b  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   logs/latest.log
+	modified:   merver.log
+	modified:   nohup.out
+	deleted:    plugins/spark/tmp-client/spark-380e98d2c0-libasyncProfiler.so.tmp
+	deleted:    plugins/spark/tmp-client/spark-6ff7bc20b2-profile-data.jfr.tmp
+	modified:   server.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	localtonet-linux-x64.zip.1
+	logs/2024-10-14-2.log.gz
+	plugins/spark/tmp-client/spark-81c8ae3199-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-b9b1cf8b8e-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
