@@ -139,7 +139,7 @@ jobs:
         env:
           ZROK_TOKEN: ${{ secrets.ZROK_TOKEN }}
         run: |
-          /usr/bin/zrok share init --token $ZROK_TOKEN
+          /usr/bin/zrok config set --token $ZROK_TOKEN
           
       - name: rcon test
         run: |
