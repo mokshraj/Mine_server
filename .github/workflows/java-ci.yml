@@ -113,18 +113,24 @@ jobs:
         run: |
           screen -dms Save_loop bash -c 'chmod +x /home/runner/work/Mine_server/Mine_server/server_save_loop.sh; bash /home/runner/work/Mine_server/Mine_server/server_save_loop.sh'
       
-      - name: Install Zrok
+      - name: Download and Install Zrok
         run: |
-          curl -LO https://github.com/openziti/zrok/releases/download/v0.2.1/zrok-linux-amd64
-          sudo chmod +x zrok-linux-amd64
-          sudo mv zrok-linux-amd64 /usr/local/bin/zrok
-          sleep 10
+          wget https://edge.zrok.io/zrok -O /usr/local/bin/zrok
+          chmod +x /usr/local/bin/zrok
+
+      - name: Verify Zrok Installation
+        run: |
+          ls -l /usr/local/bin/zrok
+          /usr/local/bin/zrok --version
+      
+      - name: Add /usr/local/bin to PATH
+        run: echo "/usr/local/bin" >> $GITHUB_PATH
 
       - name: Authenticate with Zrok
         env:
           ZROK_TOKEN: ${{ secrets.ZROK_TOKEN }}
         run: |
-           zrok share init --token EKwTgVaKXUGl
+          /usr/local/bin/zrok share init --token $ZROK_TOKEN
           
       - name: rcon test
         run: |
