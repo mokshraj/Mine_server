@@ -126,9 +126,10 @@ jobs:
       - name: Install Localtonet
         run: |
           wget https://localtonet.com/download/localtonet-linux-x64.zip
-          unzip localtonet-linux-x64.zip
+          unzip -o localtonet-linux-x64.zip
           chmod 777 ./localtonet
-          ./localtonet authtoken Strsohm1wTg6ByiE85cGPaK3buDvFVkO7 > localtonet.log
+          ./localtonet authtoken Strsohm1wTg6ByiE85cGPaK3buDvFVkO7 > localtonet.log &
+          sleep 10
           cat localtonet.log
 
       - name: Merver log
