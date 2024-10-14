@@ -57,35 +57,6 @@ jobs:
          NGROK_TCP_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
          echo "Ngrok TCP Address: $NGROK_TCP_URL"
 
-      - name: Set up SSH for Serveo
-        run: |
-         # Create SSH directory and add private key
-         mkdir -p ~/.ssh
-         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-         chmod 600 ~/.ssh/id_rsa
-         # Add Serveo to known hosts to avoid interactive prompt
-         ssh-keyscan -H serveo.net >> ~/.ssh/known_hosts
-
-      - name: Create Serveo Tunnel for Mine_server
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: |
-         nohup ssh -T -o StrictHostKeyChecking=no -R mokshraj.serveo.net:69:localhost:25565 serveo.net > serveo1.log &
-         sleep 5  # Wait for the tunnel to establish
-
-      - name: Create Serveo Tunnel for MC_rcon
-        run: |
-         screen -dmS serveo bash -c 'sleep 120;nohup ssh -T -o StrictHostKeyChecking=no -R mokshraj.serveo.net:1969:localhost:25575 serveo.net > serveo2.log'
-         sleep 5  # Wait for the tunnel to establish
-
-      - name: Display Serveo Logs
-        run: |
-         echo "Logs for Service 1:"
-         cat serveo1.log || echo "No output from serveo1.log"
-           
-         echo "Logs for Service 2:"
-         cat serveo2.log || echo "No output from serveo2.log"
-
       - name: Install dependencies
         run: sudo apt-get install gcc make
     
@@ -99,7 +70,7 @@ jobs:
       
       - name: Setup rcon commands
         run: |
-          screen -dmS rcon bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"'
+          screen -dmS rcon bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"; sleep 4h 55m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 5 minutes";sleep 2m;mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 3 minutes"; sleep 2m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restarts in 1 minute";sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969"stop"'
         
       - name: Screen Session check
         run: |
@@ -118,11 +89,6 @@ jobs:
           bash /home/runner/work/Mine_server/Mine_server/screen_test.sh
           sleep 5
 
-      - name: Run Minecraft server
-        run: |
-          java -jar paper-1.21.1-99.jar > merver.log &
-          sleep 60
-
       - name: Install Localtonet
         run: |
           wget https://localtonet.com/download/localtonet-linux-x64.zip
@@ -132,8 +98,9 @@ jobs:
           sleep 10
           cat localtonet.log
 
-      - name: Merver log
-        run: tail -f merver.log
+      - name: Run Minecraft server
+        run: |
+          java -jar paper-1.21.1-99.jar > merver.log
         
       - name: Push changes
         env:
