@@ -1143,3 +1143,59 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   nohup.out
+
+[master f7fb213] server save
+ 1 file changed, 4 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   8d8ae0d..f7fb213  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	localtonet-linux-x64.zip.4
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   logs/latest.log
+	modified:   merver.log
+	modified:   nohup.out
+	deleted:    plugins/spark/tmp-client/spark-2a640a7de9b-profile-data.jfr.tmp
+	deleted:    plugins/spark/tmp-client/spark-8566f3296e-libasyncProfiler.so.tmp
+	modified:   server.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	localtonet-linux-x64.zip.4
+	logs/2024-10-15-1.log.gz
+	plugins/spark/tmp-client/spark-5b62b2d956-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-934aacde5d-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
