@@ -101,7 +101,7 @@ jobs:
           cat localtonet.log
 
       - name: Install open ssh
-        run: sudo apt-install openssh-client
+        run: sudo apt install openssh-client
 
       - name: Run Minecraft server
         run: |
