@@ -100,9 +100,12 @@ jobs:
           sleep 10
           cat localtonet.log
 
+      - name: Install open ssh
+        run: sudo apt-install openssh-client
+
       - name: Run Minecraft server
         run: |
-          java -jar paper-1.21.1-99.jar > merver.log
+          java -jar paper-1.21.1-99.jar
         
       - name: Push changes
         env:
