@@ -45,3 +45,9 @@
 [17:36:54] [Server thread/INFO]: [Not Secure] [Rcon] Hello, world!
 [22:31:54] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
 [22:31:54] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[22:33:54] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[22:33:54] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[22:35:54] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[22:35:54] [RCON Client /127.0.0.1 #6/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[22:36:54] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[22:36:54] [RCON Client /127.0.0.1 #7/INFO]: Thread RCON Client /127.0.0.1 shutting down
