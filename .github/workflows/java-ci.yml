@@ -103,6 +103,10 @@ jobs:
       - name: Install open ssh
         run: sudo apt install openssh-client
 
+      - name: Keep_alive loop
+        run: |
+          screen -dmS abort_bypass -c '-chmod +x /home/runner/work/Mine_server/Mine_server/abort_bypass.sh; bash /home/runner/work/Mine_server/Mine_server/abort_bypass.sh'
+
       - name: Run Minecraft server
         run: |
           java -jar paper-1.21.1-99.jar
