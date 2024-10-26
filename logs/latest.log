@@ -1,71 +1,85 @@
-[16:53:19] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.5.0-1025-azure (amd64)
-[16:53:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
-[16:53:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:53:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[16:53:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[17:02:45] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.5.0-1025-azure (amd64)
+[17:02:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
+[17:02:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:02:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[17:02:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - ConsoleScheduler (1.4.10), Vault (1.7.3-b131)
-[16:53:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:53:26] [ServerMain/INFO]: Loaded 1290 recipes
-[16:53:26] [ServerMain/INFO]: Loaded 1399 advancements
-[16:53:26] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[16:53:26] [Server thread/INFO]: Loading properties
-[16:53:26] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[16:53:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:53:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:53:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:53:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[16:53:28] [Server thread/INFO]: Default game type: SURVIVAL
-[16:53:28] [Server thread/INFO]: Generating keypair
-[16:53:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:53:28] [Server thread/INFO]: Using epoll channel type
-[16:53:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:53:28] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[16:53:28] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:53:28] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[16:53:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:53:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:53:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:53:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:53:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:53:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:53:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:53:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:53:28] [Server thread/INFO]: Preparing level "world"
-[16:53:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:53:30] [Server thread/INFO]: Time elapsed: 1069 ms
-[16:53:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:53:30] [Server thread/INFO]: Time elapsed: 219 ms
-[16:53:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:53:30] [Server thread/INFO]: Time elapsed: 113 ms
-[16:53:30] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[16:53:30] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[16:53:30] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[16:53:30] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[16:53:30] [Server thread/INFO]: [spark] Starting background profiler...
-[16:53:30] [Server thread/INFO]: Done preparing level "world" (2.195s)
-[16:53:30] [Server thread/INFO]: Starting remote control listener
-[16:53:30] [Server thread/INFO]: Thread RCON Listener started
-[16:53:30] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[16:53:30] [Server thread/INFO]: Running delayed init tasks
-[16:53:31] [Server thread/INFO]: Done (12.361s)! For help, type "help"
-[16:53:31] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:53:31] [Server thread/INFO]: Timings Reset
-[16:53:31] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[16:53:31] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[16:53:31] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[16:53:31] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[16:53:31] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 1 commands on schedule.
-[16:53:36] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:53:45] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[16:53:45] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[16:53:45] [Server thread/INFO]: [Not Secure] [Rcon] Hello, world!
-[16:53:45] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[16:53:45] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[16:54:06] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:54:36] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:55:06] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:55:36] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:56:06] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:56:36] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:57:06] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
-[16:57:36] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[17:02:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:02:51] [ServerMain/INFO]: Loaded 1290 recipes
+[17:02:52] [ServerMain/INFO]: Loaded 1399 advancements
+[17:02:52] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[17:02:52] [Server thread/INFO]: Loading properties
+[17:02:52] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[17:02:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:02:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:02:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:02:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[17:02:53] [Server thread/INFO]: Default game type: SURVIVAL
+[17:02:53] [Server thread/INFO]: Generating keypair
+[17:02:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:02:53] [Server thread/INFO]: Using epoll channel type
+[17:02:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:02:53] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:02:54] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[17:02:54] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[17:02:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:02:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:02:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:02:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:02:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:02:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:02:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:02:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:02:54] [Server thread/INFO]: Preparing level "world"
+[17:02:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:02:56] [Server thread/INFO]: Time elapsed: 1146 ms
+[17:02:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:02:56] [Server thread/INFO]: Time elapsed: 222 ms
+[17:02:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:02:56] [Server thread/INFO]: Time elapsed: 125 ms
+[17:02:56] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[17:02:56] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[17:02:56] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[17:02:56] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[17:02:56] [Server thread/INFO]: [spark] Starting background profiler...
+[17:02:56] [Server thread/INFO]: Done preparing level "world" (2.194s)
+[17:02:56] [Server thread/INFO]: Starting remote control listener
+[17:02:56] [Server thread/INFO]: Thread RCON Listener started
+[17:02:56] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[17:02:56] [Server thread/INFO]: Running delayed init tasks
+[17:02:56] [Server thread/INFO]: Done (11.911s)! For help, type "help"
+[17:02:56] [Server thread/INFO]: Timings Reset
+[17:02:56] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:02:56] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[17:02:57] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[17:03:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:03:11] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[17:03:11] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[17:03:11] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[17:03:11] [Server thread/INFO]: [Not Secure] [Rcon] Hello, world!
+[17:03:11] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[17:03:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:04:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:04:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:05:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:05:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:06:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:06:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:07:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
