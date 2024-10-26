@@ -8296,3 +8296,65 @@ Untracked files:
 	plugins/spark/tmp-client/spark-6593daa5e0-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   localtonet-linux-x64.zip.8
+	modified:   localtonet.log
+	new file:   logs/2024-10-26-1.log.gz
+	modified:   logs/latest.log
+	modified:   nohup.out
+	new file:   plugins/.paper-remapped/ConsoleScheduler.jar
+	new file:   plugins/.paper-remapped/Vault.jar
+	modified:   plugins/.paper-remapped/index.json
+	new file:   plugins/ConsoleScheduler/config.yml
+	new file:   plugins/Updater/config.yml
+	new file:   plugins/Vault/config.yml
+	renamed:    plugins/spark/tmp-client/spark-2ca1aef32e-libasyncProfiler.so.tmp -> plugins/spark/tmp-client/spark-2da9e6925c-libasyncProfiler.so.tmp
+	renamed:    plugins/spark/tmp-client/spark-1399ed29b971-profile-data.jfr.tmp -> plugins/spark/tmp-client/spark-6593daa5e0-profile-data.jfr.tmp
+	modified:   server.properties
+	modified:   usercache.json
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+
+[master e1b031d] server save
+ 15 files changed, 288 insertions(+), 82463 deletions(-)
+ create mode 100644 localtonet-linux-x64.zip.8
+ create mode 100644 logs/2024-10-26-1.log.gz
+ create mode 100644 plugins/.paper-remapped/ConsoleScheduler.jar
+ create mode 100644 plugins/.paper-remapped/Vault.jar
+ create mode 100644 plugins/ConsoleScheduler/config.yml
+ create mode 100644 plugins/Updater/config.yml
+ create mode 100644 plugins/Vault/config.yml
+ rename plugins/spark/tmp-client/{spark-2ca1aef32e-libasyncProfiler.so.tmp => spark-2da9e6925c-libasyncProfiler.so.tmp} (100%)
+ rename plugins/spark/tmp-client/{spark-1399ed29b971-profile-data.jfr.tmp => spark-6593daa5e0-profile-data.jfr.tmp} (56%)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   a60b9d0..e1b031d  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   nohup.out
+	modified:   world/region/r.2.0.mca
+	modified:   world/region/r.2.1.mca
+
+no changes added to commit (use "git add" and/or "git commit -a")

@@ -76,3 +76,45 @@
 [16:41:00] [Server thread/INFO]: mokshraj joined the game
 [16:41:00] [Server thread/INFO]: mokshraj[/127.0.0.1:54310] logged in with entity id 18 at ([world]789.0616967731299, 88.0, 229.43369773772818)
 [16:41:14] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:41:44] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:41:59] [Server thread/INFO]: mokshraj issued server command: /plugins
+[16:42:14] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:42:44] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:43:14] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:43:44] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:44:14] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:44:44] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:44:50] [Server thread/INFO]: mokshraj issued server command: /cscheduler help
+[16:45:03] [Server thread/INFO]: mokshraj issued server command: /csc help
+[16:45:14] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:45:23] [Server thread/INFO]: mokshraj issued server command: /csc reload
+[16:45:44] [Server thread/INFO]: [Not Secure] [Server] This is an example of a repeating command! It repeats every 30 seconds
+[16:45:48] [Server thread/INFO]: mokshraj issued server command: /stop
+[16:45:48] [Server thread/INFO]: [mokshraj: Stopping the server]
+[16:45:48] [Server thread/INFO]: Stopping server
+[16:45:48] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[16:45:48] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[16:45:48] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:45:48] [Server thread/INFO]: Saving players
+[16:45:48] [Server thread/INFO]: mokshraj lost connection: Server closed
+[16:45:48] [Server thread/INFO]: mokshraj left the game
+[16:45:49] [Server thread/INFO]: Saving worlds
+[16:45:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:45:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:45:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:45:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Saved 2516 block chunks, 2152 entity chunks, 5 poi chunks in world 'world' in 3.74s
+[16:45:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:45:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:45:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:45:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:45:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:45:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:45:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
