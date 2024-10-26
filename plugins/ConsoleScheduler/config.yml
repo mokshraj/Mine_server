@@ -21,7 +21,7 @@ CommandSchedule:
     After: 5
     Repeat: true
     Interval: 30
-    Command: Keep_alive
+    Command: msg server Keep_alive
   Command2:
     After: 17700
     Repeat: false
