@@ -167,3 +167,62 @@ Keep_alive<--[HERE]
 Keep_alive<--[HERE]
 [17:28:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
 Keep_alive<--[HERE]
+[17:28:24] [User Authenticator #0/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
+[17:28:27] [Server thread/INFO]: mokshraj joined the game
+[17:28:27] [Server thread/INFO]: mokshraj[/[0:0:0:0:0:0:0:1%0]:45938] logged in with entity id 18 at ([world]613.9284255522615, 63.0, 165.55401327334957)
+[17:28:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:29:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:29:19] [Server thread/INFO]: mokshraj issued server command: /gamemode survival
+[17:29:19] [Server thread/INFO]: [mokshraj: Set own game mode to Survival Mode]
+[17:29:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:30:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:30:21] [Server thread/INFO]: mokshraj issued server command: /gamemode creative
+[17:30:21] [Server thread/INFO]: [mokshraj: Set own game mode to Creative Mode]
+[17:30:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:31:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:31:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:32:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:32:32] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:32:50] [Server thread/INFO]: mokshraj issued server command: /kill
+[17:32:50] [Server thread/INFO]: mokshraj was killed
+[17:32:50] [Server thread/INFO]: [mokshraj: Killed mokshraj]
+[17:33:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+Keep_alive<--[HERE]
+[17:33:02] [Server thread/INFO]: mokshraj issued server command: /stop
+[17:33:02] [Server thread/INFO]: [mokshraj: Stopping the server]
+[17:33:03] [Server thread/INFO]: Stopping server
+[17:33:03] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[17:33:03] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[17:33:03] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[17:33:03] [Server thread/INFO]: Saving players
+[17:33:03] [Server thread/INFO]: mokshraj lost connection: Server closed
+[17:33:03] [Server thread/INFO]: mokshraj left the game
+[17:33:03] [Server thread/INFO]: Saving worlds
+[17:33:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:33:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:33:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:33:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Saved 1247 block chunks, 1279 entity chunks, 0 poi chunks in world 'world' in 1.69s
+[17:33:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:33:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:33:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:33:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:33:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:33:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:33:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
