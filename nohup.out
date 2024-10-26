@@ -8238,3 +8238,61 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   nohup.out
+
+[master a60b9d0] server save
+ 1 file changed, 4 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   08f7e4b..a60b9d0  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   plugins/.paper-remapped/index.json
+	deleted:    plugins/spark/tmp-client/spark-1399ed29b971-profile-data.jfr.tmp
+	deleted:    plugins/spark/tmp-client/spark-2ca1aef32e-libasyncProfiler.so.tmp
+	modified:   server.properties
+	modified:   usercache.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	localtonet-linux-x64.zip.8
+	logs/2024-10-26-1.log.gz
+	plugins/.paper-remapped/ConsoleScheduler.jar
+	plugins/.paper-remapped/Vault.jar
+	plugins/ConsoleScheduler/
+	plugins/Updater/
+	plugins/Vault/
+	plugins/spark/tmp-client/spark-2da9e6925c-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-6593daa5e0-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
