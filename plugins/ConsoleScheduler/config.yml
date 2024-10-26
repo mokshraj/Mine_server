@@ -21,4 +21,24 @@ CommandSchedule:
     After: 5
     Repeat: true
     Interval: 30
-    Command: say This is an example of a repeating command! It repeats every 30 seconds
+    Command: Keep_alive
+  Command2:
+    After: 17700
+    Repeat: false
+    Command: say Server will stop in 5 minutes
+  Command3:
+    After: 17820
+    Repeat: false
+    Command: say Server will stop in 3 minutes
+  Command4:
+    After: 17940
+    Repeat: false
+    Command: say Server will stop in 1 minutes
+  Command5:
+    After: 17970
+    Repeat: false
+    Command: say Server will stop in 30 seconds
+  Command6:
+    After: 18000
+    Repeat: false
+    Command: stop
