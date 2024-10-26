@@ -8939,3 +8939,63 @@ Untracked files:
 	plugins/spark/tmp-client/spark-61345c1782-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   localtonet
+	new file:   localtonet-linux-x64.zip
+	modified:   localtonet.log
+	new file:   logs/2024-10-26-4.log.gz
+	modified:   logs/latest.log
+	modified:   nohup.out
+	new file:   plugins/.paper-remapped/UserLogin.jar
+	modified:   plugins/.paper-remapped/index.json
+	new file:   plugins/UserLogin/config.yml
+	new file:   plugins/UserLogin/lang/en_US.yml
+	new file:   plugins/UserLogin/lang/es_ES.yml
+	new file:   plugins/UserLogin/lang/pt_BR.yml
+	new file:   plugins/UserLogin/playerData.yml
+	new file:   plugins/spark/tmp-client/spark-294629ff3f-libasyncProfiler.so.tmp
+	new file:   plugins/spark/tmp-client/spark-61345c1782-profile-data.jfr.tmp
+	modified:   server.properties
+
+[master 75924a9] server save
+ 16 files changed, 721 insertions(+), 6628 deletions(-)
+ create mode 100644 localtonet-linux-x64.zip
+ create mode 100644 logs/2024-10-26-4.log.gz
+ create mode 100644 plugins/.paper-remapped/UserLogin.jar
+ create mode 100644 plugins/UserLogin/config.yml
+ create mode 100644 plugins/UserLogin/lang/en_US.yml
+ create mode 100644 plugins/UserLogin/lang/es_ES.yml
+ create mode 100644 plugins/UserLogin/lang/pt_BR.yml
+ create mode 100644 plugins/UserLogin/playerData.yml
+ create mode 100644 plugins/spark/tmp-client/spark-294629ff3f-libasyncProfiler.so.tmp
+ create mode 100644 plugins/spark/tmp-client/spark-61345c1782-profile-data.jfr.tmp
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File localtonet is 81.74 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/mokshraj/Mine_server.git
+   c014493..75924a9  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   logs/latest.log
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
