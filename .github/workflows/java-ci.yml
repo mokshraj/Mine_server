@@ -7,7 +7,7 @@ on:
 jobs:
   Mine_server:
     runs-on: ubuntu-latest
-    timout-minutes: 360
+    timeout-minutes: 120
 
     steps:
       - name: Checkout code
