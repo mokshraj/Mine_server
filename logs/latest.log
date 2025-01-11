@@ -175,3 +175,37 @@
 [12:55:03] [Server thread/INFO]: No player was found
 [12:55:33] [Server thread/INFO]: No player was found
 [12:56:03] [Server thread/INFO]: No player was found
+[12:56:33] [Server thread/INFO]: No player was found
+[12:56:48] [Server thread/INFO]: mokshraj issued server command: /save-all
+[12:56:48] [Server thread/INFO]: [mokshraj: Saved the game]
+[12:57:03] [Server thread/INFO]: No player was found
+[12:57:04] [Server thread/INFO]: mokshraj issued server command: /stop
+[12:57:04] [Server thread/INFO]: [mokshraj: Stopping the server]
+[12:57:04] [Server thread/INFO]: Stopping server
+[12:57:04] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[12:57:04] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[12:57:04] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
+[12:57:04] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:57:04] [Server thread/INFO]: Saving players
+[12:57:04] [Server thread/INFO]: mokshraj lost connection: Server closed
+[12:57:04] [Server thread/INFO]: mokshraj left the game
+[12:57:04] [Server thread/INFO]: Saving worlds
+[12:57:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:57:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:57:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:57:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Saved 78 block chunks, 243 entity chunks, 0 poi chunks in world 'world' in 0.14s
+[12:57:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:57:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:57:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:57:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
