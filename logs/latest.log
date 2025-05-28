@@ -1,302 +1,80 @@
-[13:04:14] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.8.0-1017-azure (amd64)
-[13:04:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
-[13:04:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:04:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[13:04:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[11:45:21] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1014-azure (amd64)
+[11:45:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
+[11:45:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:45:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[11:45:22] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - ConsoleScheduler (1.4.10), UserLogin (2.13.1), Vault (1.7.3-b131)
-[13:04:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:04:21] [ServerMain/INFO]: Loaded 1290 recipes
-[13:04:21] [ServerMain/INFO]: Loaded 1399 advancements
-[13:04:21] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[13:04:21] [Server thread/INFO]: Loading properties
-[13:04:21] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[13:04:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:04:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:04:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:04:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[13:04:23] [Server thread/INFO]: Default game type: SURVIVAL
-[13:04:23] [Server thread/INFO]: Generating keypair
-[13:04:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:04:23] [Server thread/INFO]: Using epoll channel type
-[13:04:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:04:23] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[13:04:23] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[13:04:23] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
-[13:04:23] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[13:04:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:04:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:04:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:04:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:04:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:04:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:04:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:04:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:04:24] [Server thread/INFO]: Preparing level "world"
-[13:04:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:04:25] [Server thread/INFO]: Time elapsed: 1088 ms
-[13:04:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:04:25] [Server thread/INFO]: Time elapsed: 207 ms
-[13:04:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:04:25] [Server thread/INFO]: Time elapsed: 113 ms
-[13:04:25] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[13:04:26] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[13:04:26] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[13:04:26] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[13:04:26] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[13:04:26] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[13:04:26] [Server thread/INFO]: [spark] Starting background profiler...
-[13:04:26] [Server thread/INFO]: Done preparing level "world" (2.294s)
-[13:04:26] [Server thread/INFO]: Starting remote control listener
-[13:04:26] [Server thread/INFO]: Thread RCON Listener started
-[13:04:26] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[13:04:26] [Server thread/INFO]: Running delayed init tasks
-[13:04:26] [Server thread/INFO]: Done (12.307s)! For help, type "help"
-[13:04:26] [Server thread/INFO]: Timings Reset
-[13:04:26] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[13:04:26] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[13:04:26] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[13:04:26] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[13:04:31] [Server thread/INFO]: No player was found
-[13:04:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[13:04:39] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[13:04:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[13:04:39] [Server thread/INFO]: [Not Secure] [Rcon] Hello, world!
-[13:04:39] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[13:05:01] [Server thread/INFO]: No player was found
-[13:05:31] [Server thread/INFO]: No player was found
-[13:06:01] [Server thread/INFO]: No player was found
-[13:06:31] [Server thread/INFO]: No player was found
-[13:07:01] [Server thread/INFO]: No player was found
-[13:07:31] [Server thread/INFO]: No player was found
-[13:08:01] [Server thread/INFO]: No player was found
-[13:08:31] [Server thread/INFO]: No player was found
-[13:09:01] [Server thread/INFO]: No player was found
-[13:09:31] [Server thread/INFO]: No player was found
-[13:10:01] [Server thread/INFO]: No player was found
-[13:10:31] [Server thread/INFO]: No player was found
-[13:11:01] [Server thread/INFO]: No player was found
-[13:11:31] [Server thread/INFO]: No player was found
-[13:12:01] [Server thread/INFO]: No player was found
-[13:12:31] [Server thread/INFO]: No player was found
-[13:13:01] [Server thread/INFO]: No player was found
-[13:13:31] [Server thread/INFO]: No player was found
-[13:14:01] [Server thread/INFO]: No player was found
-[13:14:31] [Server thread/INFO]: No player was found
-[13:15:01] [Server thread/INFO]: No player was found
-[13:15:31] [Server thread/INFO]: No player was found
-[13:16:01] [Server thread/INFO]: No player was found
-[13:16:31] [Server thread/INFO]: No player was found
-[13:17:01] [Server thread/INFO]: No player was found
-[13:17:31] [Server thread/INFO]: No player was found
-[13:18:01] [Server thread/INFO]: No player was found
-[13:18:31] [Server thread/INFO]: No player was found
-[13:19:01] [Server thread/INFO]: No player was found
-[13:19:31] [Server thread/INFO]: No player was found
-[13:20:01] [Server thread/INFO]: No player was found
-[13:20:31] [Server thread/INFO]: No player was found
-[13:21:01] [Server thread/INFO]: No player was found
-[13:21:31] [Server thread/INFO]: No player was found
-[13:22:01] [Server thread/INFO]: No player was found
-[13:22:31] [Server thread/INFO]: No player was found
-[13:23:01] [Server thread/INFO]: No player was found
-[13:23:31] [Server thread/INFO]: No player was found
-[13:24:01] [Server thread/INFO]: No player was found
-[13:24:31] [Server thread/INFO]: No player was found
-[13:25:01] [Server thread/INFO]: No player was found
-[13:25:31] [Server thread/INFO]: No player was found
-[13:26:01] [Server thread/INFO]: No player was found
-[13:26:31] [Server thread/INFO]: No player was found
-[13:27:01] [Server thread/INFO]: No player was found
-[13:27:31] [Server thread/INFO]: No player was found
-[13:28:01] [Server thread/INFO]: No player was found
-[13:28:31] [Server thread/INFO]: No player was found
-[13:29:01] [Server thread/INFO]: No player was found
-[13:29:31] [Server thread/INFO]: No player was found
-[13:30:01] [Server thread/INFO]: No player was found
-[13:30:31] [Server thread/INFO]: No player was found
-[13:31:01] [Server thread/INFO]: No player was found
-[13:31:31] [Server thread/INFO]: No player was found
-[13:32:01] [Server thread/INFO]: No player was found
-[13:32:31] [Server thread/INFO]: No player was found
-[13:33:01] [Server thread/INFO]: No player was found
-[13:33:31] [Server thread/INFO]: No player was found
-[13:34:01] [Server thread/INFO]: No player was found
-[13:34:31] [Server thread/INFO]: No player was found
-[13:35:01] [Server thread/INFO]: No player was found
-[13:35:31] [Server thread/INFO]: No player was found
-[13:36:01] [Server thread/INFO]: No player was found
-[13:36:31] [Server thread/INFO]: No player was found
-[13:37:01] [Server thread/INFO]: No player was found
-[13:37:31] [Server thread/INFO]: No player was found
-[13:38:01] [Server thread/INFO]: No player was found
-[13:38:31] [Server thread/INFO]: No player was found
-[13:39:01] [Server thread/INFO]: No player was found
-[13:39:31] [Server thread/INFO]: No player was found
-[13:40:01] [Server thread/INFO]: No player was found
-[13:40:31] [Server thread/INFO]: No player was found
-[13:41:01] [Server thread/INFO]: No player was found
-[13:41:31] [Server thread/INFO]: No player was found
-[13:42:01] [Server thread/INFO]: No player was found
-[13:42:31] [Server thread/INFO]: No player was found
-[13:43:01] [Server thread/INFO]: No player was found
-[13:43:31] [Server thread/INFO]: No player was found
-[13:44:01] [Server thread/INFO]: No player was found
-[13:44:31] [Server thread/INFO]: No player was found
-[13:45:01] [Server thread/INFO]: No player was found
-[13:45:31] [Server thread/INFO]: No player was found
-[13:46:01] [Server thread/INFO]: No player was found
-[13:46:31] [Server thread/INFO]: No player was found
-[13:47:01] [Server thread/INFO]: No player was found
-[13:47:31] [Server thread/INFO]: No player was found
-[13:48:01] [Server thread/INFO]: No player was found
-[13:48:31] [Server thread/INFO]: No player was found
-[13:49:01] [Server thread/INFO]: No player was found
-[13:49:31] [Server thread/INFO]: No player was found
-[13:50:01] [Server thread/INFO]: No player was found
-[13:50:31] [Server thread/INFO]: No player was found
-[13:51:01] [Server thread/INFO]: No player was found
-[13:51:31] [Server thread/INFO]: No player was found
-[13:52:01] [Server thread/INFO]: No player was found
-[13:52:31] [Server thread/INFO]: No player was found
-[13:53:01] [Server thread/INFO]: No player was found
-[13:53:31] [Server thread/INFO]: No player was found
-[13:54:01] [Server thread/INFO]: No player was found
-[13:54:31] [Server thread/INFO]: No player was found
-[13:55:01] [Server thread/INFO]: No player was found
-[13:55:31] [Server thread/INFO]: No player was found
-[13:56:01] [Server thread/INFO]: No player was found
-[13:56:31] [Server thread/INFO]: No player was found
-[13:57:01] [Server thread/INFO]: No player was found
-[13:57:31] [Server thread/INFO]: No player was found
-[13:58:01] [Server thread/INFO]: No player was found
-[13:58:31] [Server thread/INFO]: No player was found
-[13:59:01] [Server thread/INFO]: No player was found
-[13:59:31] [Server thread/INFO]: No player was found
-[14:00:01] [Server thread/INFO]: No player was found
-[14:00:31] [Server thread/INFO]: No player was found
-[14:01:01] [Server thread/INFO]: No player was found
-[14:01:31] [Server thread/INFO]: No player was found
-[14:02:01] [Server thread/INFO]: No player was found
-[14:02:31] [Server thread/INFO]: No player was found
-[14:03:01] [Server thread/INFO]: No player was found
-[14:03:31] [Server thread/INFO]: No player was found
-[14:04:01] [Server thread/INFO]: No player was found
-[14:04:31] [Server thread/INFO]: No player was found
-[14:05:01] [Server thread/INFO]: No player was found
-[14:05:31] [Server thread/INFO]: No player was found
-[14:06:01] [Server thread/INFO]: No player was found
-[14:06:31] [Server thread/INFO]: No player was found
-[14:07:01] [Server thread/INFO]: No player was found
-[14:07:31] [Server thread/INFO]: No player was found
-[14:08:01] [Server thread/INFO]: No player was found
-[14:08:31] [Server thread/INFO]: No player was found
-[14:09:01] [Server thread/INFO]: No player was found
-[14:09:31] [Server thread/INFO]: No player was found
-[14:10:01] [Server thread/INFO]: No player was found
-[14:10:31] [Server thread/INFO]: No player was found
-[14:11:01] [Server thread/INFO]: No player was found
-[14:11:31] [Server thread/INFO]: No player was found
-[14:12:01] [Server thread/INFO]: No player was found
-[14:12:31] [Server thread/INFO]: No player was found
-[14:13:01] [Server thread/INFO]: No player was found
-[14:13:31] [Server thread/INFO]: No player was found
-[14:14:01] [Server thread/INFO]: No player was found
-[14:14:31] [Server thread/INFO]: No player was found
-[14:15:01] [Server thread/INFO]: No player was found
-[14:15:31] [Server thread/INFO]: No player was found
-[14:16:01] [Server thread/INFO]: No player was found
-[14:16:31] [Server thread/INFO]: No player was found
-[14:17:01] [Server thread/INFO]: No player was found
-[14:17:31] [Server thread/INFO]: No player was found
-[14:18:01] [Server thread/INFO]: No player was found
-[14:18:31] [Server thread/INFO]: No player was found
-[14:19:01] [Server thread/INFO]: No player was found
-[14:19:31] [Server thread/INFO]: No player was found
-[14:20:01] [Server thread/INFO]: No player was found
-[14:20:31] [Server thread/INFO]: No player was found
-[14:21:01] [Server thread/INFO]: No player was found
-[14:21:31] [Server thread/INFO]: No player was found
-[14:22:01] [Server thread/INFO]: No player was found
-[14:22:31] [Server thread/INFO]: No player was found
-[14:23:01] [Server thread/INFO]: No player was found
-[14:23:31] [Server thread/INFO]: No player was found
-[14:24:01] [Server thread/INFO]: No player was found
-[14:24:31] [Server thread/INFO]: No player was found
-[14:25:01] [Server thread/INFO]: No player was found
-[14:25:31] [Server thread/INFO]: No player was found
-[14:26:01] [Server thread/INFO]: No player was found
-[14:26:31] [Server thread/INFO]: No player was found
-[14:27:01] [Server thread/INFO]: No player was found
-[14:27:31] [Server thread/INFO]: No player was found
-[14:28:01] [Server thread/INFO]: No player was found
-[14:28:31] [Server thread/INFO]: No player was found
-[14:29:01] [Server thread/INFO]: No player was found
-[14:29:31] [Server thread/INFO]: No player was found
-[14:30:01] [Server thread/INFO]: No player was found
-[14:30:31] [Server thread/INFO]: No player was found
-[14:31:01] [Server thread/INFO]: No player was found
-[14:31:31] [Server thread/INFO]: No player was found
-[14:32:01] [Server thread/INFO]: No player was found
-[14:32:31] [Server thread/INFO]: No player was found
-[14:33:01] [Server thread/INFO]: No player was found
-[14:33:31] [Server thread/INFO]: No player was found
-[14:34:01] [Server thread/INFO]: No player was found
-[14:34:31] [Server thread/INFO]: No player was found
-[14:35:01] [Server thread/INFO]: No player was found
-[14:35:31] [Server thread/INFO]: No player was found
-[14:36:01] [Server thread/INFO]: No player was found
-[14:36:31] [Server thread/INFO]: No player was found
-[14:37:01] [Server thread/INFO]: No player was found
-[14:37:31] [Server thread/INFO]: No player was found
-[14:38:01] [Server thread/INFO]: No player was found
-[14:38:31] [Server thread/INFO]: No player was found
-[14:39:01] [Server thread/INFO]: No player was found
-[14:39:31] [Server thread/INFO]: No player was found
-[14:40:01] [Server thread/INFO]: No player was found
-[14:40:31] [Server thread/INFO]: No player was found
-[14:41:01] [Server thread/INFO]: No player was found
-[14:41:31] [Server thread/INFO]: No player was found
-[14:42:01] [Server thread/INFO]: No player was found
-[14:42:31] [Server thread/INFO]: No player was found
-[14:43:01] [Server thread/INFO]: No player was found
-[14:43:31] [Server thread/INFO]: No player was found
-[14:44:01] [Server thread/INFO]: No player was found
-[14:44:31] [Server thread/INFO]: No player was found
-[14:45:01] [Server thread/INFO]: No player was found
-[14:45:31] [Server thread/INFO]: No player was found
-[14:46:01] [Server thread/INFO]: No player was found
-[14:46:31] [Server thread/INFO]: No player was found
-[14:47:01] [Server thread/INFO]: No player was found
-[14:47:31] [Server thread/INFO]: No player was found
-[14:48:01] [Server thread/INFO]: No player was found
-[14:48:31] [Server thread/INFO]: No player was found
-[14:49:01] [Server thread/INFO]: No player was found
-[14:49:31] [Server thread/INFO]: No player was found
-[14:50:01] [Server thread/INFO]: No player was found
-[14:50:31] [Server thread/INFO]: No player was found
-[14:51:01] [Server thread/INFO]: No player was found
-[14:51:31] [Server thread/INFO]: No player was found
-[14:52:01] [Server thread/INFO]: No player was found
-[14:52:31] [Server thread/INFO]: No player was found
-[14:53:01] [Server thread/INFO]: No player was found
-[14:53:31] [Server thread/INFO]: No player was found
-[14:54:01] [Server thread/INFO]: No player was found
-[14:54:31] [Server thread/INFO]: No player was found
-[14:55:01] [Server thread/INFO]: No player was found
-[14:55:31] [Server thread/INFO]: No player was found
-[14:56:01] [Server thread/INFO]: No player was found
-[14:56:31] [Server thread/INFO]: No player was found
-[14:57:01] [Server thread/INFO]: No player was found
-[14:57:31] [Server thread/INFO]: No player was found
-[14:58:01] [Server thread/INFO]: No player was found
-[14:58:31] [Server thread/INFO]: No player was found
-[14:59:01] [Server thread/INFO]: No player was found
-[14:59:31] [Server thread/INFO]: No player was found
+[11:45:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:45:27] [ServerMain/INFO]: Loaded 1290 recipes
+[11:45:28] [ServerMain/INFO]: Loaded 1399 advancements
+[11:45:28] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[11:45:28] [Server thread/INFO]: Loading properties
+[11:45:28] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[11:45:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:45:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:45:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:45:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[11:45:30] [Server thread/INFO]: Default game type: SURVIVAL
+[11:45:30] [Server thread/INFO]: Generating keypair
+[11:45:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:45:30] [Server thread/INFO]: Using epoll channel type
+[11:45:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:45:30] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[11:45:30] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
+[11:45:30] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[11:45:30] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:45:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:45:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:45:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:45:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:45:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:45:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:45:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:45:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:45:30] [Server thread/INFO]: Preparing level "world"
+[11:45:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:45:32] [Server thread/INFO]: Time elapsed: 996 ms
+[11:45:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:45:32] [Server thread/INFO]: Time elapsed: 200 ms
+[11:45:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:45:32] [Server thread/INFO]: Time elapsed: 90 ms
+[11:45:32] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[11:45:32] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[11:45:32] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[11:45:32] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[11:45:32] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[11:45:32] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[11:45:33] [Server thread/INFO]: [spark] Starting background profiler...
+[11:45:33] [Server thread/INFO]: Done preparing level "world" (2.323s)
+[11:45:33] [Server thread/INFO]: Starting remote control listener
+[11:45:33] [Server thread/INFO]: Thread RCON Listener started
+[11:45:33] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[11:45:33] [Server thread/INFO]: Running delayed init tasks
+[11:45:33] [Server thread/INFO]: Done (12.509s)! For help, type "help"
+[11:45:33] [Server thread/INFO]: Timings Reset
+[11:45:33] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[11:45:33] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[11:45:33] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[11:45:33] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
+[11:45:38] [Server thread/INFO]: No player was found
+[11:45:47] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[11:45:47] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[11:45:47] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[11:45:47] [Server thread/INFO]: [Not Secure] [Rcon] Hello, world!
+[11:45:47] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[11:46:08] [Server thread/INFO]: No player was found
+[11:46:38] [Server thread/INFO]: No player was found
+[11:47:08] [Server thread/INFO]: No player was found
+[11:47:38] [Server thread/INFO]: No player was found
+[11:48:08] [Server thread/INFO]: No player was found
+[11:48:38] [Server thread/INFO]: No player was found
+[11:49:08] [Server thread/INFO]: No player was found
+[11:49:38] [Server thread/INFO]: No player was found
