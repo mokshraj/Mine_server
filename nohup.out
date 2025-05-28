@@ -18716,3 +18716,93 @@ Untracked files:
 	plugins/spark/tmp-client/spark-54554c9d8c-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   localtonet-linux-x64.zip.4
+	modified:   localtonet.log
+	new file:   logs/2025-05-28-1.log.gz
+	modified:   logs/latest.log
+	modified:   nohup.out
+	renamed:    plugins/spark/tmp-client/spark-21218439ab-libasyncProfiler.so.tmp -> plugins/spark/tmp-client/spark-1c6bae5ef6-libasyncProfiler.so.tmp
+	renamed:    plugins/spark/tmp-client/spark-667b2d327a9-profile-data.jfr.tmp -> plugins/spark/tmp-client/spark-54554c9d8c-profile-data.jfr.tmp
+	modified:   server.properties
+	modified:   usercache.json
+
+[master 3ef82c8] server save
+ 9 files changed, 133 insertions(+), 15903 deletions(-)
+ create mode 100644 localtonet-linux-x64.zip.4
+ create mode 100644 logs/2025-05-28-1.log.gz
+ rename plugins/spark/tmp-client/{spark-21218439ab-libasyncProfiler.so.tmp => spark-1c6bae5ef6-libasyncProfiler.so.tmp} (100%)
+ rename plugins/spark/tmp-client/{spark-667b2d327a9-profile-data.jfr.tmp => spark-54554c9d8c-profile-data.jfr.tmp} (56%)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File localtonet-linux-x64.zip.4 is 52.61 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/mokshraj/Mine_server.git
+   91543e7..3ef82c8  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   localtonet.log
+	modified:   logs/latest.log
+	modified:   nohup.out
+	deleted:    plugins/spark/tmp-client/spark-54554c9d8c-profile-data.jfr.tmp
+	modified:   world/data/raids.dat
+	modified:   world/entities/r.-1.0.mca
+	modified:   world/entities/r.0.-1.mca
+	modified:   world/entities/r.0.0.mca
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.0.-1.mca
+	modified:   world/region/r.0.0.mca
+	modified:   world_nether/DIM-1/data/raids.dat
+	modified:   world_nether/DIM-1/region/r.-1.-1.mca
+	modified:   world_nether/DIM-1/region/r.-1.0.mca
+	modified:   world_nether/DIM-1/region/r.0.-1.mca
+	modified:   world_nether/DIM-1/region/r.0.0.mca
+	modified:   world_nether/level.dat
+	modified:   world_nether/level.dat_old
+	modified:   world_the_end/DIM1/data/raids_end.dat
+	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
+	modified:   world_the_end/DIM1/entities/r.-1.0.mca
+	modified:   world_the_end/DIM1/entities/r.0.-1.mca
+	modified:   world_the_end/DIM1/entities/r.0.0.mca
+	modified:   world_the_end/DIM1/region/r.-1.-1.mca
+	modified:   world_the_end/DIM1/region/r.-1.0.mca
+	modified:   world_the_end/DIM1/region/r.0.-1.mca
+	modified:   world_the_end/DIM1/region/r.0.0.mca
+	modified:   world_the_end/level.dat
+	modified:   world_the_end/level.dat_old
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	plugins/spark/tmp-client/spark-9a2ead6122-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
