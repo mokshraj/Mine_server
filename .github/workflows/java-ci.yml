@@ -105,6 +105,7 @@ jobs:
           sleep 5
           pwd
           screen -ls | grep rcon
+          screen -ls | grep tunnel
 
       - name: Run Minecraft server
         run: |
