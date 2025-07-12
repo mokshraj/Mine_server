@@ -85,11 +85,9 @@ jobs:
           sudo apt update && sudo apt install -y openvpn openvpn-systemd-resolved
 
       - name : connect to portmap
-        env: 
-          GITHUB_TOKEN: ${{ secrets.TUNNEL }}
-        run: |
-          echo "$TUNNEL" > Moksh1.baymax.ovpn
-          sudo openvpn --config Moksh1.baymax.ovpn
+        uses: kota65535/github-openvpn-connect-action@v3.1.0
+        with:
+          config_file: /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
 
       - name : Install open ssh
         run: sudo apt install openssh-client
