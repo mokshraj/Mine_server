@@ -1,99 +1,99 @@
-[16:12:08] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
-[16:12:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
-[16:12:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:12:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[16:12:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[16:20:43] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
+[16:20:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
+[16:20:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:20:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[16:20:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - ConsoleScheduler (1.4.10), UserLogin (2.13.1), Vault (1.7.3-b131)
-[16:12:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:12:15] [ServerMain/INFO]: Loaded 1290 recipes
-[16:12:15] [ServerMain/INFO]: Loaded 1399 advancements
-[16:12:15] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[16:12:15] [Server thread/INFO]: Loading properties
-[16:12:15] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[16:12:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:12:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:12:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:12:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[16:12:17] [Server thread/INFO]: Default game type: SURVIVAL
-[16:12:17] [Server thread/INFO]: Generating keypair
-[16:12:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:12:17] [Server thread/INFO]: Using epoll channel type
-[16:12:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:12:17] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[16:12:17] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
-[16:12:17] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[16:12:17] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[16:12:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:12:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:12:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:12:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:12:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:12:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:12:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:12:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:12:17] [Server thread/INFO]: Preparing level "world"
-[16:12:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:12:19] [Server thread/INFO]: Time elapsed: 1013 ms
-[16:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:12:19] [Server thread/INFO]: Time elapsed: 213 ms
-[16:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:12:19] [Server thread/INFO]: Time elapsed: 112 ms
-[16:12:19] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[16:12:20] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[16:12:20] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[16:12:20] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[16:12:20] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[16:12:20] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[16:12:20] [Server thread/INFO]: [spark] Starting background profiler...
-[16:12:20] [Server thread/INFO]: Done preparing level "world" (2.286s)
-[16:12:20] [Server thread/INFO]: Starting remote control listener
-[16:12:20] [Server thread/INFO]: Thread RCON Listener started
-[16:12:20] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[16:12:20] [Server thread/INFO]: Running delayed init tasks
-[16:12:20] [Server thread/INFO]: Done (12.710s)! For help, type "help"
-[16:12:20] [Server thread/INFO]: Timings Reset
-[16:12:20] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[16:12:20] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[16:12:20] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[16:12:20] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[16:12:25] [Server thread/INFO]: No player was found
-[16:12:55] [Server thread/INFO]: No player was found
-[16:13:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[16:13:02] [Server thread/INFO]: [Rcon: Stopping the server]
-[16:13:02] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[16:13:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[16:13:02] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[16:13:02] [Server thread/INFO]: Stopping server
-[16:13:02] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
-[16:13:02] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
-[16:13:02] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[16:13:02] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
-[16:13:02] [Server thread/INFO]: Saving players
-[16:13:02] [Server thread/INFO]: Saving worlds
-[16:13:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.20s
-[16:13:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
-[16:13:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:13:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
-[16:13:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:13:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:13:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:13:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:20:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:20:49] [ServerMain/INFO]: Loaded 1290 recipes
+[16:20:49] [ServerMain/INFO]: Loaded 1399 advancements
+[16:20:50] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[16:20:50] [Server thread/INFO]: Loading properties
+[16:20:50] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[16:20:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:20:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:20:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:20:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[16:20:51] [Server thread/INFO]: Default game type: SURVIVAL
+[16:20:51] [Server thread/INFO]: Generating keypair
+[16:20:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:20:51] [Server thread/INFO]: Using epoll channel type
+[16:20:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:20:51] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:20:52] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
+[16:20:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:20:52] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[16:20:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:20:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:20:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:20:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:20:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:20:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:20:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:20:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:20:52] [Server thread/INFO]: Preparing level "world"
+[16:20:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:20:54] [Server thread/INFO]: Time elapsed: 1044 ms
+[16:20:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:20:54] [Server thread/INFO]: Time elapsed: 225 ms
+[16:20:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:20:54] [Server thread/INFO]: Time elapsed: 112 ms
+[16:20:54] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[16:20:54] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[16:20:54] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[16:20:54] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[16:20:54] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[16:20:54] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[16:20:54] [Server thread/INFO]: [spark] Starting background profiler...
+[16:20:55] [Server thread/INFO]: Done preparing level "world" (2.461s)
+[16:20:55] [Server thread/INFO]: Starting remote control listener
+[16:20:55] [Server thread/INFO]: Thread RCON Listener started
+[16:20:55] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[16:20:55] [Server thread/INFO]: Running delayed init tasks
+[16:20:55] [Server thread/INFO]: Done (12.696s)! For help, type "help"
+[16:20:55] [Server thread/INFO]: Timings Reset
+[16:20:55] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:20:55] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[16:20:55] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[16:20:55] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[16:21:00] [Server thread/INFO]: No player was found
+[16:21:30] [Server thread/INFO]: No player was found
+[16:21:36] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[16:21:36] [Server thread/INFO]: [Rcon: Stopping the server]
+[16:21:36] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[16:21:36] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[16:21:36] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[16:21:36] [Server thread/INFO]: Stopping server
+[16:21:36] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[16:21:36] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[16:21:36] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:21:36] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
+[16:21:36] [Server thread/INFO]: Saving players
+[16:21:37] [Server thread/INFO]: Saving worlds
+[16:21:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.18s
+[16:21:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[16:21:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:21:37] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[16:21:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:21:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:21:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:21:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
