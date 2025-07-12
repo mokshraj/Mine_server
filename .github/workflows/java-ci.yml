@@ -95,7 +95,7 @@ jobs:
 
       - name : ssh connect
         run: |
-          chmod 600 Moksh1.baymax
+          chmod 600 Moksh1.baymax.pem
           ssh -i Moksh1.baymax.pem Moksh1.baymax@Moksh1-31842.portmap.host -N -R 31842:localhost:25565
       - name: Setup rcon commands
         run: |
