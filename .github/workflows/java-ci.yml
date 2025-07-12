@@ -29,8 +29,8 @@ jobs:
           sudo ufw status
           sudo ufw allow 25565/tcp
       
-      # - name: Disable UFW firewall
-      #   run: sudo ufw disable
+      - name: Disable UFW firewall
+        run: sudo ufw disable
 
       # Congifure git to commit to the Repo    
       - name: Set up Git
@@ -81,12 +81,14 @@ jobs:
       - name : Install openvpn
         run: |
           sudo apt update && sudo apt install -y openvpn openvpn-systemd-resolved
+          echo "$TUNNEL" > Moksh1.first.ovpn
+      
       - name : connect to portmap
         uses: kota65535/github-openvpn-connect-action@v3.1.0
-        run: |
-          echo "$TUNNEL" > Moksh1.first.ovpn
         with:
           config_file: /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
+      
+      - name : remove ovpn
         run: |
           rm -f Moksh1.first.ovpn
 
