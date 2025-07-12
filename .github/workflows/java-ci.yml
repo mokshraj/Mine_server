@@ -7,7 +7,6 @@ on:
 jobs:
   Mine_server:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
 
     steps:
       - name: Checkout code
@@ -29,8 +28,6 @@ jobs:
           curl ifconfig.me
           sudo ufw status
           sudo ufw allow 25565/tcp
-
-
 
       # Congifure git to commit to the Repo    
       - name: Set up Git
@@ -69,16 +66,6 @@ jobs:
           make
           sudo cp mcrcon /usr/local/bin/
       
-      - name: Setup rcon commands
-        run: |
-          screen -dmS rcon bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"; sleep 4h 55m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 5 minutes";sleep 2m;mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 3 minutes"; sleep 2m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restarts in 1 minute";sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969"stop"'
-        
-      - name: Screen Session check
-        run: |
-          sleep 5
-          pwd
-          screen -ls | grep rcon
-
       - name: Initialise Server save loop
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -90,19 +77,31 @@ jobs:
           bash /home/runner/work/Mine_server/Mine_server/screen_test.sh
           sleep 5
 
-      - name: Install Localtonet
-        env: 
-          AUTH_TOKEN: ${{ secrets.LOCALTONET_AUTH }}
+      - name : Install openvpn
         run: |
-          wget https://localtonet.com/download/localtonet-linux-x64.zip
-          unzip -o localtonet-linux-x64.zip
-          chmod 777 ./localtonet
-          ./localtonet authtoken $AUTH_TOKEN > localtonet.log &
+          sudo apt update && sudo apt install openvpn -y
+
+      - name : connect to portmap
+        env: 
+          GITHUB_TOKEN: ${{ secrets.TUNNEL }}
+        run: |
+          echo "$TUNNEL" > Moksh1.baymax.ovpn
+          screen -dmS tunnel bash -c 'sudo openvpn --config Moksh1.baymax.ovpn'
           sleep 10
-          cat localtonet.log
+          rm -f Moksh1.baymax.ovpn
 
       - name: Install open ssh
         run: sudo apt install openssh-client
+
+      - name: Setup rcon commands
+        run: |
+          screen -dmS rcon bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello, world!"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"; sleep 4h 55m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 5 minutes";sleep 2m;mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 3 minutes"; sleep 2m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restarts in 1 minute";sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969"stop"'
+      
+      - name: Screen Session check
+        run: |
+          sleep 5
+          pwd
+          screen -ls | grep rcon
 
       - name: Run Minecraft server
         run: |
