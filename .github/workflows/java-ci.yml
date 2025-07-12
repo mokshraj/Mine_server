@@ -28,6 +28,9 @@ jobs:
           curl ifconfig.me
           sudo ufw status
           sudo ufw allow 25565/tcp
+      
+      - name: Disable UFW firewall
+        run: sudo ufw disable
 
       # Congifure git to commit to the Repo    
       - name: Set up Git
