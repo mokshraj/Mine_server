@@ -47,16 +47,16 @@ jobs:
          echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list >/dev/null
          sudo apt-get update && sudo apt-get install ngrok
         
-      - name: Authenticate and Start Ngrok
-        run: |
-         ngrok authtoken ${{ secrets.AUTH_NGROK }}  # Using the ngrok auth saved in secrets
-         nohup ngrok tcp 25565 > ngrok.log &
-         sleep 5  # Wait for Ngrok to initialize
+      # - name: Authenticate and Start Ngrok
+      #   run: |
+      #    ngrok authtoken ${{ secrets.AUTH_NGROK }}  # Using the ngrok auth saved in secrets
+      #    nohup ngrok tcp 25565 > ngrok.log &
+      #    sleep 5  # Wait for Ngrok to initialize
 
-      - name: Get Ngrok URL
-        run: |
-         NGROK_TCP_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
-         echo "Ngrok TCP Address: $NGROK_TCP_URL"
+      # - name: Get Ngrok URL
+      #   run: |
+      #    NGROK_TCP_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
+      #    echo "Ngrok TCP Address: $NGROK_TCP_URL"
 
       - name: Install dependencies
         run: sudo apt-get install gcc make
