@@ -82,7 +82,7 @@ jobs:
 
       - name : Install openvpn
         run: |
-          sudo apt update && sudo apt install openvpn -y
+          sudo apt update && sudo apt install -y openvpn openvpn-systemd-resolved
 
       - name : connect to portmap
         env: 
