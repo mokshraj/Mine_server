@@ -94,16 +94,14 @@ jobs:
 
       - name : playit.gg setup
         run: |
-          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
-          
+          echo "${{ secrets.PLAYIT_GG_KEY }}" > /home/runner/work/Mine_server/Mine_server/playit.toml
+          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
+          sleep 5
+          rm -f playit.toml
 
       - name : Install open ssh
-        run: sudo apt install openssh-client
+        run: thiersudo apt install openssh-client
 
-      # - name : ssh connect
-      #   run: |
-      #     chmod 600 /home/runner/work/Mine_server/Mine_server/.ssh/Moksh1.baymax.pem
-      #     ssh -i /home/runner/work/Mine_server/Mine_server/.ssh/Moksh1.baymax.pem Moksh1.baymax@Moksh1-31842.portmap.host -N -R 31842:localhost:25565
       - name: Setup rcon commands
         run: |
           screen -dmS rcon bash -c 'sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "say Hello world !"; mcrcon -H 127.0.0.1 -P 25575 -p 1969 "op mokshraj"; sleep 4h 55m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 5 minutes";sleep 2m;mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restart in 3 minutes"; sleep 2m; mcrcon -H 127.0.0.1 -P 25575 -p 1969"say server restarts in 1 minute";sleep 60; mcrcon -H 127.0.0.1 -P 25575 -p 1969"stop"'
@@ -114,10 +112,6 @@ jobs:
           pwd
           screen -ls
           cat /home/runner/work/Mine_server/Mine_server/playit.log
-      - name: cp playit.toml
-        run: |
-          sleep 300
-          cp /home/runner/.config/playit_gg/playit.toml /home/runner/work/Mine_server/Mine_server/
 
       - name: Run Minecraft server
         run: |
