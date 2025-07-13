@@ -95,8 +95,7 @@ jobs:
       - name : playit.gg setup
         run: |
           /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
-          sleep 5
-          cp /home/runner/.config/playit_gg/playit.toml /home/runner/work/Mine_server/Mine_server/
+          
 
       - name : Install open ssh
         run: sudo apt install openssh-client
@@ -115,6 +114,8 @@ jobs:
           pwd
           screen -ls
           cat /home/runner/work/Mine_server/Mine_server/playit.log
+          sleep 300
+          cp /home/runner/.config/playit_gg/playit.toml /home/runner/work/Mine_server/Mine_server/
 
       - name: Run Minecraft server
         run: |
