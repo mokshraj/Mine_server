@@ -92,12 +92,10 @@ jobs:
         run: |
           rm -f Moksh1.first.ovpn
 
-      - name: Base64 secret to file
-        uses: davidSchuppa/base64Secret-toFile-action@v3
-        with:
-          secret: ${{ secrets.PLAYIT_GG_KEY }}
-          filename: playit.toml
-          destination-path: /home/runner/work/Mine_server/Mine_server/
+      - name: Save secret_key from secrets
+        run: |
+          printf 'secret_key = "%s"\n' "${{ secrets.SECRET_KEY }}" > playit.toml
+
 
       - name : playit.gg setup
         run: |
