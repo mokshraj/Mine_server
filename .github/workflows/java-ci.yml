@@ -96,7 +96,7 @@ jobs:
         run: |
           echo "${{ secrets.PLAYIT_GG_KEY }}" > /home/runner/work/Mine_server/Mine_server/playit.toml
           sleep 5
-          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
+          bash -c '/home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &'
           sleep 5
           rm -f playit.toml
 
