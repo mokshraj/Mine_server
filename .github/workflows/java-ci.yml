@@ -114,6 +114,8 @@ jobs:
           pwd
           screen -ls
           cat /home/runner/work/Mine_server/Mine_server/playit.log
+      - name: cp playit.toml
+        run: |
           sleep 300
           cp /home/runner/.config/playit_gg/playit.toml /home/runner/work/Mine_server/Mine_server/
 
