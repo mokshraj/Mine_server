@@ -94,7 +94,7 @@ jobs:
 
       - name : playit.gg setup
         run: |
-          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
+          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 secret-path > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
 
       - name : Install open ssh
         run: sudo apt install openssh-client
