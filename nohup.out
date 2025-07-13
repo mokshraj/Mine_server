@@ -19373,3 +19373,58 @@ Changes not staged for commit:
 	modified:   playit.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   nohup.out
+	modified:   openvpn.log
+	modified:   openvpn.pid
+	modified:   playit.log
+
+[master d357999] server save
+ 4 files changed, 458 insertions(+), 17 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   de1d3e9..d357999  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+	modified:   playit.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   playit.log
+	deleted:    plugins/spark/tmp-client/spark-1419c6bd8f-libasyncProfiler.so.tmp
+	deleted:    plugins/spark/tmp-client/spark-4c04367bd5-profile-data.jfr.tmp
+	modified:   server.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/2025-07-13-5.log.gz
+	playit.toml
+	plugins/spark/tmp-client/spark-5eb75b75a9-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-96a0b45fd2-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
