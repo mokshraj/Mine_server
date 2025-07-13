@@ -94,8 +94,7 @@ jobs:
 
       - name: Save secret_key from secrets
         run: |
-          printf 'secret_key = "%s"\n' "${{ secrets.SECRET_KEY }}" > playit.toml
-
+          printf 'secret_key = "%s"\n' "${{ secrets.PLAYIT_GG_KEY }}" > /home/runner/work/Mine_server/Mine_server/playit.toml
 
       - name : playit.gg setup
         run: |
