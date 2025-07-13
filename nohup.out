@@ -20096,3 +20096,88 @@ Untracked files:
 	plugins/spark/tmp-client/spark-cf04022441-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   logs/2025-07-13-9.log.gz
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   openvpn.log
+	modified:   openvpn.pid
+	modified:   playit.log
+	renamed:    plugins/spark/tmp-client/spark-52a33513c6-libasyncProfiler.so.tmp -> plugins/spark/tmp-client/spark-971b00d437-libasyncProfiler.so.tmp
+	renamed:    plugins/spark/tmp-client/spark-8a8b3ece4f-profile-data.jfr.tmp -> plugins/spark/tmp-client/spark-cf04022441-profile-data.jfr.tmp
+	modified:   server.properties
+
+[master a9f1063] server save
+ 9 files changed, 590 insertions(+), 99 deletions(-)
+ create mode 100644 logs/2025-07-13-9.log.gz
+ rename plugins/spark/tmp-client/{spark-52a33513c6-libasyncProfiler.so.tmp => spark-971b00d437-libasyncProfiler.so.tmp} (100%)
+ rename plugins/spark/tmp-client/{spark-8a8b3ece4f-profile-data.jfr.tmp => spark-cf04022441-profile-data.jfr.tmp} (59%)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   e5bf42d..a9f1063  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   playit.log
+	deleted:    plugins/spark/tmp-client/spark-cf04022441-profile-data.jfr.tmp
+	modified:   world/data/raids.dat
+	modified:   world/entities/r.-1.0.mca
+	modified:   world/entities/r.0.-1.mca
+	modified:   world/entities/r.0.0.mca
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.0.-1.mca
+	modified:   world/region/r.0.0.mca
+	modified:   world_nether/DIM-1/data/raids.dat
+	modified:   world_nether/DIM-1/region/r.-1.-1.mca
+	modified:   world_nether/DIM-1/region/r.-1.0.mca
+	modified:   world_nether/DIM-1/region/r.0.-1.mca
+	modified:   world_nether/DIM-1/region/r.0.0.mca
+	modified:   world_nether/level.dat
+	modified:   world_nether/level.dat_old
+	modified:   world_the_end/DIM1/data/raids_end.dat
+	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
+	modified:   world_the_end/DIM1/entities/r.-1.0.mca
+	modified:   world_the_end/DIM1/entities/r.0.-1.mca
+	modified:   world_the_end/DIM1/entities/r.0.0.mca
+	modified:   world_the_end/DIM1/region/r.-1.-1.mca
+	modified:   world_the_end/DIM1/region/r.-1.0.mca
+	modified:   world_the_end/DIM1/region/r.0.-1.mca
+	modified:   world_the_end/DIM1/region/r.0.0.mca
+	modified:   world_the_end/level.dat
+	modified:   world_the_end/level.dat_old
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	plugins/spark/tmp-client/spark-114dd674145-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
