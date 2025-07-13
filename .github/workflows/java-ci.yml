@@ -49,7 +49,7 @@ jobs:
       - name: Authenticate and Start Ngrok
         run: |
          ngrok authtoken ${{ secrets.AUTH_NGROK }}  # Using the ngrok auth saved in secrets
-         nohup ngrok tcp 25565 > /dev/null 2>&1 &
+         nohup ngrok http --url=dassie-open-optionally.ngrok-free.app 8123 > /dev/null 2>&1 &
          sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
