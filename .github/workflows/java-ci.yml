@@ -100,7 +100,7 @@ jobs:
           rm -f playit.toml
 
       - name : Install open ssh
-        run: thiersudo apt install openssh-client
+        run: sudo apt install openssh-client
 
       - name: Setup rcon commands
         run: |
