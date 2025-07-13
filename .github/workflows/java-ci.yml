@@ -101,7 +101,7 @@ jobs:
         run: |
           /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_wait --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
           sleep 5
-          rm -f playit.toml
+#          rm -f playit.toml
       
       - name : Install open ssh
         run: sudo apt install openssh-client
