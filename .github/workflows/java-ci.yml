@@ -49,7 +49,7 @@ jobs:
       - name: Authenticate and Start Ngrok
         run: |
          ngrok authtoken ${{ secrets.AUTH_NGROK }}  # Using the ngrok auth saved in secrets
-         nohup ngrok tcp 25565 > ngrok.log &
+         nohup ngrok tcp 25565 > /dev/null 2>&1 &
          sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
@@ -94,7 +94,7 @@ jobs:
 
       - name : playit.gg setup
         run: |
-          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64
+          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
 
       - name : Install open ssh
         run: sudo apt install openssh-client
@@ -112,6 +112,8 @@ jobs:
           sleep 5
           pwd
           screen -ls
+          cat /home/runner/work/Mine_server/Mine_server/playit.log
+
       - name: Run Minecraft server
         run: |
           java -jar paper-1.21.1-99.jar
