@@ -19207,3 +19207,55 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   nohup.out
+
+[master c8695ff] server save
+ 1 file changed, 4 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   ec6e963..c8695ff  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nohup.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   openvpn.log
+	modified:   openvpn.pid
+	deleted:    plugins/spark/tmp-client/spark-18389130fc-libasyncProfiler.so.tmp
+	deleted:    plugins/spark/tmp-client/spark-502184f688-profile-data.jfr.tmp
+	modified:   server.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/2025-07-13-3.log.gz
+	playit.log
+	plugins/spark/tmp-client/spark-1713907689-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-4efd19efb1-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
