@@ -92,12 +92,16 @@ jobs:
         run: |
           rm -f Moksh1.first.ovpn
 
-      - name : playit.gg setup
+      - name : make key file 
         run: |
           echo "${{ secrets.PLAYIT_GG_KEY }}" > /home/runner/work/Mine_server/Mine_server/playit.toml
-          sleep 5
-          bash -c '/home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &'
-          sleep 5
+
+      - name : playit.gg setup
+        run: |
+          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
+      
+      - name : remove key file
+        run: |
           rm -f playit.toml
 
       - name : Install open ssh
