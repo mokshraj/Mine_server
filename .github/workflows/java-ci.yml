@@ -98,7 +98,7 @@ jobs:
 
       - name : playit.gg setup
         run: |
-          /home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
+          bash -c '/home/runner/work/Mine_server/Mine_server/playit-linux-amd64 --secret_path /home/runner/work/Mine_server/Mine_server/playit.toml' > /home/runner/work/Mine_server/Mine_server/playit.log 2>&1 &
       
       - name : remove key file
         run: |
