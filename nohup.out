@@ -4,6 +4,20 @@ Your branch is up to date with 'origin/master'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
 	modified:   nohup.out
+	modified:   openvpn.log
+	modified:   openvpn.pid
+	modified:   playit.log
+	modified:   plugins/dynmap/web/tiles/_markers_/marker_world.json
+	modified:   plugins/dynmap/web/tiles/_markers_/marker_world_nether.json
+	modified:   plugins/dynmap/web/tiles/_markers_/marker_world_the_end.json
+	modified:   server.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/2025-07-14-4.log.gz
+	plugins/spark/tmp-client/spark-2953be4d81-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-613cd86203-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
