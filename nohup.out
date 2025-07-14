@@ -7,14 +7,13 @@ Changes not staged for commit:
 	modified:   logs/latest.log
 	modified:   nohup.out
 	modified:   playit.log
-	deleted:    plugins/spark/tmp-client/spark-1767435acc2-profile-data.jfr.tmp
+	deleted:    plugins/spark/tmp-client/spark-1bc4d98cb55-profile-data.jfr.tmp
 	modified:   world/data/raids.dat
 	modified:   world/entities/r.-1.-1.mca
 	modified:   world/entities/r.0.-1.mca
 	modified:   world/entities/r.0.0.mca
 	modified:   world/level.dat
 	modified:   world/level.dat_old
-	modified:   world/region/r.0.-1.mca
 	modified:   world_nether/DIM-1/data/raids.dat
 	modified:   world_nether/level.dat
 	modified:   world_nether/level.dat_old
@@ -28,6 +27,6 @@ Changes not staged for commit:
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	plugins/spark/tmp-client/spark-1bc4d98cb55-profile-data.jfr.tmp
+	plugins/spark/tmp-client/spark-20226fc20fd-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
