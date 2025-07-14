@@ -1,253 +1,125 @@
-[06:56:06] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
-[06:56:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
-[06:56:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:56:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[06:56:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
- - ConsoleScheduler (1.4.10), UserLogin (2.13.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
-[06:56:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[06:56:12] [ServerMain/INFO]: Loaded 1290 recipes
-[06:56:12] [ServerMain/INFO]: Loaded 1399 advancements
-[06:56:12] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[06:56:12] [Server thread/INFO]: Loading properties
-[06:56:12] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[06:56:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:56:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:56:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:56:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[06:56:14] [Server thread/INFO]: Default game type: SURVIVAL
-[06:56:14] [Server thread/INFO]: Generating keypair
-[06:56:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:56:14] [Server thread/INFO]: Using epoll channel type
-[06:56:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:56:14] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[06:56:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[06:56:15] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
-[06:56:15] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[06:56:15] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[06:56:15] [Server thread/INFO]: [dynmap] version=1.21.1-99-1bc02e6 (MC: 1.21.1)
-[06:56:15] [Server thread/INFO]: [dynmap] Mod Support API available
-[06:56:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:56:15] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[06:56:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:56:15] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[06:56:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:56:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:56:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:56:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:56:15] [Server thread/INFO]: Preparing level "world"
-[06:56:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:56:17] [Server thread/INFO]: Time elapsed: 1000 ms
-[06:56:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:56:17] [Server thread/INFO]: Time elapsed: 234 ms
-[06:56:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:56:17] [Server thread/INFO]: Time elapsed: 99 ms
-[06:56:17] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[06:56:17] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[06:56:17] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[06:56:17] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[06:56:17] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[06:56:17] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[06:56:17] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[06:56:18] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[06:56:18] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
-[06:56:19] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[06:56:21] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[06:56:21] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[06:56:21] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[06:56:21] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[06:56:21] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[06:56:22] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[06:56:22] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
-[06:56:22] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[06:56:22] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[06:56:22] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[06:56:22] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[06:56:22] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[06:56:22] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[06:56:22] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[06:56:22] [Server thread/INFO]: [dynmap] Enabled
-[06:56:22] [Server thread/INFO]: [spark] Starting background profiler...
-[06:56:22] [Server thread/INFO]: Done preparing level "world" (7.379s)
-[06:56:22] [Server thread/INFO]: Starting remote control listener
-[06:56:22] [Server thread/INFO]: Thread RCON Listener started
-[06:56:22] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[06:56:22] [Server thread/INFO]: Running delayed init tasks
-[06:56:22] [Server thread/INFO]: Done (17.718s)! For help, type "help"
-[06:56:22] [Server thread/INFO]: Timings Reset
-[06:56:22] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:56:23] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[06:56:23] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[06:56:23] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[06:56:28] [Server thread/INFO]: No player was found
-[06:56:58] [Server thread/INFO]: No player was found
-[06:56:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[06:56:59] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[06:56:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[06:56:59] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
-[06:56:59] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[06:57:28] [Server thread/INFO]: No player was found
-[06:57:58] [Server thread/INFO]: No player was found
-[06:58:26] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[06:58:26] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[06:58:26] [RCON Client /127.145.222.178 #5/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[06:58:26] [RCON Client /127.145.222.178 #4/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[06:58:28] [Server thread/INFO]: No player was found
-[06:58:58] [Server thread/INFO]: No player was found
-[06:59:01] [RCON Listener #1/INFO]: Thread RCON Client /127.186.226.1 started
-[06:59:28] [Server thread/INFO]: No player was found
-[06:59:58] [Server thread/INFO]: No player was found
-[07:00:28] [Server thread/INFO]: No player was found
-[07:00:58] [Server thread/INFO]: No player was found
-[07:01:28] [Server thread/INFO]: No player was found
-[07:01:58] [Server thread/INFO]: No player was found
-[07:02:21] [RCON Client /127.186.226.1 #6/INFO]: Thread RCON Client /127.186.226.1 shutting down
-[07:02:28] [Server thread/INFO]: No player was found
-[07:02:58] [Server thread/INFO]: No player was found
-[07:03:28] [Server thread/INFO]: No player was found
-[07:03:58] [Server thread/INFO]: No player was found
-[07:04:28] [Server thread/INFO]: No player was found
-[07:04:58] [Server thread/INFO]: No player was found
-[07:05:28] [Server thread/INFO]: No player was found
-[07:05:58] [Server thread/INFO]: No player was found
-[07:06:28] [Server thread/INFO]: No player was found
-[07:06:58] [Server thread/INFO]: No player was found
-[07:07:28] [Server thread/INFO]: No player was found
-[07:07:58] [Server thread/INFO]: No player was found
-[07:08:28] [Server thread/INFO]: No player was found
-[07:08:58] [Server thread/INFO]: No player was found
-[07:09:28] [Server thread/INFO]: No player was found
-[07:09:36] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[07:09:36] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[07:09:36] [RCON Client /127.145.222.178 #8/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[07:09:37] [RCON Client /127.145.222.178 #7/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[07:09:58] [Server thread/INFO]: No player was found
-[07:10:28] [Server thread/INFO]: No player was found
-[07:10:58] [Server thread/INFO]: No player was found
-[07:11:28] [Server thread/INFO]: No player was found
-[07:11:58] [Server thread/INFO]: No player was found
-[07:12:28] [Server thread/INFO]: No player was found
-[07:12:58] [Server thread/INFO]: No player was found
-[07:13:28] [Server thread/INFO]: No player was found
-[07:13:55] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[07:13:55] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[07:13:55] [RCON Client /127.127.143.152 #10/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[07:13:55] [RCON Client /127.127.143.152 #9/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[07:13:58] [Server thread/INFO]: No player was found
-[07:14:28] [Server thread/INFO]: No player was found
-[07:14:58] [Server thread/INFO]: No player was found
-[07:15:12] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[07:15:13] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[07:15:13] [RCON Client /127.145.222.178 #11/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[07:15:13] [RCON Client /127.145.222.178 #12/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[07:15:28] [Server thread/INFO]: No player was found
-[07:15:58] [Server thread/INFO]: No player was found
-[07:16:28] [Server thread/INFO]: No player was found
-[07:16:58] [Server thread/INFO]: No player was found
-[07:17:28] [Server thread/INFO]: No player was found
-[07:17:58] [Server thread/INFO]: No player was found
-[07:18:28] [Server thread/INFO]: No player was found
-[07:18:58] [Server thread/INFO]: No player was found
-[07:19:28] [Server thread/INFO]: No player was found
-[07:19:56] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:19:56] [RCON Listener #1/INFO]: Thread RCON Client /127.234.199.150 started
-[07:19:57] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:19:58] [Server thread/INFO]: No player was found
-[07:19:58] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:19:58] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:19:59] [RCON Listener #1/INFO]: Thread RCON Client /127.234.199.150 started
-[07:19:59] [RCON Client /127.134.178.31 #13/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:00] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:20:00] [RCON Client /127.134.178.31 #15/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:01] [RCON Client /127.134.178.31 #16/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:01] [RCON Client /127.134.178.31 #17/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:01] [RCON Client /127.234.199.150 #18/INFO]: Thread RCON Client /127.234.199.150 shutting down
-[07:20:02] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:20:02] [RCON Listener #1/INFO]: Thread RCON Client /127.234.199.150 started
-[07:20:02] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:20:02] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:20:03] [RCON Client /127.134.178.31 #19/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:05] [RCON Client /127.234.199.150 #21/INFO]: Thread RCON Client /127.234.199.150 shutting down
-[07:20:05] [RCON Client /127.134.178.31 #20/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:05] [RCON Client /127.134.178.31 #22/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:05] [RCON Client /127.134.178.31 #23/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:06] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:20:09] [RCON Client /127.134.178.31 #24/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:09] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:20:12] [RCON Client /127.134.178.31 #25/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:12] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[07:20:15] [RCON Client /127.134.178.31 #26/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[07:20:19] [RCON Client /127.234.199.150 #14/INFO]: Thread RCON Client /127.234.199.150 shutting down
-[07:20:28] [Server thread/INFO]: No player was found
-[07:20:48] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[07:20:48] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[07:20:48] [RCON Client /127.145.222.178 #28/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[07:20:48] [RCON Client /127.145.222.178 #27/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[07:20:51] [User Authenticator #0/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[07:20:54] [Server thread/INFO]: mokshraj[/127.156.219.226:37835] logged in with entity id 16 at ([world]16.0, 72.0, 16.0)
-[07:20:58] [Server thread/INFO]: No player was found
-[07:21:28] [Server thread/INFO]: No player was found
-[07:21:42] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[07:21:58] [Server thread/INFO]: No player was found
-[07:22:11] [Server thread/INFO]: mokshraj lost connection: Disconnected
-[07:22:11] [Server thread/INFO]: mokshraj left the game
-[07:22:28] [Server thread/INFO]: No player was found
-[07:22:49] [User Authenticator #1/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[07:22:52] [Server thread/INFO]: mokshraj[/10.9.0.1:44280] logged in with entity id 634 at ([world]16.0, 72.0, 16.0)
-[07:22:58] [Server thread/INFO]: No player was found
-[07:22:59] [Server thread/INFO]: mokshraj issued server command: /lo
-[07:23:28] [Server thread/INFO]: No player was found
-[07:23:58] [Server thread/INFO]: No player was found
-[07:24:06] [Server thread/INFO]: mokshraj lost connection: Disconnected
-[07:24:06] [Server thread/INFO]: mokshraj left the game
-[07:24:13] [User Authenticator #2/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[07:24:18] [Server thread/INFO]: mokshraj[/10.9.0.1:34114] logged in with entity id 1291 at ([world]16.0, 72.0, 16.0)
-[07:24:28] [Server thread/INFO]: No player was found
-[07:24:37] [Server thread/INFO]: mokshraj issued server command: /ga
-[07:24:44] [Server thread/INFO]: mokshraj issued server command: /gamemode survival
-[07:24:44] [Server thread/INFO]: [mokshraj: Set own game mode to Survival Mode]
-[07:24:58] [Server thread/INFO]: No player was found
-[07:25:05] [Server thread/INFO]: mokshraj lost connection: Disconnected
-[07:25:05] [Server thread/INFO]: mokshraj left the game
-[07:25:08] [User Authenticator #2/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[07:25:11] [Server thread/INFO]: mokshraj[/10.9.0.1:50822] logged in with entity id 1591 at ([world]16.0, 72.0, 16.0)
-[07:25:28] [Server thread/INFO]: No player was found
-[07:25:43] [Server thread/INFO]: mokshraj lost connection: Disconnected
-[07:25:43] [Server thread/INFO]: mokshraj left the game
-[07:25:46] [User Authenticator #2/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[07:25:47] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[07:25:47] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[07:25:47] [RCON Client /127.127.143.152 #30/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[07:25:47] [RCON Client /127.127.143.152 #29/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[07:25:48] [Server thread/INFO]: mokshraj[/10.9.0.1:51914] logged in with entity id 1712 at ([world]16.0, 72.0, 16.0)
-[07:25:58] [Server thread/INFO]: No player was found
-[07:26:28] [Server thread/INFO]: No player was found
-[07:26:31] [Server thread/INFO]: mokshraj lost connection: Disconnected
-[07:26:31] [Server thread/INFO]: mokshraj left the game
-[07:26:33] [User Authenticator #2/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[07:26:36] [Server thread/INFO]: mokshraj[/10.9.0.1:45794] logged in with entity id 1866 at ([world]16.0, 72.0, 16.0)
-[07:26:39] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[07:26:39] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[07:26:40] [RCON Client /127.116.117.187 #32/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[07:26:40] [RCON Client /127.116.117.187 #31/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[07:26:58] [Server thread/INFO]: No player was found
-[07:27:28] [Server thread/INFO]: No player was found
-[07:27:58] [Server thread/INFO]: No player was found
-[07:28:28] [Server thread/INFO]: No player was found
-[07:28:46] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
-[07:28:55] [RCON Client /127.203.71.151 #33/INFO]: Thread RCON Client /127.203.71.151 shutting down
-[07:28:55] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
-[07:28:58] [Server thread/INFO]: No player was found
-[07:28:59] [RCON Client /127.203.71.151 #34/INFO]: Thread RCON Client /127.203.71.151 shutting down
-[07:29:28] [Server thread/INFO]: No player was found
-[07:29:58] [Server thread/INFO]: No player was found
-[07:30:28] [Server thread/INFO]: No player was found
-[07:30:58] [Server thread/INFO]: No player was found
-[07:30:58] [RCON Listener #1/INFO]: Thread RCON Client /127.225.62.128 started
+[07:38:05] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
+[07:38:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
+[07:38:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:38:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlugManX-2.4.1.jar'...
+[07:38:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlugManX-2.4.1.jar' in 1128ms.
+[07:38:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[07:38:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - ConsoleScheduler (1.4.10), PlugManX (2.4.1), UserLogin (2.13.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
+[07:38:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:38:13] [ServerMain/INFO]: Loaded 1290 recipes
+[07:38:13] [ServerMain/INFO]: Loaded 1399 advancements
+[07:38:13] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[07:38:13] [Server thread/INFO]: Loading properties
+[07:38:13] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[07:38:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:38:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:38:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:38:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[07:38:15] [Server thread/INFO]: Default game type: SURVIVAL
+[07:38:15] [Server thread/INFO]: Generating keypair
+[07:38:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:38:15] [Server thread/INFO]: Using epoll channel type
+[07:38:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:38:15] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:38:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:38:15] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
+[07:38:15] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[07:38:15] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[07:38:15] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[07:38:15] [Server thread/INFO]: [dynmap] version=1.21.1-99-1bc02e6 (MC: 1.21.1)
+[07:38:15] [Server thread/INFO]: [dynmap] Mod Support API available
+[07:38:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:38:15] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:38:16] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:38:16] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:38:16] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[07:38:16] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[07:38:16] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[07:38:16] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[07:38:16] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[07:38:16] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[07:38:16] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[07:38:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:38:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:38:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:38:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:38:16] [Server thread/INFO]: Preparing level "world"
+[07:38:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:38:17] [Server thread/INFO]: Time elapsed: 1018 ms
+[07:38:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:38:18] [Server thread/INFO]: Time elapsed: 205 ms
+[07:38:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:38:18] [Server thread/INFO]: Time elapsed: 129 ms
+[07:38:18] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[07:38:18] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[07:38:18] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[07:38:18] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[07:38:18] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[07:38:18] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[07:38:18] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[07:38:18] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[07:38:19] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
+[07:38:19] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[07:38:22] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[07:38:22] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[07:38:22] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[07:38:22] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[07:38:22] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[07:38:23] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[07:38:23] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[07:38:23] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[07:38:23] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[07:38:23] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[07:38:23] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[07:38:23] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[07:38:23] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[07:38:23] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[07:38:23] [Server thread/INFO]: [dynmap] Enabled
+[07:38:23] [Server thread/INFO]: [spark] Starting background profiler...
+[07:38:23] [Server thread/INFO]: Done preparing level "world" (7.188s)
+[07:38:23] [Server thread/INFO]: Starting remote control listener
+[07:38:23] [Server thread/INFO]: Thread RCON Listener started
+[07:38:23] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[07:38:23] [Server thread/INFO]: Running delayed init tasks
+[07:38:23] [Server thread/INFO]: Done (19.051s)! For help, type "help"
+[07:38:23] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:38:23] [Server thread/INFO]: Timings Reset
+[07:38:23] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[07:38:23] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[07:38:24] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
+[07:38:29] [Server thread/INFO]: No player was found
+[07:38:42] [RCON Listener #1/INFO]: Thread RCON Client /127.225.62.128 started
+[07:38:59] [Server thread/INFO]: No player was found
+[07:38:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:38:59] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:38:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[07:38:59] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
+[07:38:59] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[07:39:29] [Server thread/INFO]: No player was found
+[07:39:42] [RCON Client /127.225.62.128 #2/INFO]: Thread RCON Client /127.225.62.128 shutting down
+[07:39:48] [RCON Listener #1/INFO]: Thread RCON Client /127.225.62.128 started
+[07:39:59] [Server thread/INFO]: No player was found
+[07:40:03] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
+[07:40:29] [Server thread/INFO]: No player was found
+[07:40:54] [User Authenticator #0/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
+[07:40:58] [Server thread/INFO]: mokshraj joined the game
+[07:40:58] [Server thread/INFO]: mokshraj[/10.9.0.1:55140] logged in with entity id 63 at ([world]-29.665238761026757, 63.0, 19.29980322067507)
+[07:40:59] [Server thread/INFO]: No player was found
+[07:41:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6cb1a958-4e18-40d6-9d67-39fafb39b37e, mapped to Bat['Bat'/149, uuid='6cb1a958-4e18-40d6-9d67-39fafb39b37e', l='ServerLevel[world]', x=112.56, y=-4.92, z=31.79, cpos=[7, 1], tl=718, v=true], can't add Bat['Bat'/164, uuid='6cb1a958-4e18-40d6-9d67-39fafb39b37e', l='ServerLevel[world]', x=112.47, y=-4.63, z=32.62, cpos=[7, 2], tl=725, v=false]
+[07:41:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2a44a2ce-1d39-464b-bd4a-0a7b7aa40c5c, mapped to Frog['Frog'/187, uuid='2a44a2ce-1d39-464b-bd4a-0a7b7aa40c5c', l='ServerLevel[world]', x=-79.40, y=64.00, z=163.76, cpos=[-5, 10], tl=20213, v=true], can't add Frog['Frog'/196, uuid='2a44a2ce-1d39-464b-bd4a-0a7b7aa40c5c', l='ServerLevel[world]', x=-84.89, y=65.00, z=165.14, cpos=[-6, 10], tl=14385, v=false]
+[07:41:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 61e64577-58c4-4425-b849-fb71d2c48c54, mapped to Turtle['Turtle'/256, uuid='61e64577-58c4-4425-b849-fb71d2c48c54', l='ServerLevel[world]', x=47.73, y=51.54, z=-223.30, cpos=[2, -14], tl=17753, v=true], can't add Turtle['Turtle'/263, uuid='61e64577-58c4-4425-b849-fb71d2c48c54', l='ServerLevel[world]', x=65.44, y=53.00, z=-193.28, cpos=[4, -13], tl=13868, v=false]
+[07:41:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 61e64577-58c4-4425-b849-fb71d2c48c54, mapped to Turtle['Turtle'/256, uuid='61e64577-58c4-4425-b849-fb71d2c48c54', l='ServerLevel[world]', x=47.73, y=51.54, z=-223.30, cpos=[2, -14], tl=17753, v=true], can't add Turtle['Turtle'/267, uuid='61e64577-58c4-4425-b849-fb71d2c48c54', l='ServerLevel[world]', x=48.36, y=51.60, z=-222.35, cpos=[3, -14], tl=17772, v=false]
+[07:41:07] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e5d9932e-71a5-47ba-a302-503286d4b960, mapped to Turtle['Turtle'/275, uuid='e5d9932e-71a5-47ba-a302-503286d4b960', l='ServerLevel[world]', x=79.76, y=59.00, z=-223.11, cpos=[4, -14], tl=14946, v=true], can't add Turtle['Turtle'/289, uuid='e5d9932e-71a5-47ba-a302-503286d4b960', l='ServerLevel[world]', x=80.34, y=59.00, z=-221.55, cpos=[5, -14], tl=14963, v=false]
+[07:41:09] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 07cf837c-9ace-4cf0-8477-d637495cd209, mapped to Turtle['Turtle'/270, uuid='07cf837c-9ace-4cf0-8477-d637495cd209', l='ServerLevel[world]', x=-130.50, y=58.00, z=-198.92, cpos=[-9, -13], tl=16533, v=true], can't add Turtle['Turtle'/302, uuid='07cf837c-9ace-4cf0-8477-d637495cd209', l='ServerLevel[world]', x=-166.28, y=56.40, z=-224.33, cpos=[-11, -15], tl=20404, v=false]
+[07:41:29] [Server thread/INFO]: No player was found
+[07:41:59] [Server thread/INFO]: No player was found
+[07:42:01] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack

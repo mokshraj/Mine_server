@@ -2,8 +2,66 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
 	modified:   nohup.out
+	modified:   openvpn.log
+	modified:   openvpn.pid
+	modified:   playit.log
+	modified:   plugins/.paper-remapped/index.json
+	modified:   plugins/dynmap/web/tiles/_markers_/marker_world.json
+	modified:   plugins/dynmap/web/tiles/_markers_/marker_world_nether.json
+	modified:   plugins/dynmap/web/tiles/_markers_/marker_world_the_end.json
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/-1_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-1_1.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-1_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-1_3.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_1.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_3.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-3_3.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/z_-2_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/z_-2_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/z_-4_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct_-1_-1.hash
+	modified:   plugins/dynmap/web/tiles/world/ct_-1_0.hash
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/z_-6_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat_-1_0.hash
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_13.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-8_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-8_13.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-14_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t_-1_0.hash
+	deleted:    plugins/spark/tmp-client/spark-170c37ba01-libasyncProfiler.so.tmp
+	deleted:    plugins/spark/tmp-client/spark-1f20db35135-profile-data.jfr.tmp
+	modified:   server.properties
+	modified:   usercache.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/2025-07-14-2.log.gz
+	plugins/.paper-remapped/PlugManX-2.4.1.jar
+	plugins/PlugManX/
+	plugins/dynmap/web/tiles/world/ct/-1_0/-3_4.jpg
+	plugins/dynmap/web/tiles/world/ct/-1_0/-4_3.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_0/-5_0.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-10_13.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-11_13.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-12_13.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-14_13.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-8_7.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-9_13.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-10_14.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-12_14.jpg
+	plugins/spark/tmp-client/spark-272775c7bc-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-5f0ebe5de5-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
