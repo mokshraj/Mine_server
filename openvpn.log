@@ -21,3 +21,53 @@
 2025-07-14 18:51:44 TCP connection established with [AF_INET]193.161.193.99:1194
 2025-07-14 18:51:44 TCPv4_CLIENT link local: (not bound)
 2025-07-14 18:51:44 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 18:52:44 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-07-14 18:52:44 TLS Error: TLS handshake failed
+2025-07-14 18:52:44 Fatal TLS error (check_tls_errors_co), restarting
+2025-07-14 18:52:44 SIGUSR1[soft,tls-error] received, process restarting
+2025-07-14 18:52:45 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 18:52:45 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 18:52:45 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 18:52:45 TCPv4_CLIENT link local: (not bound)
+2025-07-14 18:52:45 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:45 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-07-14 18:53:45 TLS Error: TLS handshake failed
+2025-07-14 18:53:45 Fatal TLS error (check_tls_errors_co), restarting
+2025-07-14 18:53:45 SIGUSR1[soft,tls-error] received, process restarting
+2025-07-14 18:53:46 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:46 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:46 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:46 TCPv4_CLIENT link local: (not bound)
+2025-07-14 18:53:46 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:56 Connection reset, restarting [-1]
+2025-07-14 18:53:56 SIGUSR1[soft,connection-reset] received, process restarting
+2025-07-14 18:53:57 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:57 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:57 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 18:53:57 TCPv4_CLIENT link local: (not bound)
+2025-07-14 18:53:57 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 18:54:07 Connection reset, restarting [-1]
+2025-07-14 18:54:07 SIGUSR1[soft,connection-reset] received, process restarting
+2025-07-14 18:54:08 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 18:54:08 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 18:54:08 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 18:54:08 TCPv4_CLIENT link local: (not bound)
+2025-07-14 18:54:08 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 18:55:08 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-07-14 18:55:08 TLS Error: TLS handshake failed
+2025-07-14 18:55:08 Fatal TLS error (check_tls_errors_co), restarting
+2025-07-14 18:55:08 SIGUSR1[soft,tls-error] received, process restarting
+2025-07-14 18:55:09 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 18:55:09 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 18:55:12 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 18:55:12 TCPv4_CLIENT link local: (not bound)
+2025-07-14 18:55:12 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 18:56:12 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-07-14 18:56:12 TLS Error: TLS handshake failed
+2025-07-14 18:56:12 Fatal TLS error (check_tls_errors_co), restarting
+2025-07-14 18:56:12 SIGUSR1[soft,tls-error] received, process restarting
+2025-07-14 18:56:14 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 18:56:14 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 18:56:15 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 18:56:15 TCPv4_CLIENT link local: (not bound)
+2025-07-14 18:56:15 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
