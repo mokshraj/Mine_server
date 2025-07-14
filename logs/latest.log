@@ -903,3 +903,57 @@
 [22:41:49] [Server thread/INFO]: No player was found
 [22:42:14] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 5 minutes
 [22:42:19] [Server thread/INFO]: No player was found
+[22:42:49] [Server thread/INFO]: No player was found
+[22:42:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[22:42:50] [RCON Client /127.0.0.1 #110/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[22:43:14] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[22:43:14] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[22:43:14] [RCON Client /127.145.222.178 #112/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[22:43:14] [RCON Client /127.145.222.178 #111/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[22:43:19] [Server thread/INFO]: No player was found
+[22:43:49] [Server thread/INFO]: No player was found
+[22:44:14] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 3 minutes
+[22:44:19] [Server thread/INFO]: No player was found
+[22:44:49] [Server thread/INFO]: No player was found
+[22:44:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[22:44:50] [RCON Client /127.0.0.1 #113/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[22:45:19] [Server thread/INFO]: No player was found
+[22:45:49] [Server thread/INFO]: No player was found
+[22:46:14] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 1 minutes
+[22:46:19] [Server thread/INFO]: No player was found
+[22:46:44] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 30 seconds
+[22:46:49] [Server thread/INFO]: No player was found
+[22:46:50] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[22:46:50] [RCON Client /127.0.0.1 #114/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[22:47:14] [Server thread/INFO]: Stopping the server
+[22:47:14] [Server thread/INFO]: Stopping server
+[22:47:14] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
+[22:47:14] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[22:47:14] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[22:47:15] [Server thread/INFO]: [dynmap] Disabled
+[22:47:15] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[22:47:15] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[22:47:15] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[22:47:15] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
+[22:47:15] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:47:15] [Server thread/INFO]: Saving players
+[22:47:15] [Server thread/INFO]: Saving worlds
+[22:47:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 13 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[22:47:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:47:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:47:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:47:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:47:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:47:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:47:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
