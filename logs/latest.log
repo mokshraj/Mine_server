@@ -1018,3 +1018,52 @@
 [12:32:59] [Server thread/INFO]: No player was found
 [12:33:24] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 5 minutes
 [12:33:29] [Server thread/INFO]: No player was found
+[12:33:59] [Server thread/INFO]: No player was found
+[12:33:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:33:59] [RCON Client /127.0.0.1 #146/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:34:24] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[12:34:25] [RCON Client /127.145.222.178 #147/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[12:34:25] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[12:34:25] [RCON Client /127.145.222.178 #148/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[12:34:29] [Server thread/INFO]: No player was found
+[12:34:59] [Server thread/INFO]: No player was found
+[12:35:24] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 3 minutes
+[12:35:29] [Server thread/INFO]: No player was found
+[12:35:59] [Server thread/INFO]: No player was found
+[12:35:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:35:59] [RCON Client /127.0.0.1 #149/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:36:29] [Server thread/INFO]: No player was found
+[12:36:59] [Server thread/INFO]: No player was found
+[12:37:24] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 1 minutes
+[12:37:29] [Server thread/INFO]: No player was found
+[12:37:54] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 30 seconds
+[12:37:59] [Server thread/INFO]: No player was found
+[12:37:59] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:37:59] [RCON Client /127.0.0.1 #150/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:38:24] [Server thread/INFO]: Stopping the server
+[12:38:24] [Server thread/INFO]: Stopping server
+[12:38:24] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[12:38:24] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[12:38:24] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[12:38:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:38:24] [Server thread/INFO]: Saving players
+[12:38:24] [Server thread/INFO]: Saving worlds
+[12:38:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 135 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[12:38:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:38:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:38:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:38:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:38:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:38:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:38:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
