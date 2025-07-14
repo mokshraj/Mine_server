@@ -7,10 +7,223 @@ Changes not staged for commit:
 	modified:   logs/latest.log
 	modified:   nohup.out
 	modified:   playit.log
-	deleted:    plugins/spark/tmp-client/spark-1665aa3767d-profile-data.jfr.tmp
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/-1_-1.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/-1_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/-2_-1.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/-3_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/-3_-3.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/z_-2_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_-1/z_-4_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-1_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-1_1.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-1_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_1.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_3.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/-2_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/z_-2_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/z_-2_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/z_-2_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/z_-4_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zz_-4_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zz_-4_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zz_-4_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zzz_-8_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zzz_-8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zzzz_-16_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zzzz_-16_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_0/zzzzz_-32_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/-1_1/zzzzz_-32_32.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_-1/1_-1.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_-1/z_0_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_-1/z_2_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/1_3.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/2_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/3_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/z_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/z_0_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/z_0_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/z_2_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/zz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/zz_0_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/zzz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/zzz_0_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/zzzz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/zzzz_0_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_0/zzzzz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct/0_1/zzzzz_0_32.jpg
+	modified:   plugins/dynmap/web/tiles/world/ct_-1_-1.hash
+	modified:   plugins/dynmap/web/tiles/world/ct_-1_0.hash
+	modified:   plugins/dynmap/web/tiles/world/ct_-1_1.hash
+	modified:   plugins/dynmap/web/tiles/world/ct_0_-1.hash
+	modified:   plugins/dynmap/web/tiles/world/ct_0_0.hash
+	modified:   plugins/dynmap/web/tiles/world/ct_0_1.hash
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_-1/z_-4_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/z_-2_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/zz_-4_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/zz_-8_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/zzz_-8_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/zzz_-8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/zzzz_-16_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/zzzz_-16_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_0/zzzzz_-32_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/-1_1/zzzzz_-32_32.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_-1/0_-1.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_-1/0_-5.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_-1/z_0_-2.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_-1/z_0_-4.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_-1/zz_0_-4.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/2_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/3_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/z_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/z_0_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/z_2_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/z_2_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/zz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/zz_0_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/zzz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/zzz_0_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/zzzz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/zzzz_0_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_0/zzzzz_0_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat/0_1/zzzzz_0_32.jpg
+	modified:   plugins/dynmap/web/tiles/world/flat_-1_-1.hash
+	modified:   plugins/dynmap/web/tiles/world/flat_-1_0.hash
+	modified:   plugins/dynmap/web/tiles/world/flat_-1_1.hash
+	modified:   plugins/dynmap/web/tiles/world/flat_0_-1.hash
+	modified:   plugins/dynmap/web/tiles/world/flat_0_0.hash
+	modified:   plugins/dynmap/web/tiles/world/flat_0_1.hash
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-14_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-1_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-2_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-2_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-2_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-3_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-3_13.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-3_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-3_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-3_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-4_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-4_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-4_13.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-4_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-4_7.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-4_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-4_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-5_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-5_11.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-5_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-5_13.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-5_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-5_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-6_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-6_11.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-6_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-6_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-6_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_13.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-7_9.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/-8_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-10_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-14_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-2_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-2_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-2_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-4_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-4_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-4_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-4_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-6_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-6_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-6_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-6_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_10.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_14.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/z_-8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-12_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-12_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-16_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-4_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-4_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-4_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-4_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-8_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-8_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-8_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zz_-8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzz_-16_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzz_-16_24.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzz_-16_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzz_-8_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzz_-8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzzz_-16_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzzz_-16_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_0/zzzzz_-32_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_1/zzzz_-16_32.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-1_1/zzzzz_-32_32.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-2_0/zzzzzz_-64_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-2_2/zzzzzz_-64_64.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-4_0/zzzzzzz_-128_0.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/-4_4/zzzzzzz_-128_128.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/15_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/3_11.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/3_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/4_11.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/4_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/5_11.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/5_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/6_11.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/6_3.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/7_11.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/9_5.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_10_2.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_10_6.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_14_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_2_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_4_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_6_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_6_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_8_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/z_8_6.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_0_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_0_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_12_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_12_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_4_12.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_4_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_8_4.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zz_8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zzz_0_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zzz_0_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zzz_8_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zzz_8_8.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_0/zzzz_0_16.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_1/zzzzz_0_32.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_2/zzzzzz_0_64.jpg
+	modified:   plugins/dynmap/web/tiles/world/t/0_4/zzzzzzz_0_128.jpg
+	modified:   plugins/dynmap/web/tiles/world/t_-1_-1.hash
+	modified:   plugins/dynmap/web/tiles/world/t_-1_0.hash
+	modified:   plugins/dynmap/web/tiles/world/t_-1_1.hash
+	modified:   plugins/dynmap/web/tiles/world/t_-2_0.hash
+	modified:   plugins/dynmap/web/tiles/world/t_-2_2.hash
+	modified:   plugins/dynmap/web/tiles/world/t_-4_0.hash
+	modified:   plugins/dynmap/web/tiles/world/t_-4_4.hash
+	modified:   plugins/dynmap/web/tiles/world/t_0_-1.hash
+	modified:   plugins/dynmap/web/tiles/world/t_0_0.hash
+	modified:   plugins/dynmap/web/tiles/world/t_0_1.hash
+	modified:   plugins/dynmap/web/tiles/world/t_0_2.hash
+	modified:   plugins/dynmap/web/tiles/world/t_0_4.hash
+	deleted:    plugins/spark/tmp-client/spark-1ac34368322-profile-data.jfr.tmp
 	modified:   usercache.json
-	modified:   world/advancements/1bbe5837-f29b-3783-b784-3b340a293b7b.json
 	modified:   world/data/raids.dat
+	modified:   world/data/random_sequences.dat
 	modified:   world/entities/r.-1.-1.mca
 	modified:   world/entities/r.-1.0.mca
 	modified:   world/entities/r.0.-1.mca
@@ -19,6 +232,7 @@ Changes not staged for commit:
 	modified:   world/level.dat_old
 	modified:   world/playerdata/1bbe5837-f29b-3783-b784-3b340a293b7b.dat
 	modified:   world/playerdata/1bbe5837-f29b-3783-b784-3b340a293b7b.dat_old
+	modified:   world/poi/r.0.0.mca
 	modified:   world/region/r.-1.-1.mca
 	modified:   world/region/r.-1.0.mca
 	modified:   world/region/r.0.-1.mca
@@ -37,8 +251,174 @@ Changes not staged for commit:
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	plugins/dynmap/web/tiles/faces/
-	plugins/dynmap/web/tiles/world/
-	plugins/spark/tmp-client/spark-1ac34368322-profile-data.jfr.tmp
+	plugins/dynmap/web/tiles/world/ct/-1_-1/-2_-2.jpg
+	plugins/dynmap/web/tiles/world/ct/-1_-1/-4_-3.jpg
+	plugins/dynmap/web/tiles/world/ct/-1_0/-3_1.jpg
+	plugins/dynmap/web/tiles/world/ct/-1_0/-3_2.jpg
+	plugins/dynmap/web/tiles/world/ct/-1_0/zz_-4_12.jpg
+	plugins/dynmap/web/tiles/world/ct/-1_0/zz_-4_16.jpg
+	plugins/dynmap/web/tiles/world/ct/-1_0/zzz_-8_16.jpg
+	plugins/dynmap/web/tiles/world/ct/0_-1/0_-1.jpg
+	plugins/dynmap/web/tiles/world/ct/0_-1/0_-2.jpg
+	plugins/dynmap/web/tiles/world/ct/0_-1/2_-1.jpg
+	plugins/dynmap/web/tiles/world/ct/0_-1/2_-3.jpg
+	plugins/dynmap/web/tiles/world/ct/0_-1/3_-1.jpg
+	plugins/dynmap/web/tiles/world/ct/0_-1/3_-2.jpg
+	plugins/dynmap/web/tiles/world/ct/0_0/1_0.jpg
+	plugins/dynmap/web/tiles/world/ct/0_0/1_2.jpg
+	plugins/dynmap/web/tiles/world/ct/0_0/2_3.jpg
+	plugins/dynmap/web/tiles/world/ct/0_0/z_2_4.jpg
+	plugins/dynmap/web/tiles/world/ct/0_0/zz_0_8.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_-1/-1_-1.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_-1/-1_-5.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_-1/-3_-2.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_-1/z_-2_-4.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_-1/zz_-4_-4.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_0/zz_-4_8.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_0/zz_-8_0.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_0/zz_-8_8.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_0/zzz_-16_16.jpg
+	plugins/dynmap/web/tiles/world/flat/-1_0/zzz_-16_8.jpg
+	plugins/dynmap/web/tiles/world/flat/0_-1/0_-3.jpg
+	plugins/dynmap/web/tiles/world/flat/0_-1/1_-3.jpg
+	plugins/dynmap/web/tiles/world/flat/0_-1/3_-1.jpg
+	plugins/dynmap/web/tiles/world/flat/0_0/1_1.jpg
+	plugins/dynmap/web/tiles/world/flat/0_0/3_1.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/-14_-10.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/-4_-3.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/-4_-5.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/-4_-6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/-5_-5.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/-5_-6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/z_-14_-10.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/z_-4_-2.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/z_-4_-4.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/z_-4_-6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/z_-6_-4.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/z_-6_-6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/zz_-16_-8.jpg
+	plugins/dynmap/web/tiles/world/t/-1_-1/zzz_-16_-8.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-12_9.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-13_9.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-1_10.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-1_12.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-1_13.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-1_2.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-1_6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-2_12.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-3_11.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-3_12.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-3_3.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-3_6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-3_7.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-4_11.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-6_13.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-7_4.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-8_3.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-8_9.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-9_3.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/-9_9.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-10_10.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-12_10.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-14_10.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-2_12.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-2_14.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-2_22.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-2_6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-4_16.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-4_4.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-4_6.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-6_16.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-6_22.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-6_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-6_26.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/z_-6_28.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-12_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-16_12.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-16_16.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-16_20.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-16_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-16_28.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-20_16.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-20_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-20_28.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-4_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-8_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zz_-8_28.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zzz_-24_16.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zzz_-24_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zzz_-24_8.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zzz_-8_0.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zzz_-8_24.jpg
+	plugins/dynmap/web/tiles/world/t/-1_0/zzzz_-32_16.jpg
+	plugins/dynmap/web/tiles/world/t/-1_1/zz_-8_32.jpg
+	plugins/dynmap/web/tiles/world/t/-1_1/zzz_-16_32.jpg
+	plugins/dynmap/web/tiles/world/t/-1_1/zzz_-24_32.jpg
+	plugins/dynmap/web/tiles/world/t/-1_1/zzz_-8_32.jpg
+	plugins/dynmap/web/tiles/world/t/-1_1/zzzz_-32_32.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/10_-4.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/10_-5.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/8_-8.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/8_-9.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/9_-4.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/9_-5.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/z_10_-4.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/z_8_-4.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/z_8_-8.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/zz_8_-4.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/zz_8_-8.jpg
+	plugins/dynmap/web/tiles/world/t/0_-1/zzz_8_-8.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/0_2.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/0_6.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/10_1.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/11_5.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/12_1.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/12_3.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/12_4.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/13_2.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/13_3.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/13_5.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/14_3.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/14_4.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/4_3.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/5_20.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/5_3.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/5_4.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/8_11.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/8_12.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/9_3.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_14.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_16.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_18.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_2.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_20.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_22.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_24.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_0_6.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_12_2.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_12_4.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_12_6.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_2_14.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_2_18.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_4_20.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_4_4.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/z_8_12.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zz_0_16.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zz_0_20.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zz_0_24.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zz_0_4.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zz_4_20.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zz_8_12.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzz_0_0.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzz_0_24.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzz_16_8.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzz_8_0.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzzz_0_0.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzzz_16_16.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzzzz_0_0.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzzzzz_0_0.jpg
+	plugins/dynmap/web/tiles/world/t/0_0/zzzzzzz_0_0.jpg
+	plugins/dynmap/web/tiles/world/t/0_1/zzzz_0_32.jpg
+	plugins/spark/tmp-client/spark-1f20db35135-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
