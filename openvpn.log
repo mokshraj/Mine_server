@@ -13,3 +13,52 @@
 2025-07-14 12:42:31 net_iface_up: set tun0 up
 2025-07-14 12:42:31 net_addr_ptp_v4_add: 10.9.15.174 peer 10.9.15.173 dev tun0
 2025-07-14 12:42:31 Initialization Sequence Completed
+2025-07-14 15:38:30 [193.161.193.99] Inactivity timeout (--ping-restart), restarting
+2025-07-14 15:38:30 net_addr_ptp_v4_del: 10.9.15.174 dev tun0
+2025-07-14 15:38:30 SIGUSR1[soft,ping-restart] received, process restarting
+2025-07-14 15:38:31 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 15:38:31 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 15:38:31 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 15:38:31 TCPv4_CLIENT link local: (not bound)
+2025-07-14 15:38:31 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:31 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-07-14 15:39:31 TLS Error: TLS handshake failed
+2025-07-14 15:39:31 Fatal TLS error (check_tls_errors_co), restarting
+2025-07-14 15:39:31 SIGUSR1[soft,tls-error] received, process restarting
+2025-07-14 15:39:32 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:32 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:32 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:32 TCPv4_CLIENT link local: (not bound)
+2025-07-14 15:39:32 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:44 Connection reset, restarting [-1]
+2025-07-14 15:39:44 SIGUSR1[soft,connection-reset] received, process restarting
+2025-07-14 15:39:45 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:45 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:46 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:46 TCPv4_CLIENT link local: (not bound)
+2025-07-14 15:39:46 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:58 Connection reset, restarting [-1]
+2025-07-14 15:39:58 SIGUSR1[soft,connection-reset] received, process restarting
+2025-07-14 15:39:59 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:59 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:59 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 15:39:59 TCPv4_CLIENT link local: (not bound)
+2025-07-14 15:39:59 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 15:40:59 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-07-14 15:40:59 TLS Error: TLS handshake failed
+2025-07-14 15:40:59 Fatal TLS error (check_tls_errors_co), restarting
+2025-07-14 15:40:59 SIGUSR1[soft,tls-error] received, process restarting
+2025-07-14 15:41:00 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 15:41:00 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 15:41:00 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 15:41:00 TCPv4_CLIENT link local: (not bound)
+2025-07-14 15:41:00 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-14 15:42:00 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-07-14 15:42:00 TLS Error: TLS handshake failed
+2025-07-14 15:42:00 Fatal TLS error (check_tls_errors_co), restarting
+2025-07-14 15:42:00 SIGUSR1[soft,tls-error] received, process restarting
+2025-07-14 15:42:01 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-14 15:42:01 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-14 15:42:06 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-14 15:42:06 TCPv4_CLIENT link local: (not bound)
+2025-07-14 15:42:06 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
