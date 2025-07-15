@@ -4,106 +4,45 @@ Your branch is up to date with 'origin/master'.
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   bukkit.yml
-	modified:   commands.yml
-	modified:   config/paper-global.yml
-	modified:   config/paper-world-defaults.yml
-	modified:   help.yml
 	modified:   logs/latest.log
 	modified:   nohup.out
 	modified:   playit.log
-	deleted:    playit.toml
-	modified:   plugins/.paper-remapped/Dynmap-3.7-beta-8-spigot.jar
-	modified:   plugins/.paper-remapped/extra-plugins/index.json
-	modified:   plugins/.paper-remapped/index.json
-	modified:   plugins/.paper-remapped/libraries/index.json
-	deleted:    plugins/.paper-remapped/mappings/reversed/010FE8BCDC6A3160FFBD239CB42A8ABD169422673B498E855B5357C6F029D4DA.tiny
-	deleted:    plugins/.paper-remapped/remap-classpath/010FE8BCDC6A3160FFBD239CB42A8ABD169422673B498E855B5357C6F029D4DA.jar
-	modified:   plugins/.paper-remapped/unknown-origin/index.json
-	deleted:    plugins/spark/tmp-client/spark-1944506b79-libasyncProfiler.so.tmp
-	deleted:    plugins/spark/tmp-client/spark-1ae6cabdf8f-profile-data.jfr.tmp
-	modified:   server.properties
-	modified:   spigot.yml
-	modified:   version_history.json
-	modified:   world/datapacks/bukkit/pack.mcmeta
-	modified:   world/paper-world.yml
-	modified:   world_nether/paper-world.yml
-	modified:   world_the_end/paper-world.yml
+	deleted:    plugins/spark/tmp-client/spark-94b9aaaab9-profile-data.jfr.tmp
+	modified:   world/data/raids.dat
+	modified:   world/entities/r.-1.-1.mca
+	modified:   world/entities/r.0.-1.mca
+	modified:   world/entities/r.0.0.mca
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.0.-1.mca
+	modified:   world/region/r.0.0.mca
+	modified:   world_nether/DIM-1/data/raids.dat
+	modified:   world_nether/DIM-1/region/r.-1.-1.mca
+	modified:   world_nether/DIM-1/region/r.-1.0.mca
+	modified:   world_nether/DIM-1/region/r.0.-1.mca
+	modified:   world_nether/DIM-1/region/r.0.0.mca
+	modified:   world_nether/level.dat
+	modified:   world_nether/level.dat_old
+	modified:   world_the_end/DIM1/data/raids_end.dat
+	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
+	modified:   world_the_end/DIM1/entities/r.-1.0.mca
+	modified:   world_the_end/DIM1/entities/r.0.-1.mca
+	modified:   world_the_end/DIM1/entities/r.0.0.mca
+	modified:   world_the_end/DIM1/region/r.-1.-1.mca
+	modified:   world_the_end/DIM1/region/r.-1.0.mca
+	modified:   world_the_end/DIM1/region/r.0.-1.mca
+	modified:   world_the_end/DIM1/region/r.0.0.mca
+	modified:   world_the_end/level.dat
+	modified:   world_the_end/level.dat_old
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	cache/mojang_1.21.7.jar
-	libraries/ca/
-	libraries/com/fasterxml/
-	libraries/com/github/oshi/oshi-core/6.6.5/
-	libraries/com/github/stephenc/
-	libraries/com/google/code/gson/gson/2.11.0/
-	libraries/com/google/errorprone/error_prone_annotations/2.28.0/
-	libraries/com/google/guava/failureaccess/1.0.2/
-	libraries/com/google/guava/guava/33.3.1-jre/
-	libraries/com/google/j2objc/
-	libraries/com/google/protobuf/protobuf-java/4.29.0/
-	libraries/com/microsoft/
-	libraries/com/mojang/authlib/6.0.58/
-	libraries/com/mojang/jtracy/
-	libraries/com/mojang/logging/1.5.10/
-	libraries/com/mysql/mysql-connector-j/9.2.0/
-	libraries/com/nimbusds/
-	libraries/com/velocitypowered/velocity-native/3.4.0-SNAPSHOT/
-	libraries/commons-io/commons-io/2.17.0/
-	libraries/io/netty/netty-buffer/4.1.118.Final/
-	libraries/io/netty/netty-codec-haproxy/4.1.118.Final/
-	libraries/io/netty/netty-codec/4.1.118.Final/
-	libraries/io/netty/netty-common/4.1.118.Final/
-	libraries/io/netty/netty-handler/4.1.118.Final/
-	libraries/io/netty/netty-resolver/4.1.118.Final/
-	libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/
-	libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/
-	libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/
-	libraries/io/netty/netty-transport/4.1.118.Final/
-	libraries/io/papermc/paper/
-	libraries/it/unimi/dsi/fastutil/8.5.15/
-	libraries/me/lucko/spark-paper/1.10.133-20250413.112336-1/
-	libraries/net/java/dev/jna/jna-platform/5.15.0/
-	libraries/net/java/dev/jna/jna/5.15.0/
-	libraries/net/kyori/adventure-api/4.23.0/
-	libraries/net/kyori/adventure-key/4.23.0/
-	libraries/net/kyori/adventure-text-logger-slf4j/4.23.0/
-	libraries/net/kyori/adventure-text-minimessage/4.23.0/
-	libraries/net/kyori/adventure-text-serializer-ansi/4.23.0/
-	libraries/net/kyori/adventure-text-serializer-commons/
-	libraries/net/kyori/adventure-text-serializer-gson/4.23.0/
-	libraries/net/kyori/adventure-text-serializer-json/4.23.0/
-	libraries/net/kyori/adventure-text-serializer-legacy/4.23.0/
-	libraries/net/kyori/adventure-text-serializer-plain/4.23.0/
-	libraries/net/kyori/ansi/1.1.1/
-	libraries/net/kyori/option/1.1.0/
-	libraries/net/md-5/bungeecord-chat/1.21-R0.2-deprecated+build.21/
-	libraries/net/minidev/
-	libraries/org/apache/commons/commons-lang3/3.17.0/
-	libraries/org/apache/logging/log4j/log4j-api/2.24.1/
-	libraries/org/apache/logging/log4j/log4j-core/2.24.1/
-	libraries/org/apache/logging/log4j/log4j-iostreams/2.24.1/
-	libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.1/
-	libraries/org/checkerframework/checker-qual/3.43.0/
-	libraries/org/jline/jline-native/
-	libraries/org/jline/jline-terminal-ffm/
-	libraries/org/jline/jline-terminal-jni/
-	libraries/org/jline/jline-terminal/3.27.1/
-	libraries/org/joml/joml/1.10.8/
-	libraries/org/jspecify/
-	libraries/org/ow2/asm/asm-commons/9.8/
-	libraries/org/ow2/asm/asm-tree/9.8/
-	libraries/org/ow2/asm/asm/9.8/
-	libraries/org/slf4j/slf4j-api/2.0.16/
-	libraries/org/spongepowered/configurate-core/4.2.0-20250225.064233-204/
-	libraries/org/spongepowered/configurate-yaml/4.2.0-20250225.064233-199/
-	libraries/org/xerial/sqlite-jdbc/3.49.1.0/
-	logs/2025-07-15-3.log.gz
-	plugins/.paper-remapped/mappings/reversed/7C01EEB337BB8DC430DF8E8515C642BA818F78A06980022830B728B47F13FD44.tiny
-	plugins/.paper-remapped/remap-classpath/7C01EEB337BB8DC430DF8E8515C642BA818F78A06980022830B728B47F13FD44.jar
-	plugins/spark/tmp-client/spark-5cd0a7ebb7-libasyncProfiler.so.tmp
-	plugins/spark/tmp-client/spark-94b9aaaab9-profile-data.jfr.tmp
-	versions/1.21.7/
+	plugins/spark/tmp-client/spark-da930fde32-profile-data.jfr.tmp
+	world/data/chunks.dat
+	world/data/scoreboard.dat
+	world_nether/DIM-1/data/chunks.dat
+	world_the_end/DIM1/data/chunks.dat
 
 no changes added to commit (use "git add" and/or "git commit -a")
