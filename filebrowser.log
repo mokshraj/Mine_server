@@ -5,3 +5,5 @@
 2025/07/15 15:21:29 WARNING: you fully understand the risks involved. For more information
 2025/07/15 15:21:29 WARNING: read https://github.com/filebrowser/filebrowser/issues/5199
 2025/07/15 15:21:29 Listening on 127.0.0.1:8080
+2025/07/15 15:30:28 /.github/workflows/java-ci.yml: 500 127.0.0.1:60866 fork/exec /usr/local/bin/shr: not a directory
+2025/07/15 15:30:28 websocket: bad write message type
