@@ -1,157 +1,122 @@
-[08:42:11] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
-[08:42:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
-[08:42:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[08:42:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[08:42:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+[08:52:13] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
+[08:52:13] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) for Minecraft 1.21.1
+[08:52:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:52:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[08:52:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
  - ConsoleScheduler (1.4.10), PlugManX (2.4.1), UserLogin (2.13.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
-[08:42:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:42:18] [ServerMain/INFO]: Loaded 1290 recipes
-[08:42:18] [ServerMain/INFO]: Loaded 1399 advancements
-[08:42:18] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[08:42:18] [Server thread/INFO]: Loading properties
-[08:42:18] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[08:42:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[08:42:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:42:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:42:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[08:42:20] [Server thread/INFO]: Default game type: SURVIVAL
-[08:42:20] [Server thread/INFO]: Generating keypair
-[08:42:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:42:20] [Server thread/INFO]: Using epoll channel type
-[08:42:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[08:42:20] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[08:42:20] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[08:42:20] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
-[08:42:20] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[08:42:20] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[08:42:20] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[08:42:20] [Server thread/INFO]: [dynmap] version=1.21.1-99-1bc02e6 (MC: 1.21.1)
-[08:42:20] [Server thread/INFO]: [dynmap] Mod Support API available
-[08:42:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:42:20] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[08:42:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[08:42:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[08:42:21] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[08:42:21] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[08:42:21] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[08:42:21] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[08:42:21] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[08:42:21] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[08:42:21] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[08:42:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:42:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:42:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:42:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:42:21] [Server thread/INFO]: Preparing level "world"
-[08:42:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:42:22] [Server thread/INFO]: Time elapsed: 1009 ms
-[08:42:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:42:23] [Server thread/INFO]: Time elapsed: 223 ms
-[08:42:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:42:23] [Server thread/INFO]: Time elapsed: 116 ms
-[08:42:23] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[08:42:23] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[08:42:23] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[08:42:23] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[08:42:23] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[08:42:23] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[08:42:23] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[08:42:23] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[08:42:23] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
-[08:42:24] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[08:42:27] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[08:42:27] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[08:42:27] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[08:42:27] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[08:42:27] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[08:42:28] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[08:42:28] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
-[08:42:28] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[08:42:28] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[08:42:28] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[08:42:28] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[08:42:28] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[08:42:28] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[08:42:28] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[08:42:28] [Server thread/INFO]: [dynmap] Enabled
-[08:42:28] [Server thread/INFO]: [spark] Starting background profiler...
-[08:42:28] [Server thread/INFO]: Done preparing level "world" (7.475s)
-[08:42:28] [Server thread/INFO]: Starting remote control listener
-[08:42:28] [Server thread/INFO]: Thread RCON Listener started
-[08:42:28] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[08:42:28] [Server thread/INFO]: Running delayed init tasks
-[08:42:28] [Server thread/INFO]: Done (18.124s)! For help, type "help"
-[08:42:28] [Server thread/INFO]: Timings Reset
-[08:42:28] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[08:42:28] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[08:42:28] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[08:42:29] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[08:42:29] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[08:42:29] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[08:42:29] [RCON Client /127.145.222.178 #2/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[08:42:29] [RCON Client /127.145.222.178 #3/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[08:42:34] [Server thread/INFO]: No player was found
-[08:43:04] [Server thread/INFO]: No player was found
-[08:43:05] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[08:43:05] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[08:43:05] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[08:43:05] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
-[08:43:05] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[08:43:18] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[08:43:18] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[08:43:18] [RCON Client /127.104.193.247 #7/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[08:43:18] [RCON Client /127.104.193.247 #6/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[08:43:34] [Server thread/INFO]: No player was found
-[08:44:04] [Server thread/INFO]: No player was found
-[08:44:34] [Server thread/INFO]: No player was found
-[08:45:04] [Server thread/INFO]: No player was found
-[08:45:34] [Server thread/INFO]: No player was found
-[08:45:49] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[08:45:49] [RCON Client /0:0:0:0:0:0:0:1 #8/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[08:46:04] [Server thread/INFO]: No player was found
-[08:46:10] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[08:46:10] [RCON Client /0:0:0:0:0:0:0:1 #9/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[08:46:17] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[08:46:17] [RCON Client /0:0:0:0:0:0:0:1 #10/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[08:46:25] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[08:46:25] [Server thread/INFO]: [Rcon: Stopping the server]
-[08:46:25] [RCON Client /0:0:0:0:0:0:0:1 #11/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[08:46:25] [Server thread/INFO]: Stopping server
-[08:46:25] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
-[08:46:25] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[08:46:25] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[08:46:31] [Server thread/INFO]: [dynmap] Disabled
-[08:46:31] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
-[08:46:31] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
-[08:46:31] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
-[08:46:31] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
-[08:46:31] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[08:46:31] [Server thread/INFO]: Saving players
-[08:46:31] [Server thread/INFO]: Saving worlds
-[08:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.18s
-[08:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
-[08:46:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[08:46:31] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
-[08:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:46:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:52:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:52:19] [ServerMain/INFO]: Loaded 1290 recipes
+[08:52:19] [ServerMain/INFO]: Loaded 1399 advancements
+[08:52:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[08:52:20] [Server thread/INFO]: Loading properties
+[08:52:20] [Server thread/INFO]: This server is running Paper version 1.21.1-99-master@1bc02e6 (2024-09-25T02:41:02Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[08:52:20] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:52:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:52:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:52:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[08:52:21] [Server thread/INFO]: Default game type: SURVIVAL
+[08:52:21] [Server thread/INFO]: Generating keypair
+[08:52:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:52:22] [Server thread/INFO]: Using epoll channel type
+[08:52:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:52:22] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[08:52:22] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[08:52:22] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
+[08:52:22] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[08:52:22] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[08:52:22] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[08:52:22] [Server thread/INFO]: [dynmap] version=1.21.1-99-1bc02e6 (MC: 1.21.1)
+[08:52:22] [Server thread/INFO]: [dynmap] Mod Support API available
+[08:52:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:52:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[08:52:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[08:52:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[08:52:22] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[08:52:23] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[08:52:23] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[08:52:23] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[08:52:23] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[08:52:23] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[08:52:23] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[08:52:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:52:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:52:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:52:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:52:23] [Server thread/INFO]: Preparing level "world"
+[08:52:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:52:24] [Server thread/INFO]: Time elapsed: 1123 ms
+[08:52:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:52:24] [Server thread/INFO]: Time elapsed: 229 ms
+[08:52:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:52:25] [Server thread/INFO]: Time elapsed: 121 ms
+[08:52:25] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[08:52:25] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[08:52:25] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[08:52:25] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[08:52:25] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[08:52:25] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[08:52:25] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[08:52:25] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[08:52:25] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
+[08:52:26] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[08:52:29] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[08:52:29] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[08:52:29] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[08:52:29] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[08:52:29] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[08:52:30] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[08:52:30] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[08:52:30] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[08:52:30] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[08:52:30] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[08:52:30] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[08:52:30] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[08:52:30] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[08:52:30] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[08:52:30] [Server thread/INFO]: [dynmap] Enabled
+[08:52:30] [Server thread/INFO]: [spark] Starting background profiler...
+[08:52:30] [Server thread/INFO]: Done preparing level "world" (7.645s)
+[08:52:30] [Server thread/INFO]: Starting remote control listener
+[08:52:30] [Server thread/INFO]: Thread RCON Listener started
+[08:52:30] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[08:52:30] [Server thread/INFO]: Running delayed init tasks
+[08:52:30] [Server thread/INFO]: Done (18.630s)! For help, type "help"
+[08:52:30] [Server thread/INFO]: Timings Reset
+[08:52:30] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[08:52:30] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[08:52:30] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[08:52:31] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
+[08:52:36] [Server thread/INFO]: No player was found
+[08:52:40] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[08:52:40] [RCON Client /127.127.143.152 #2/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[08:52:40] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[08:52:40] [RCON Client /127.127.143.152 #3/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[08:53:06] [Server thread/INFO]: No player was found
+[08:53:06] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[08:53:06] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:53:06] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[08:53:06] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
+[08:53:06] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[08:53:36] [Server thread/INFO]: No player was found
+[08:53:40] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[08:53:40] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[08:53:40] [RCON Client /127.145.222.178 #6/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[08:53:40] [RCON Client /127.145.222.178 #7/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[08:54:06] [Server thread/INFO]: No player was found
+[08:54:27] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[08:54:27] [RCON Client /127.104.193.247 #8/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[08:54:27] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[08:54:28] [RCON Client /127.104.193.247 #9/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[08:54:36] [Server thread/INFO]: No player was found
+[08:55:06] [Server thread/INFO]: No player was found
+[08:55:36] [Server thread/INFO]: No player was found
+[08:56:06] [Server thread/INFO]: No player was found
+[08:56:36] [Server thread/INFO]: No player was found
