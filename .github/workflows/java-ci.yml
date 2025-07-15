@@ -90,19 +90,19 @@ jobs:
         run: |
           cat /home/runner/work/Mine_server/Mine_server/filebrowser.log
 
-      # - name : Install openvpn
-      #   run: |
-      #     sudo apt update && sudo apt install -y openvpn openvpn-systemd-resolved
-      #     echo "${{ secrets.TUNNEL }}" > /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
+      - name : Install openvpn
+        run: |
+          sudo apt update && sudo apt install -y openvpn openvpn-systemd-resolved
+          echo "${{ secrets.TUNNEL }}" > /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
       
-      # - name : connect to portmap
-      #   uses: kota65535/github-openvpn-connect-action@v3.1.0
-      #   with:
-      #     config_file: /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
+      - name : connect to portmap
+        uses: kota65535/github-openvpn-connect-action@v3.1.0
+        with:
+          config_file: /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
       
-      # - name : remove ovpn
-      #   run: |
-      #     rm -f Moksh1.first.ovpn
+      - name : remove ovpn
+        run: |
+          rm -f Moksh1.first.ovpn
 
       - name: Save secret_key from secrets
         run: |
