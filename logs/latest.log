@@ -1,39 +1,39 @@
-[15:21:41] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
-[15:21:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) for Minecraft 1.21.7
-[15:21:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:21:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[15:21:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+[17:57:45] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
+[17:57:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) for Minecraft 1.21.7
+[17:57:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:57:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[17:57:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
  - ConsoleScheduler (1.4.10), PlugManX (2.4.1), UserLogin (2.13.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
-[15:21:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:21:49] [ServerMain/INFO]: Loaded 1407 recipes
-[15:21:49] [ServerMain/INFO]: Loaded 1520 advancements
-[15:21:49] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:21:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 551.0ms
-[15:21:50] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[15:21:50] [Server thread/INFO]: Loading properties
-[15:21:50] [Server thread/INFO]: This server is running Paper version 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
-[15:21:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:21:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:21:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:21:51] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:21:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:21:51] [Server thread/INFO]: Default game type: SURVIVAL
-[15:21:51] [Server thread/INFO]: Generating keypair
-[15:21:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:21:51] [Server thread/INFO]: Using epoll channel type
-[15:21:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:21:51] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:21:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[15:21:51] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
-[15:21:51] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[15:21:51] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[15:21:51] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[15:21:51] [Server thread/INFO]: [dynmap] version=1.21.7-28-94d60e1 (MC: 1.21.7)
-[15:21:52] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
-[15:21:52] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
-[15:21:52] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.CraftChunk
-[15:21:52] [Server thread/ERROR]: [dynmap] Unable to find method getValue for com.mojang.authlib.properties.Property
-[15:21:52] [Server thread/ERROR]: [dynmap] Error loading org.dynmap.bukkit.helper.BukkitVersionHelperCB
+[17:57:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:57:53] [ServerMain/INFO]: Loaded 1407 recipes
+[17:57:53] [ServerMain/INFO]: Loaded 1520 advancements
+[17:57:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:57:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 447.3ms
+[17:57:54] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[17:57:54] [Server thread/INFO]: Loading properties
+[17:57:54] [Server thread/INFO]: This server is running Paper version 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[17:57:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:57:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:57:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:57:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:57:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:57:55] [Server thread/INFO]: Default game type: SURVIVAL
+[17:57:55] [Server thread/INFO]: Generating keypair
+[17:57:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:57:55] [Server thread/INFO]: Using epoll channel type
+[17:57:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:57:55] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:57:55] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[17:57:55] [Server thread/INFO]: [UserLogin] Loading server plugin UserLogin v2.13.1
+[17:57:55] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[17:57:55] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[17:57:55] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[17:57:55] [Server thread/INFO]: [dynmap] version=1.21.7-28-94d60e1 (MC: 1.21.7)
+[17:57:55] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
+[17:57:55] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
+[17:57:55] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.CraftChunk
+[17:57:55] [Server thread/ERROR]: [dynmap] Unable to find method getValue for com.mojang.authlib.properties.Property
+[17:57:55] [Server thread/ERROR]: [dynmap] Error loading org.dynmap.bukkit.helper.BukkitVersionHelperCB
 java.lang.reflect.InvocationTargetException: null
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
@@ -55,42 +55,42 @@ Caused by: java.lang.IllegalArgumentException: Error initializing dynmap - bukki
 	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:44) ~[Dynmap-3.7-beta-8-spigot.jar:?]
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	... 14 more
-[15:21:52] [Server thread/INFO]: [dynmap] Mod Support API available
-[15:21:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:21:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[15:21:52] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:21:52] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[15:21:52] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[15:21:52] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:21:52] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[15:21:52] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[15:21:52] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[15:21:52] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[15:21:52] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:21:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:21:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:21:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:21:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:21:52] [Server thread/INFO]: Preparing level "world"
-[15:21:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:21:53] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:53] [Server thread/INFO]: Preparing spawn area: 2%
-[15:21:53] [Server thread/INFO]: Time elapsed: 914 ms
-[15:21:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:21:53] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:54] [Server thread/INFO]: Time elapsed: 208 ms
-[15:21:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:21:54] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:54] [Server thread/INFO]: Time elapsed: 133 ms
-[15:21:54] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[15:21:54] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[15:21:54] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[15:21:54] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[15:21:54] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[15:21:54] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[15:21:54] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[15:21:54] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
-[15:21:54] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
+[17:57:55] [Server thread/INFO]: [dynmap] Mod Support API available
+[17:57:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:57:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:57:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:57:56] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:57:56] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[17:57:56] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:57:56] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[17:57:56] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[17:57:56] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[17:57:56] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[17:57:56] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:57:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:57:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:57:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:57:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:57:56] [Server thread/INFO]: Preparing level "world"
+[17:57:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:57:56] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:57] [Server thread/INFO]: Preparing spawn area: 20%
+[17:57:57] [Server thread/INFO]: Time elapsed: 915 ms
+[17:57:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:57:57] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:57] [Server thread/INFO]: Time elapsed: 271 ms
+[17:57:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:57:57] [Server thread/INFO]: Preparing spawn area: 0%
+[17:57:57] [Server thread/INFO]: Time elapsed: 103 ms
+[17:57:57] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[17:57:58] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[17:57:58] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[17:57:58] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[17:57:58] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[17:57:58] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[17:57:58] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[17:57:58] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[17:57:58] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
 	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1094) ~[Dynmap-3.7-beta-8-spigot.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
@@ -107,793 +107,93 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[15:21:54] [Server thread/INFO]: [spark] Starting background profiler...
-[15:21:54] [Server thread/INFO]: Done preparing level "world" (2.385s)
-[15:21:54] [Server thread/INFO]: Starting remote control listener
-[15:21:54] [Server thread/INFO]: Thread RCON Listener started
-[15:21:54] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[15:21:54] [Server thread/INFO]: Running delayed init tasks
-[15:21:54] [Server thread/INFO]: Done (14.031s)! For help, type "help"
-[15:21:54] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[15:21:54] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[15:21:54] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[15:21:54] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[15:21:59] [Server thread/INFO]: No player was found
-[15:22:07] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:22:07] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:22:07] [RCON Client /127.127.143.152 #3/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:22:07] [RCON Client /127.127.143.152 #2/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:22:29] [Server thread/INFO]: No player was found
-[15:22:35] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[15:22:35] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[15:22:35] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[15:22:35] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
-[15:22:35] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[15:22:37] [RCON Listener #1/INFO]: Thread RCON Client /127.239.160.64 started
-[15:22:37] [RCON Listener #1/INFO]: Thread RCON Client /127.239.160.64 started
-[15:22:38] [RCON Client /127.239.160.64 #6/INFO]: Thread RCON Client /127.239.160.64 shutting down
-[15:22:59] [Server thread/INFO]: No player was found
-[15:23:29] [Server thread/INFO]: No player was found
-[15:23:59] [Server thread/INFO]: No player was found
-[15:24:02] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:24:03] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:24:03] [RCON Client /127.116.117.187 #8/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:24:03] [RCON Client /127.116.117.187 #9/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:24:29] [Server thread/INFO]: No player was found
-[15:24:44] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:24:44] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:24:44] [RCON Client /127.104.193.247 #11/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:24:44] [RCON Client /127.104.193.247 #10/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:24:59] [Server thread/INFO]: No player was found
-[15:25:29] [Server thread/INFO]: No player was found
-[15:25:57] [RCON Client /127.239.160.64 #7/INFO]: Thread RCON Client /127.239.160.64 shutting down
-[15:25:59] [Server thread/INFO]: No player was found
-[15:26:29] [Server thread/INFO]: No player was found
-[15:26:59] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:26:59] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:26:59] [RCON Client /127.145.222.178 #13/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:26:59] [RCON Client /127.145.222.178 #12/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:26:59] [Server thread/INFO]: No player was found
-[15:27:29] [Server thread/INFO]: No player was found
-[15:27:39] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:27:39] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:27:39] [RCON Client /127.127.143.152 #14/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:27:40] [RCON Client /127.127.143.152 #15/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:27:59] [Server thread/INFO]: No player was found
-[15:28:29] [Server thread/INFO]: No player was found
-[15:28:59] [Server thread/INFO]: No player was found
-[15:29:29] [Server thread/INFO]: No player was found
-[15:29:31] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:29:31] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:29:32] [RCON Client /127.116.117.187 #17/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:29:32] [RCON Client /127.116.117.187 #16/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:29:59] [Server thread/INFO]: No player was found
-[15:30:21] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:30:22] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:30:22] [RCON Client /127.104.193.247 #18/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:30:22] [RCON Client /127.104.193.247 #19/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:30:29] [Server thread/INFO]: No player was found
-[15:30:59] [Server thread/INFO]: No player was found
-[15:31:29] [Server thread/INFO]: No player was found
-[15:31:59] [Server thread/INFO]: No player was found
-[15:32:29] [Server thread/INFO]: No player was found
-[15:32:59] [Server thread/INFO]: No player was found
-[15:33:11] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:33:11] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:33:11] [RCON Client /127.127.143.152 #20/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:33:12] [RCON Client /127.127.143.152 #21/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:33:29] [Server thread/INFO]: No player was found
-[15:33:59] [Server thread/INFO]: No player was found
-[15:34:29] [Server thread/INFO]: No player was found
-[15:34:59] [Server thread/INFO]: No player was found
-[15:35:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:35:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:35:01] [RCON Client /127.116.117.187 #23/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:35:01] [RCON Client /127.116.117.187 #22/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:35:29] [Server thread/INFO]: No player was found
-[15:35:59] [Server thread/INFO]: No player was found
-[15:36:00] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:36:00] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:36:01] [RCON Client /127.104.193.247 #25/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:36:01] [RCON Client /127.104.193.247 #24/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:36:29] [Server thread/INFO]: No player was found
-[15:36:59] [Server thread/INFO]: No player was found
-[15:37:29] [Server thread/INFO]: No player was found
-[15:37:59] [Server thread/INFO]: No player was found
-[15:38:24] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:38:25] [RCON Client /127.145.222.178 #26/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:38:25] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:38:25] [RCON Client /127.145.222.178 #27/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:38:29] [Server thread/INFO]: No player was found
-[15:38:43] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:38:43] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:38:43] [RCON Client /127.127.143.152 #29/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:38:43] [RCON Client /127.127.143.152 #28/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:38:59] [Server thread/INFO]: No player was found
-[15:39:29] [Server thread/INFO]: No player was found
-[15:39:59] [Server thread/INFO]: No player was found
-[15:40:29] [Server thread/INFO]: No player was found
-[15:40:31] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:40:31] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:40:31] [RCON Client /127.116.117.187 #31/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:40:31] [RCON Client /127.116.117.187 #30/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:40:59] [Server thread/INFO]: No player was found
-[15:41:29] [User Authenticator #0/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[15:41:29] [Server thread/INFO]: No player was found
-[15:41:32] [Server thread/INFO]: mokshraj[/127.189.83.73:48849] logged in with entity id 41 at ([world]16.0, 72.0, 16.0)
-[15:41:36] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:41:36] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:41:37] [RCON Client /127.104.193.247 #33/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:41:37] [RCON Client /127.104.193.247 #32/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:41:47] [Server thread/INFO]: mokshraj issued server command: /gamemode creative
-[15:41:47] [Server thread/INFO]: [mokshraj: Set own game mode to Creative Mode]
-[15:41:59] [Server thread/INFO]: No player was found
-[15:42:29] [Server thread/INFO]: No player was found
-[15:42:32] [Server thread/INFO]: mokshraj lost connection: You stayed for too much time without logging in
-[15:42:32] [Server thread/INFO]: mokshraj left the game
-[15:42:37] [User Authenticator #1/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[15:42:39] [Server thread/INFO]: mokshraj[/127.189.83.73:60477] logged in with entity id 501 at ([world]16.0, 72.0, 16.0)
-[15:42:59] [Server thread/INFO]: No player was found
-[15:43:15] [Server thread/INFO]: mokshraj issued server command: /plugman disable UserLogin
-[15:43:15] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
-[15:43:26] [Server thread/INFO]: mokshraj issued server command: /plugins
-[15:43:29] [Server thread/INFO]: No player was found
-[15:43:58] [Server thread/INFO]: mokshraj issued server command: /gamemode survival
-[15:43:58] [Server thread/INFO]: [mokshraj: Set own game mode to Survival Mode]
-[15:43:59] [Server thread/INFO]: No player was found
-[15:44:15] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:44:15] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:44:16] [RCON Client /127.127.143.152 #35/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:44:16] [RCON Client /127.127.143.152 #34/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:44:29] [Server thread/INFO]: No player was found
-[15:44:59] [Server thread/INFO]: No player was found
-[15:45:29] [Server thread/INFO]: No player was found
-[15:45:59] [Server thread/INFO]: No player was found
-[15:46:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:46:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:46:01] [RCON Client /127.116.117.187 #37/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:46:01] [RCON Client /127.116.117.187 #36/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:46:12] [Server thread/INFO]: mokshraj issued server command: /difficulty normal
-[15:46:12] [Server thread/INFO]: [mokshraj: The difficulty has been set to Normal]
-[15:46:29] [Server thread/INFO]: No player was found
-[15:46:53] [Server thread/INFO]: mokshraj was shot by Skeleton
-[15:46:59] [Server thread/INFO]: No player was found
-[15:47:12] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:47:12] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:47:12] [RCON Client /127.104.193.247 #39/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:47:13] [RCON Client /127.104.193.247 #38/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:47:29] [Server thread/INFO]: No player was found
-[15:47:31] [Server thread/INFO]: mokshraj lost connection: Disconnected
-[15:47:31] [Server thread/INFO]: mokshraj left the game
-[15:47:37] [User Authenticator #2/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
-[15:47:40] [Server thread/INFO]: mokshraj joined the game
-[15:47:40] [Server thread/INFO]: mokshraj[/127.189.83.73:41339] logged in with entity id 1195 at ([world]-29.339191277362808, 63.0, 19.69999998807907)
-[15:47:59] [Server thread/INFO]: No player was found
-[15:48:29] [Server thread/INFO]: No player was found
-[15:48:59] [Server thread/INFO]: No player was found
-[15:49:29] [Server thread/INFO]: No player was found
-[15:49:47] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:49:48] [RCON Client /127.127.143.152 #40/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:49:48] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:49:48] [RCON Client /127.127.143.152 #41/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:49:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:49:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:49:54] [RCON Client /127.145.222.178 #43/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:49:54] [RCON Client /127.145.222.178 #42/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:49:59] [Server thread/INFO]: No player was found
-[15:50:29] [Server thread/INFO]: No player was found
-[15:50:59] [Server thread/INFO]: No player was found
-[15:51:29] [Server thread/INFO]: No player was found
-[15:51:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:51:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:51:30] [RCON Client /127.116.117.187 #45/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:51:30] [RCON Client /127.116.117.187 #44/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:51:59] [Server thread/INFO]: No player was found
-[15:52:24] [Server thread/INFO]: mokshraj lost connection: Disconnected
-[15:52:24] [Server thread/INFO]: mokshraj left the game
-[15:52:29] [Server thread/INFO]: No player was found
-[15:52:47] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:52:50] [RCON Client /127.104.193.247 #46/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:52:50] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:52:50] [RCON Client /127.104.193.247 #47/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:52:59] [Server thread/INFO]: No player was found
-[15:53:29] [Server thread/INFO]: No player was found
-[15:53:59] [Server thread/INFO]: No player was found
-[15:54:29] [Server thread/INFO]: No player was found
-[15:54:59] [Server thread/INFO]: No player was found
-[15:55:19] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:55:19] [RCON Client /127.127.143.152 #48/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:55:19] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[15:55:20] [RCON Client /127.127.143.152 #49/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[15:55:29] [Server thread/INFO]: No player was found
-[15:55:30] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:55:30] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[15:55:30] [RCON Client /127.145.222.178 #51/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:55:30] [RCON Client /127.145.222.178 #50/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[15:55:59] [Server thread/INFO]: No player was found
-[15:56:29] [Server thread/INFO]: No player was found
-[15:56:59] [Server thread/INFO]: No player was found
-[15:57:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:57:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[15:57:00] [RCON Client /127.116.117.187 #52/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:57:00] [RCON Client /127.116.117.187 #53/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[15:57:29] [Server thread/INFO]: No player was found
-[15:57:59] [Server thread/INFO]: No player was found
-[15:58:22] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:58:23] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[15:58:23] [RCON Client /127.104.193.247 #54/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:58:23] [RCON Client /127.104.193.247 #55/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[15:58:29] [Server thread/INFO]: No player was found
-[15:58:59] [Server thread/INFO]: No player was found
-[15:59:29] [Server thread/INFO]: No player was found
-[15:59:59] [Server thread/INFO]: No player was found
-[16:00:29] [Server thread/INFO]: No player was found
-[16:00:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:00:53] [RCON Client /127.127.143.152 #56/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:00:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:00:54] [RCON Client /127.127.143.152 #57/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:00:59] [Server thread/INFO]: No player was found
-[16:01:08] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:01:08] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:01:08] [RCON Client /127.145.222.178 #58/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:01:08] [RCON Client /127.145.222.178 #59/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:01:29] [Server thread/INFO]: No player was found
-[16:01:59] [Server thread/INFO]: No player was found
-[16:02:29] [Server thread/INFO]: No player was found
-[16:02:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:02:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:02:30] [RCON Client /127.116.117.187 #61/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:02:30] [RCON Client /127.116.117.187 #60/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:02:59] [Server thread/INFO]: No player was found
-[16:03:24] [RCON Listener #1/INFO]: Thread RCON Client /127.167.208.114 started
-[16:03:25] [RCON Client /127.167.208.114 #62/INFO]: Thread RCON Client /127.167.208.114 shutting down
-[16:03:29] [Server thread/INFO]: No player was found
-[16:03:58] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:03:58] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:03:58] [RCON Client /127.104.193.247 #64/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:03:58] [RCON Client /127.104.193.247 #63/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:03:59] [Server thread/INFO]: No player was found
-[16:04:29] [Server thread/INFO]: No player was found
-[16:04:59] [Server thread/INFO]: No player was found
-[16:05:29] [Server thread/INFO]: No player was found
-[16:05:59] [Server thread/INFO]: No player was found
-[16:06:26] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:06:26] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:06:27] [RCON Client /127.127.143.152 #66/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:06:27] [RCON Client /127.127.143.152 #65/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:06:29] [Server thread/INFO]: No player was found
-[16:06:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:06:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:06:53] [RCON Client /127.145.222.178 #68/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:06:53] [RCON Client /127.145.222.178 #67/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:06:59] [Server thread/INFO]: No player was found
-[16:07:29] [Server thread/INFO]: No player was found
-[16:07:59] [Server thread/INFO]: No player was found
-[16:08:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:08:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:08:00] [RCON Client /127.116.117.187 #70/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:08:00] [RCON Client /127.116.117.187 #69/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:08:29] [Server thread/INFO]: No player was found
-[16:08:59] [Server thread/INFO]: No player was found
-[16:09:29] [Server thread/INFO]: No player was found
-[16:09:34] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:09:35] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:09:35] [RCON Client /127.104.193.247 #71/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:09:35] [RCON Client /127.104.193.247 #72/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:09:59] [Server thread/INFO]: No player was found
-[16:10:29] [Server thread/INFO]: No player was found
-[16:10:49] [RCON Listener #1/INFO]: Thread RCON Client /127.176.218.156 started
-[16:10:50] [RCON Client /127.176.218.156 #73/INFO]: Thread RCON Client /127.176.218.156 shutting down
-[16:10:59] [Server thread/INFO]: No player was found
-[16:11:29] [Server thread/INFO]: No player was found
-[16:11:59] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:11:59] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:11:59] [RCON Client /127.127.143.152 #75/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:11:59] [RCON Client /127.127.143.152 #74/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:11:59] [Server thread/INFO]: No player was found
-[16:12:29] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:12:29] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:12:29] [RCON Client /127.145.222.178 #77/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:12:29] [RCON Client /127.145.222.178 #76/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:12:29] [Server thread/INFO]: No player was found
-[16:12:59] [Server thread/INFO]: No player was found
-[16:13:29] [Server thread/INFO]: No player was found
-[16:13:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:13:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:13:30] [RCON Client /127.116.117.187 #79/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:13:30] [RCON Client /127.116.117.187 #78/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:13:59] [Server thread/INFO]: No player was found
-[16:14:29] [Server thread/INFO]: No player was found
-[16:14:59] [Server thread/INFO]: No player was found
-[16:15:10] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:15:10] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:15:10] [RCON Client /127.104.193.247 #81/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:15:10] [RCON Client /127.104.193.247 #80/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:15:29] [Server thread/INFO]: No player was found
-[16:15:59] [Server thread/INFO]: No player was found
-[16:16:29] [Server thread/INFO]: No player was found
-[16:16:59] [Server thread/INFO]: No player was found
-[16:17:29] [Server thread/INFO]: No player was found
-[16:17:31] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:17:31] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:17:31] [RCON Client /127.127.143.152 #83/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:17:31] [RCON Client /127.127.143.152 #82/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:17:59] [Server thread/INFO]: No player was found
-[16:18:05] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:18:05] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:18:05] [RCON Client /127.145.222.178 #85/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:18:05] [RCON Client /127.145.222.178 #84/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:18:29] [Server thread/INFO]: No player was found
-[16:18:57] [RCON Listener #1/INFO]: Thread RCON Client /127.117.145.134 started
-[16:18:57] [RCON Client /127.117.145.134 #86/INFO]: Thread RCON Client /127.117.145.134 shutting down
-[16:18:59] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:18:59] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:18:59] [RCON Client /127.116.117.187 #88/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:18:59] [RCON Client /127.116.117.187 #87/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:18:59] [Server thread/INFO]: No player was found
-[16:19:29] [Server thread/INFO]: No player was found
-[16:19:59] [Server thread/INFO]: No player was found
-[16:20:29] [Server thread/INFO]: No player was found
-[16:20:48] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:20:48] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:20:48] [RCON Client /127.104.193.247 #90/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:20:48] [RCON Client /127.104.193.247 #89/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:20:59] [Server thread/INFO]: No player was found
-[16:21:29] [Server thread/INFO]: No player was found
-[16:21:59] [Server thread/INFO]: No player was found
-[16:22:29] [Server thread/INFO]: No player was found
-[16:22:59] [Server thread/INFO]: No player was found
-[16:23:03] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:23:03] [RCON Client /127.127.143.152 #91/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:23:03] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:23:04] [RCON Client /127.127.143.152 #92/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:23:29] [Server thread/INFO]: No player was found
-[16:23:41] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:23:41] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:23:41] [RCON Client /127.145.222.178 #94/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:23:41] [RCON Client /127.145.222.178 #93/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:23:59] [Server thread/INFO]: No player was found
-[16:24:28] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:24:28] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:24:28] [RCON Client /127.116.117.187 #96/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:24:28] [RCON Client /127.116.117.187 #95/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:24:29] [Server thread/INFO]: No player was found
-[16:24:59] [Server thread/INFO]: No player was found
-[16:25:29] [Server thread/INFO]: No player was found
-[16:25:59] [Server thread/INFO]: No player was found
-[16:26:25] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:26:25] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:26:25] [RCON Client /127.104.193.247 #98/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:26:25] [RCON Client /127.104.193.247 #97/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:26:29] [Server thread/INFO]: No player was found
-[16:26:59] [Server thread/INFO]: No player was found
-[16:27:29] [Server thread/INFO]: No player was found
-[16:27:59] [Server thread/INFO]: No player was found
-[16:28:29] [Server thread/INFO]: No player was found
-[16:28:35] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:28:35] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:28:35] [RCON Client /127.127.143.152 #100/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:28:35] [RCON Client /127.127.143.152 #99/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:28:59] [Server thread/INFO]: No player was found
-[16:29:29] [Server thread/INFO]: No player was found
-[16:29:58] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:29:58] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:29:59] [RCON Client /127.116.117.187 #102/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:29:59] [RCON Client /127.116.117.187 #101/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:29:59] [Server thread/INFO]: No player was found
-[16:30:29] [Server thread/INFO]: No player was found
-[16:30:59] [Server thread/INFO]: No player was found
-[16:31:29] [Server thread/INFO]: No player was found
-[16:31:59] [Server thread/INFO]: No player was found
-[16:32:02] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:32:02] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:32:02] [RCON Client /127.104.193.247 #104/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:32:02] [RCON Client /127.104.193.247 #103/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:32:29] [Server thread/INFO]: No player was found
-[16:32:59] [Server thread/INFO]: No player was found
-[16:33:29] [Server thread/INFO]: No player was found
-[16:33:59] [Server thread/INFO]: No player was found
-[16:34:08] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:34:08] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:34:08] [RCON Client /127.127.143.152 #106/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:34:08] [RCON Client /127.127.143.152 #105/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:34:29] [Server thread/INFO]: No player was found
-[16:34:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:34:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:34:53] [RCON Client /127.145.222.178 #108/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:34:54] [RCON Client /127.145.222.178 #107/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:34:59] [Server thread/INFO]: No player was found
-[16:35:28] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:35:28] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:35:28] [RCON Client /127.116.117.187 #109/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:35:29] [RCON Client /127.116.117.187 #110/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:35:29] [Server thread/INFO]: No player was found
-[16:35:59] [Server thread/INFO]: No player was found
-[16:36:29] [Server thread/INFO]: No player was found
-[16:36:59] [Server thread/INFO]: No player was found
-[16:37:29] [Server thread/INFO]: No player was found
-[16:37:42] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:37:42] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:37:42] [RCON Client /127.104.193.247 #111/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:37:42] [RCON Client /127.104.193.247 #112/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:37:59] [Server thread/INFO]: No player was found
-[16:38:29] [Server thread/INFO]: No player was found
-[16:38:59] [Server thread/INFO]: No player was found
-[16:39:29] [Server thread/INFO]: No player was found
-[16:39:40] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:39:40] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:39:40] [RCON Client /127.127.143.152 #114/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:39:40] [RCON Client /127.127.143.152 #113/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:39:59] [Server thread/INFO]: No player was found
-[16:40:29] [Server thread/INFO]: No player was found
-[16:40:57] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:40:58] [RCON Client /127.116.117.187 #115/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:40:58] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:40:58] [RCON Client /127.116.117.187 #116/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:40:59] [Server thread/INFO]: No player was found
-[16:41:29] [Server thread/INFO]: No player was found
-[16:41:59] [Server thread/INFO]: No player was found
-[16:42:29] [Server thread/INFO]: No player was found
-[16:42:59] [Server thread/INFO]: No player was found
-[16:43:21] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:43:21] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:43:21] [RCON Client /127.104.193.247 #117/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:43:21] [RCON Client /127.104.193.247 #118/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:43:29] [Server thread/INFO]: No player was found
-[16:43:33] [RCON Listener #1/INFO]: Thread RCON Client /127.234.199.150 started
-[16:43:37] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[16:43:37] [RCON Client /127.134.178.31 #120/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[16:43:38] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[16:43:38] [RCON Client /127.134.178.31 #121/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[16:43:39] [RCON Listener #1/INFO]: Thread RCON Client /127.234.199.150 started
-[16:43:39] [RCON Client /127.234.199.150 #122/INFO]: Thread RCON Client /127.234.199.150 shutting down
-[16:43:39] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[16:43:39] [RCON Client /127.134.178.31 #123/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[16:43:46] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[16:43:46] [RCON Client /127.134.178.31 #124/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[16:43:46] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[16:43:47] [RCON Client /127.134.178.31 #125/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[16:43:47] [RCON Listener #1/INFO]: Thread RCON Client /127.134.178.31 started
-[16:43:47] [RCON Listener #1/INFO]: Thread RCON Client /127.234.199.150 started
-[16:43:47] [RCON Client /127.234.199.150 #127/INFO]: Thread RCON Client /127.234.199.150 shutting down
-[16:43:47] [RCON Client /127.134.178.31 #126/INFO]: Thread RCON Client /127.134.178.31 shutting down
-[16:43:59] [Server thread/INFO]: No player was found
-[16:44:06] [RCON Client /127.234.199.150 #119/INFO]: Thread RCON Client /127.234.199.150 shutting down
-[16:44:29] [Server thread/INFO]: No player was found
-[16:44:59] [Server thread/INFO]: No player was found
-[16:45:12] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:45:12] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:45:12] [RCON Client /127.127.143.152 #129/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:45:12] [RCON Client /127.127.143.152 #128/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:45:29] [Server thread/INFO]: No player was found
-[16:45:59] [Server thread/INFO]: No player was found
-[16:46:10] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:46:10] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:46:10] [RCON Client /127.145.222.178 #131/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:46:10] [RCON Client /127.145.222.178 #130/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:46:27] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:46:27] [RCON Client /127.116.117.187 #132/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:46:27] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:46:27] [RCON Client /127.116.117.187 #133/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:46:29] [Server thread/INFO]: No player was found
-[16:46:59] [Server thread/INFO]: No player was found
-[16:47:29] [Server thread/INFO]: No player was found
-[16:47:59] [Server thread/INFO]: No player was found
-[16:48:29] [Server thread/INFO]: No player was found
-[16:48:59] [Server thread/INFO]: No player was found
-[16:49:05] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:49:06] [RCON Client /127.104.193.247 #134/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:49:06] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:49:06] [RCON Client /127.104.193.247 #135/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:49:29] [Server thread/INFO]: No player was found
-[16:49:59] [Server thread/INFO]: No player was found
-[16:50:29] [Server thread/INFO]: No player was found
-[16:50:45] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:50:45] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:50:45] [RCON Client /127.127.143.152 #137/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:50:45] [RCON Client /127.127.143.152 #136/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:50:59] [Server thread/INFO]: No player was found
-[16:51:29] [Server thread/INFO]: No player was found
-[16:51:48] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:51:48] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:51:48] [RCON Client /127.145.222.178 #139/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:51:48] [RCON Client /127.145.222.178 #138/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:51:56] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:51:56] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:51:56] [RCON Client /127.116.117.187 #140/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:51:57] [RCON Client /127.116.117.187 #141/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:51:59] [Server thread/INFO]: No player was found
-[16:52:29] [Server thread/INFO]: No player was found
-[16:52:59] [Server thread/INFO]: No player was found
-[16:53:29] [Server thread/INFO]: No player was found
-[16:53:59] [Server thread/INFO]: No player was found
-[16:54:29] [Server thread/INFO]: No player was found
-[16:54:58] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:54:58] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[16:54:58] [RCON Client /127.104.193.247 #142/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:54:58] [RCON Client /127.104.193.247 #143/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[16:54:59] [Server thread/INFO]: No player was found
-[16:55:29] [Server thread/INFO]: No player was found
-[16:55:59] [Server thread/INFO]: No player was found
-[16:56:18] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:56:18] [RCON Client /127.127.143.152 #144/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:56:18] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[16:56:19] [RCON Client /127.127.143.152 #145/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[16:56:29] [Server thread/INFO]: No player was found
-[16:56:59] [Server thread/INFO]: No player was found
-[16:57:26] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:57:26] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[16:57:26] [RCON Client /127.116.117.187 #146/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:57:26] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:57:26] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[16:57:26] [RCON Client /127.145.222.178 #149/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:57:26] [RCON Client /127.145.222.178 #148/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[16:57:26] [RCON Client /127.116.117.187 #147/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[16:57:29] [Server thread/INFO]: No player was found
-[16:57:59] [Server thread/INFO]: No player was found
-[16:58:29] [Server thread/INFO]: No player was found
-[16:58:59] [Server thread/INFO]: No player was found
-[16:59:29] [Server thread/INFO]: No player was found
-[16:59:59] [Server thread/INFO]: No player was found
-[17:00:29] [RCON Listener #1/INFO]: Thread RCON Client /127.239.160.64 started
-[17:00:29] [RCON Listener #1/INFO]: Thread RCON Client /127.239.160.64 started
-[17:00:29] [RCON Listener #1/INFO]: Thread RCON Client /127.239.160.64 started
-[17:00:29] [RCON Client /127.239.160.64 #150/INFO]: Thread RCON Client /127.239.160.64 shutting down
-[17:00:29] [Server thread/INFO]: No player was found
-[17:00:32] [RCON Client /127.239.160.64 #152/INFO]: Thread RCON Client /127.239.160.64 shutting down
-[17:00:35] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:00:36] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:00:36] [RCON Client /127.104.193.247 #154/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:00:36] [RCON Client /127.104.193.247 #153/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:00:59] [Server thread/INFO]: No player was found
-[17:01:29] [Server thread/INFO]: No player was found
-[17:01:50] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:01:50] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:01:50] [RCON Client /127.127.143.152 #156/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:01:50] [RCON Client /127.127.143.152 #155/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:01:59] [Server thread/INFO]: No player was found
-[17:02:29] [Server thread/INFO]: No player was found
-[17:02:55] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:02:55] [RCON Client /127.116.117.187 #157/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:02:55] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:02:55] [RCON Client /127.116.117.187 #158/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:02:59] [Server thread/INFO]: No player was found
-[17:03:29] [Server thread/INFO]: No player was found
-[17:03:49] [RCON Client /127.239.160.64 #151/INFO]: Thread RCON Client /127.239.160.64 shutting down
-[17:03:59] [Server thread/INFO]: No player was found
-[17:04:29] [Server thread/INFO]: No player was found
-[17:04:59] [Server thread/INFO]: No player was found
-[17:05:29] [Server thread/INFO]: No player was found
-[17:05:59] [Server thread/INFO]: No player was found
-[17:06:20] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:06:20] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:06:20] [RCON Client /127.104.193.247 #159/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:06:21] [RCON Client /127.104.193.247 #160/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:06:29] [Server thread/INFO]: No player was found
-[17:06:59] [Server thread/INFO]: No player was found
-[17:07:22] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:07:22] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:07:22] [RCON Client /127.127.143.152 #161/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:07:22] [RCON Client /127.127.143.152 #162/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:07:29] [Server thread/INFO]: No player was found
-[17:07:59] [Server thread/INFO]: No player was found
-[17:08:24] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:08:24] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:08:24] [RCON Client /127.116.117.187 #163/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:08:25] [RCON Client /127.116.117.187 #164/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:08:29] [Server thread/INFO]: No player was found
-[17:08:45] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:08:48] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:08:48] [RCON Client /127.145.222.178 #165/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:08:48] [RCON Client /127.145.222.178 #166/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:08:59] [Server thread/INFO]: No player was found
-[17:09:29] [Server thread/INFO]: No player was found
-[17:09:59] [Server thread/INFO]: No player was found
-[17:10:29] [Server thread/INFO]: No player was found
-[17:10:59] [Server thread/INFO]: No player was found
-[17:11:29] [Server thread/INFO]: No player was found
-[17:11:59] [Server thread/INFO]: No player was found
-[17:12:00] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:12:00] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:12:00] [RCON Client /127.104.193.247 #168/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:12:00] [RCON Client /127.104.193.247 #167/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:12:29] [Server thread/INFO]: No player was found
-[17:12:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:12:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:12:53] [RCON Client /127.127.143.152 #170/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:12:53] [RCON Client /127.127.143.152 #169/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:12:59] [Server thread/INFO]: No player was found
-[17:13:29] [Server thread/INFO]: No player was found
-[17:13:53] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:13:53] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:13:54] [RCON Client /127.116.117.187 #171/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:13:54] [RCON Client /127.116.117.187 #172/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:13:59] [Server thread/INFO]: No player was found
-[17:14:25] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:14:25] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:14:26] [RCON Client /127.145.222.178 #174/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:14:26] [RCON Client /127.145.222.178 #173/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:14:29] [Server thread/INFO]: No player was found
-[17:14:59] [Server thread/INFO]: No player was found
-[17:15:29] [Server thread/INFO]: No player was found
-[17:15:59] [Server thread/INFO]: No player was found
-[17:16:29] [Server thread/INFO]: No player was found
-[17:16:59] [Server thread/INFO]: No player was found
-[17:17:29] [Server thread/INFO]: No player was found
-[17:17:40] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:17:40] [RCON Client /127.104.193.247 #175/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:17:40] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:17:40] [RCON Client /127.104.193.247 #176/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:17:59] [Server thread/INFO]: No player was found
-[17:18:24] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:18:24] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:18:24] [RCON Client /127.127.143.152 #178/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:18:24] [RCON Client /127.127.143.152 #177/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:18:29] [Server thread/INFO]: No player was found
-[17:18:59] [Server thread/INFO]: No player was found
-[17:19:22] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:19:22] [RCON Client /127.116.117.187 #179/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:19:23] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:19:23] [RCON Client /127.116.117.187 #180/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:19:29] [Server thread/INFO]: No player was found
-[17:19:59] [Server thread/INFO]: No player was found
-[17:20:29] [Server thread/INFO]: No player was found
-[17:20:59] [Server thread/INFO]: No player was found
-[17:21:29] [Server thread/INFO]: No player was found
-[17:21:59] [Server thread/INFO]: No player was found
-[17:22:29] [Server thread/INFO]: No player was found
-[17:22:59] [Server thread/INFO]: No player was found
-[17:23:27] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:23:28] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:23:28] [RCON Client /127.104.193.247 #181/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:23:28] [RCON Client /127.104.193.247 #182/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:23:29] [Server thread/INFO]: No player was found
-[17:23:59] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:23:59] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:23:59] [RCON Client /127.127.143.152 #184/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:23:59] [RCON Client /127.127.143.152 #183/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:23:59] [Server thread/INFO]: No player was found
-[17:24:29] [Server thread/INFO]: No player was found
-[17:24:59] [Server thread/INFO]: No player was found
-[17:25:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:25:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:25:02] [RCON Client /127.116.117.187 #185/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:25:02] [RCON Client /127.116.117.187 #186/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:25:29] [Server thread/INFO]: No player was found
-[17:25:59] [Server thread/INFO]: No player was found
-[17:26:29] [Server thread/INFO]: No player was found
-[17:26:59] [Server thread/INFO]: No player was found
-[17:27:29] [Server thread/INFO]: No player was found
-[17:27:59] [Server thread/INFO]: No player was found
-[17:28:29] [Server thread/INFO]: No player was found
-[17:28:59] [Server thread/INFO]: No player was found
-[17:29:24] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:29:24] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:29:25] [RCON Client /127.104.193.247 #188/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:29:25] [RCON Client /127.104.193.247 #187/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:29:29] [Server thread/INFO]: No player was found
-[17:29:44] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:29:44] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:29:44] [RCON Client /127.127.143.152 #190/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:29:44] [RCON Client /127.127.143.152 #189/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:29:59] [Server thread/INFO]: No player was found
-[17:30:29] [Server thread/INFO]: No player was found
-[17:30:37] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:30:37] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:30:37] [RCON Client /127.116.117.187 #192/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:30:38] [RCON Client /127.116.117.187 #191/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:30:59] [Server thread/INFO]: No player was found
-[17:31:29] [Server thread/INFO]: No player was found
-[17:31:35] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:31:38] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:31:38] [RCON Client /127.145.222.178 #193/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:31:38] [RCON Client /127.145.222.178 #194/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:31:59] [Server thread/INFO]: No player was found
-[17:32:29] [Server thread/INFO]: No player was found
-[17:32:59] [Server thread/INFO]: No player was found
-[17:33:29] [Server thread/INFO]: No player was found
-[17:33:59] [Server thread/INFO]: No player was found
-[17:34:29] [Server thread/INFO]: No player was found
-[17:34:59] [Server thread/INFO]: No player was found
-[17:35:13] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:35:13] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:35:14] [RCON Client /127.104.193.247 #196/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:35:14] [RCON Client /127.104.193.247 #195/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:35:18] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:35:18] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:35:19] [RCON Client /127.127.143.152 #198/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:35:19] [RCON Client /127.127.143.152 #197/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:35:29] [Server thread/INFO]: No player was found
-[17:35:59] [Server thread/INFO]: No player was found
-[17:36:09] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:36:09] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:36:10] [RCON Client /127.116.117.187 #200/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:36:10] [RCON Client /127.116.117.187 #199/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:36:29] [Server thread/INFO]: No player was found
-[17:36:59] [Server thread/INFO]: No player was found
-[17:37:14] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:37:17] [RCON Client /127.145.222.178 #201/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:37:17] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
-[17:37:17] [RCON Client /127.145.222.178 #202/INFO]: Thread RCON Client /127.145.222.178 shutting down
-[17:37:29] [Server thread/INFO]: No player was found
-[17:37:59] [Server thread/INFO]: No player was found
-[17:38:29] [Server thread/INFO]: No player was found
-[17:38:59] [Server thread/INFO]: No player was found
-[17:39:29] [Server thread/INFO]: No player was found
-[17:39:59] [Server thread/INFO]: No player was found
-[17:40:29] [Server thread/INFO]: No player was found
-[17:40:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:40:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
-[17:40:53] [RCON Client /127.127.143.152 #204/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:40:53] [RCON Client /127.127.143.152 #203/INFO]: Thread RCON Client /127.127.143.152 shutting down
-[17:40:58] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:40:58] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
-[17:40:58] [RCON Client /127.104.193.247 #206/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:40:58] [RCON Client /127.104.193.247 #205/INFO]: Thread RCON Client /127.104.193.247 shutting down
-[17:40:59] [Server thread/INFO]: No player was found
-[17:41:29] [Server thread/INFO]: No player was found
-[17:41:40] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:41:40] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
-[17:41:40] [RCON Client /127.116.117.187 #208/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:41:41] [RCON Client /127.116.117.187 #207/INFO]: Thread RCON Client /127.116.117.187 shutting down
-[17:41:59] [Server thread/INFO]: No player was found
-[17:42:29] [Server thread/INFO]: No player was found
-[17:42:59] [Server thread/INFO]: No player was found
-[17:43:29] [Server thread/INFO]: No player was found
-[17:43:59] [Server thread/INFO]: No player was found
-[17:44:29] [Server thread/INFO]: No player was found
-[17:44:59] [Server thread/INFO]: No player was found
-[17:45:29] [Server thread/INFO]: No player was found
-[17:45:59] [Server thread/INFO]: No player was found
-[17:46:29] [Server thread/INFO]: No player was found
-[17:46:59] [Server thread/INFO]: No player was found
-[17:47:29] [Server thread/INFO]: No player was found
-[17:47:59] [Server thread/INFO]: No player was found
-[17:48:29] [Server thread/INFO]: No player was found
-[17:48:35] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[17:48:35] [Server thread/INFO]: [Rcon: Stopping the server]
-[17:48:35] [RCON Client /0:0:0:0:0:0:0:1 #209/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[17:48:35] [Server thread/INFO]: Stopping server
-[17:48:35] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
-[17:48:35] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
-[17:48:35] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
-[17:48:35] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[17:48:35] [Server thread/INFO]: Saving players
-[17:48:35] [Server thread/INFO]: Saving worlds
-[17:48:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 135 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:48:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:48:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:48:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:48:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:48:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:48:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:48:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:48:35] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:48:35] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:48:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:48:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[17:57:58] [Server thread/INFO]: [spark] Starting background profiler...
+[17:57:58] [Server thread/INFO]: Done preparing level "world" (2.248s)
+[17:57:58] [Server thread/INFO]: Starting remote control listener
+[17:57:58] [Server thread/INFO]: Thread RCON Listener started
+[17:57:58] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[17:57:58] [Server thread/INFO]: Running delayed init tasks
+[17:57:58] [Server thread/INFO]: Done (13.382s)! For help, type "help"
+[17:57:58] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:57:58] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[17:57:58] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[17:57:58] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
+[17:58:03] [Server thread/INFO]: No player was found
+[17:58:33] [Server thread/INFO]: No player was found
+[17:58:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[17:58:39] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[17:58:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[17:58:39] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
+[17:58:39] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[17:59:02] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[17:59:02] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[17:59:03] [Server thread/INFO]: No player was found
+[17:59:06] [User Authenticator #0/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
+[17:59:09] [Server thread/INFO]: mokshraj[/10.9.0.1:59974] logged in with entity id 21 at ([world]16.0, 72.0, 16.0)
+[17:59:33] [Server thread/INFO]: No player was found
+[18:00:03] [Server thread/INFO]: No player was found
+[18:00:09] [Server thread/INFO]: mokshraj lost connection: You stayed for too much time without logging in
+[18:00:09] [Server thread/INFO]: mokshraj left the game
+[18:00:33] [Server thread/INFO]: No player was found
+[18:00:35] [User Authenticator #1/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
+[18:00:37] [Server thread/INFO]: mokshraj[/10.9.0.1:43906] logged in with entity id 537 at ([world]16.0, 72.0, 16.0)
+[18:00:52] [Server thread/INFO]: mokshraj issued server command: /plugins
+[18:01:03] [Server thread/INFO]: No player was found
+[18:01:03] [Server thread/INFO]: mokshraj issued server command: /reload
+[18:01:03] [Server thread/INFO]: [mokshraj: Reloading!]
+[18:01:04] [Server thread/INFO]: Loaded 1407 recipes
+[18:01:04] [Server thread/INFO]: Loaded 1520 advancements
+[18:01:33] [Server thread/INFO]: No player was found
+[18:01:37] [Server thread/INFO]: mokshraj lost connection: Disconnected
+[18:01:37] [Server thread/INFO]: mokshraj left the game
+[18:01:40] [User Authenticator #2/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
+[18:01:42] [Server thread/INFO]: mokshraj[/10.9.0.1:39532] logged in with entity id 759 at ([world]16.0, 72.0, 16.0)
+[18:01:59] [Server thread/INFO]: mokshraj issued server command: /restart
+[18:01:59] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[18:01:59] [Server thread/INFO]: mokshraj lost connection: Server is restarting
+[18:01:59] [Server thread/INFO]: mokshraj left the game
+[18:01:59] [Server thread/INFO]: Stopping server
+[18:01:59] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[18:01:59] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[18:01:59] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[18:01:59] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
+[18:01:59] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:01:59] [Server thread/INFO]: Saving players
+[18:01:59] [Server thread/INFO]: Saving worlds
+[18:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:01:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:01:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:01:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Saved 1515 block chunks, 1515 entity chunks, 2 poi chunks in world 'world' in 2.43s
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:02:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:02:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:02:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:02:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:02:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:02:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:02:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:02:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
