@@ -49,13 +49,13 @@ jobs:
       - name: Authenticate and Start Ngrok
         run: |
          ngrok authtoken ${{ secrets.AUTH_NGROK }}  # Using the ngrok auth saved in secrets
-         nohup ngrok http --url=dassie-open-optionally.ngrok-free.app 8123 > /dev/null 2>&1 &
+         nohup ngrok http --url=dassie-open-optionally.ngrok-free.app 8080 > /dev/null 2>&1 &
          sleep 5  # Wait for Ngrok to initialize
 
       - name: Get Ngrok URL
         run: |
          NGROK_TCP_URL=$(curl --silent http://127.0.0.1:4040/api/tunnels | jq -r .tunnels[0].public_url)
-         echo "Ngrok TCP Address: $NGROK_TCP_URL"
+         echo "Ngrok Address: $NGROK_TCP_URL"
 
       - name: Install dependencies
         run: sudo apt-get install gcc make
@@ -68,29 +68,41 @@ jobs:
           make
           sudo cp mcrcon /usr/local/bin/
       
+      - name: Install shr and rcon
+        run: |
+          sudo cp /home/runner/work/Mine_server/Mine_server/shr /usr/local/bin/
+          chmod +x /usr/local/bin/shr
+          sudo cp /home/runner/work/Mine_server/Mine_server/rcon /usr/local/bin/
+          chmod +x /usr/local/bin/rcon
+
+      - name: Install filebrowser & Start
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
+          filebrowser --disable-exec=false > /home/runner/work/Mine_server/Mine_server/filebrowser.log 2>&1 &
+
       - name: Initialise Server save loop
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           screen -dms Save_loop bash -c 'chmod +x /home/runner/work/Mine_server/Mine_server/server_save_loop.sh; bash /home/runner/work/Mine_server/Mine_server/server_save_loop.sh'
       
-      - name: rcon test
+      - name: filebrowser output
         run: |
-          bash /home/runner/work/Mine_server/Mine_server/screen_test.sh
-          sleep 5
-      - name : Install openvpn
-        run: |
-          sudo apt update && sudo apt install -y openvpn openvpn-systemd-resolved
-          echo "${{ secrets.TUNNEL }}" > /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
+          cat /home/runner/work/Mine_server/Mine_server/filebrowser.log
+
+      # - name : Install openvpn
+      #   run: |
+      #     sudo apt update && sudo apt install -y openvpn openvpn-systemd-resolved
+      #     echo "${{ secrets.TUNNEL }}" > /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
       
-      - name : connect to portmap
-        uses: kota65535/github-openvpn-connect-action@v3.1.0
-        with:
-          config_file: /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
+      # - name : connect to portmap
+      #   uses: kota65535/github-openvpn-connect-action@v3.1.0
+      #   with:
+      #     config_file: /home/runner/work/Mine_server/Mine_server/Moksh1.first.ovpn
       
-      - name : remove ovpn
-        run: |
-          rm -f Moksh1.first.ovpn
+      # - name : remove ovpn
+      #   run: |
+      #     rm -f Moksh1.first.ovpn
 
       - name: Save secret_key from secrets
         run: |
