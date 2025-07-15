@@ -77,7 +77,8 @@ jobs:
 
       - name: Install filebrowser & Start
         run: |
-          curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
+          sudo cp /home/runner/work/Mine_server/Mine_server/filebrowser /usr/local/bin/
+          sudo chmod +x /usr/local/bin/filebrowser
           filebrowser --disable-exec=false > /home/runner/work/Mine_server/Mine_server/filebrowser.log 2>&1 &
 
       - name: Initialise Server save loop
