@@ -71,9 +71,9 @@ jobs:
       - name: Install shr and rcon
         run: |
           sudo cp /home/runner/work/Mine_server/Mine_server/shr /usr/local/bin/
-          chmod +x /usr/local/bin/shr
+          sudo chmod +x /usr/local/bin/shr
           sudo cp /home/runner/work/Mine_server/Mine_server/rcon /usr/local/bin/
-          chmod +x /usr/local/bin/rcon
+          sudo chmod +x /usr/local/bin/rcon
 
       - name: Install filebrowser & Start
         run: |
