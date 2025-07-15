@@ -8,3 +8,5 @@
 2025/07/15 08:41:59 WARNING: you fully understand the risks involved. For more information
 2025/07/15 08:41:59 WARNING: read https://github.com/filebrowser/filebrowser/issues/5199
 2025/07/15 08:41:59 Listening on 127.0.0.1:8080
+2025/07/15 08:45:40 /: 500 127.0.0.1:48814 exit status 1
+2025/07/15 08:45:40 websocket: bad write message type
