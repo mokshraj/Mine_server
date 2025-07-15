@@ -323,3 +323,23 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [19:32:35] [Server thread/INFO]: No player was found
 [19:33:05] [Server thread/INFO]: No player was found
 [19:33:35] [Server thread/INFO]: No player was found
+[19:34:05] [Server thread/INFO]: No player was found
+[19:34:35] [Server thread/INFO]: No player was found
+[19:34:37] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[19:34:37] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[19:34:42] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[19:34:42] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[19:34:42] [RCON Client /127.116.117.187 #26/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[19:35:05] [Server thread/INFO]: No player was found
+[19:35:35] [Server thread/INFO]: No player was found
+[19:36:05] [Server thread/INFO]: No player was found
+[19:36:35] [Server thread/INFO]: No player was found
+[19:36:37] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[19:36:47] [RCON Client /127.203.71.151 #28/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[19:37:05] [Server thread/INFO]: No player was found
+[19:37:35] [Server thread/INFO]: No player was found
+[19:37:57] [RCON Client /127.127.143.152 #24/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[19:37:57] [RCON Client /127.127.143.152 #25/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[19:38:02] [RCON Client /127.116.117.187 #27/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[19:38:05] [Server thread/INFO]: No player was found
+[19:38:35] [Server thread/INFO]: No player was found
