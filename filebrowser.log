@@ -1,12 +1,7 @@
-2025/07/15 08:41:59 Warning: filebrowser.db can't be found. Initialing in /home/runner/work/Mine_server/Mine_server/
-2025/07/15 08:41:59 Using database: /home/runner/work/Mine_server/Mine_server/filebrowser.db
-2025/07/15 08:41:59 No config file used
-2025/07/15 08:41:59 Performing quick setup
-2025/07/15 08:41:59 User 'admin' initialized with randomly generated password: 2ejknozspN3-2mlV
-2025/07/15 08:41:59 WARNING: Command Runner feature enabled!
-2025/07/15 08:41:59 WARNING: This feature has known security vulnerabilities and should not
-2025/07/15 08:41:59 WARNING: you fully understand the risks involved. For more information
-2025/07/15 08:41:59 WARNING: read https://github.com/filebrowser/filebrowser/issues/5199
-2025/07/15 08:41:59 Listening on 127.0.0.1:8080
-2025/07/15 08:45:40 /: 500 127.0.0.1:48814 exit status 1
-2025/07/15 08:45:40 websocket: bad write message type
+2025/07/15 08:52:01 Using database: /home/runner/work/Mine_server/Mine_server/filebrowser.db
+2025/07/15 08:52:01 No config file used
+2025/07/15 08:52:01 WARNING: Command Runner feature enabled!
+2025/07/15 08:52:01 WARNING: This feature has known security vulnerabilities and should not
+2025/07/15 08:52:01 WARNING: you fully understand the risks involved. For more information
+2025/07/15 08:52:01 WARNING: read https://github.com/filebrowser/filebrowser/issues/5199
+2025/07/15 08:52:01 Listening on 127.0.0.1:8080
