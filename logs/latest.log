@@ -233,3 +233,116 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [15:41:36] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
 [15:41:37] [RCON Client /127.104.193.247 #33/INFO]: Thread RCON Client /127.104.193.247 shutting down
 [15:41:37] [RCON Client /127.104.193.247 #32/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[15:41:47] [Server thread/INFO]: mokshraj issued server command: /gamemode creative
+[15:41:47] [Server thread/INFO]: [mokshraj: Set own game mode to Creative Mode]
+[15:41:59] [Server thread/INFO]: No player was found
+[15:42:29] [Server thread/INFO]: No player was found
+[15:42:32] [Server thread/INFO]: mokshraj lost connection: You stayed for too much time without logging in
+[15:42:32] [Server thread/INFO]: mokshraj left the game
+[15:42:37] [User Authenticator #1/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
+[15:42:39] [Server thread/INFO]: mokshraj[/127.189.83.73:60477] logged in with entity id 501 at ([world]16.0, 72.0, 16.0)
+[15:42:59] [Server thread/INFO]: No player was found
+[15:43:15] [Server thread/INFO]: mokshraj issued server command: /plugman disable UserLogin
+[15:43:15] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
+[15:43:26] [Server thread/INFO]: mokshraj issued server command: /plugins
+[15:43:29] [Server thread/INFO]: No player was found
+[15:43:58] [Server thread/INFO]: mokshraj issued server command: /gamemode survival
+[15:43:58] [Server thread/INFO]: [mokshraj: Set own game mode to Survival Mode]
+[15:43:59] [Server thread/INFO]: No player was found
+[15:44:15] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[15:44:15] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[15:44:16] [RCON Client /127.127.143.152 #35/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[15:44:16] [RCON Client /127.127.143.152 #34/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[15:44:29] [Server thread/INFO]: No player was found
+[15:44:59] [Server thread/INFO]: No player was found
+[15:45:29] [Server thread/INFO]: No player was found
+[15:45:59] [Server thread/INFO]: No player was found
+[15:46:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[15:46:01] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[15:46:01] [RCON Client /127.116.117.187 #37/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[15:46:01] [RCON Client /127.116.117.187 #36/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[15:46:12] [Server thread/INFO]: mokshraj issued server command: /difficulty normal
+[15:46:12] [Server thread/INFO]: [mokshraj: The difficulty has been set to Normal]
+[15:46:29] [Server thread/INFO]: No player was found
+[15:46:53] [Server thread/INFO]: mokshraj was shot by Skeleton
+[15:46:59] [Server thread/INFO]: No player was found
+[15:47:12] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[15:47:12] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[15:47:12] [RCON Client /127.104.193.247 #39/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[15:47:13] [RCON Client /127.104.193.247 #38/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[15:47:29] [Server thread/INFO]: No player was found
+[15:47:31] [Server thread/INFO]: mokshraj lost connection: Disconnected
+[15:47:31] [Server thread/INFO]: mokshraj left the game
+[15:47:37] [User Authenticator #2/INFO]: UUID of player mokshraj is 1bbe5837-f29b-3783-b784-3b340a293b7b
+[15:47:40] [Server thread/INFO]: mokshraj joined the game
+[15:47:40] [Server thread/INFO]: mokshraj[/127.189.83.73:41339] logged in with entity id 1195 at ([world]-29.339191277362808, 63.0, 19.69999998807907)
+[15:47:59] [Server thread/INFO]: No player was found
+[15:48:29] [Server thread/INFO]: No player was found
+[15:48:59] [Server thread/INFO]: No player was found
+[15:49:29] [Server thread/INFO]: No player was found
+[15:49:47] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[15:49:48] [RCON Client /127.127.143.152 #40/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[15:49:48] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[15:49:48] [RCON Client /127.127.143.152 #41/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[15:49:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[15:49:53] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[15:49:54] [RCON Client /127.145.222.178 #43/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[15:49:54] [RCON Client /127.145.222.178 #42/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[15:49:59] [Server thread/INFO]: No player was found
+[15:50:29] [Server thread/INFO]: No player was found
+[15:50:59] [Server thread/INFO]: No player was found
+[15:51:29] [Server thread/INFO]: No player was found
+[15:51:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[15:51:30] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[15:51:30] [RCON Client /127.116.117.187 #45/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[15:51:30] [RCON Client /127.116.117.187 #44/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[15:51:59] [Server thread/INFO]: No player was found
+[15:52:24] [Server thread/INFO]: mokshraj lost connection: Disconnected
+[15:52:24] [Server thread/INFO]: mokshraj left the game
+[15:52:29] [Server thread/INFO]: No player was found
+[15:52:47] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[15:52:50] [RCON Client /127.104.193.247 #46/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[15:52:50] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[15:52:50] [RCON Client /127.104.193.247 #47/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[15:52:59] [Server thread/INFO]: No player was found
+[15:53:29] [Server thread/INFO]: No player was found
+[15:53:59] [Server thread/INFO]: No player was found
+[15:54:29] [Server thread/INFO]: No player was found
+[15:54:59] [Server thread/INFO]: No player was found
+[15:55:19] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[15:55:19] [RCON Client /127.127.143.152 #48/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[15:55:19] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[15:55:20] [RCON Client /127.127.143.152 #49/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[15:55:29] [Server thread/INFO]: No player was found
+[15:55:30] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[15:55:30] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[15:55:30] [RCON Client /127.145.222.178 #51/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[15:55:30] [RCON Client /127.145.222.178 #50/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[15:55:59] [Server thread/INFO]: No player was found
+[15:56:29] [Server thread/INFO]: No player was found
+[15:56:59] [Server thread/INFO]: No player was found
+[15:57:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[15:57:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[15:57:00] [RCON Client /127.116.117.187 #52/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[15:57:00] [RCON Client /127.116.117.187 #53/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[15:57:29] [Server thread/INFO]: No player was found
+[15:57:59] [Server thread/INFO]: No player was found
+[15:58:22] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[15:58:23] [RCON Listener #1/INFO]: Thread RCON Client /127.104.193.247 started
+[15:58:23] [RCON Client /127.104.193.247 #54/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[15:58:23] [RCON Client /127.104.193.247 #55/INFO]: Thread RCON Client /127.104.193.247 shutting down
+[15:58:29] [Server thread/INFO]: No player was found
+[15:58:59] [Server thread/INFO]: No player was found
+[15:59:29] [Server thread/INFO]: No player was found
+[15:59:59] [Server thread/INFO]: No player was found
+[16:00:29] [Server thread/INFO]: No player was found
+[16:00:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[16:00:53] [RCON Client /127.127.143.152 #56/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[16:00:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[16:00:54] [RCON Client /127.127.143.152 #57/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[16:00:59] [Server thread/INFO]: No player was found
+[16:01:08] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[16:01:08] [RCON Listener #1/INFO]: Thread RCON Client /127.145.222.178 started
+[16:01:08] [RCON Client /127.145.222.178 #58/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[16:01:08] [RCON Client /127.145.222.178 #59/INFO]: Thread RCON Client /127.145.222.178 shutting down
+[16:01:29] [Server thread/INFO]: No player was found
