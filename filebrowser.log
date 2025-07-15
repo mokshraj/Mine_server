@@ -1,9 +1,7 @@
-2025/07/15 10:18:20 Using database: /home/runner/work/Mine_server/Mine_server/filebrowser.db
-2025/07/15 10:18:20 No config file used
-2025/07/15 10:18:20 WARNING: Command Runner feature enabled!
-2025/07/15 10:18:20 WARNING: This feature has known security vulnerabilities and should not
-2025/07/15 10:18:20 WARNING: you fully understand the risks involved. For more information
-2025/07/15 10:18:20 WARNING: read https://github.com/filebrowser/filebrowser/issues/5199
-2025/07/15 10:18:20 Listening on 127.0.0.1:8080
-2025/07/15 14:37:54 /api/renew: 401 2409:40c4:10f7:7e81:7e7d:63ad:4e:f75c <nil>
-2025/07/15 14:37:55 /api/renew: 401 2409:40c4:10f7:7e81:7e7d:63ad:4e:f75c <nil>
+2025/07/15 15:21:29 Using database: /home/runner/work/Mine_server/Mine_server/filebrowser.db
+2025/07/15 15:21:29 No config file used
+2025/07/15 15:21:29 WARNING: Command Runner feature enabled!
+2025/07/15 15:21:29 WARNING: This feature has known security vulnerabilities and should not
+2025/07/15 15:21:29 WARNING: you fully understand the risks involved. For more information
+2025/07/15 15:21:29 WARNING: read https://github.com/filebrowser/filebrowser/issues/5199
+2025/07/15 15:21:29 Listening on 127.0.0.1:8080
