@@ -1837,3 +1837,88 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [12:46:55] [Server thread/INFO]: No player was found
 [12:47:20] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 5 minutes
 [12:47:25] [Server thread/INFO]: No player was found
+[12:47:45] [RCON Listener #1/INFO]: Thread RCON Client /127.29.237.124 started
+[12:47:45] [RCON Client /127.29.237.124 #563/INFO]: Thread RCON Client /127.29.237.124 shutting down
+[12:47:55] [Server thread/INFO]: No player was found
+[12:48:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:48:02] [RCON Client /127.0.0.1 #564/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:48:18] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[12:48:19] [RCON Listener #1/INFO]: Thread RCON Client /127.127.143.152 started
+[12:48:19] [RCON Client /127.127.143.152 #565/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[12:48:19] [RCON Client /127.127.143.152 #566/INFO]: Thread RCON Client /127.127.143.152 shutting down
+[12:48:24] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:48:24] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:48:24] [RCON Client /127.203.71.151 #567/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:48:25] [RCON Client /127.203.71.151 #568/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:48:25] [Server thread/INFO]: No player was found
+[12:48:55] [Server thread/INFO]: No player was found
+[12:48:58] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[12:48:58] [RCON Listener #1/INFO]: Thread RCON Client /127.116.117.187 started
+[12:48:58] [RCON Client /127.116.117.187 #570/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[12:48:58] [RCON Client /127.116.117.187 #569/INFO]: Thread RCON Client /127.116.117.187 shutting down
+[12:49:20] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 3 minutes
+[12:49:25] [Server thread/INFO]: No player was found
+[12:49:38] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:49:38] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:49:38] [RCON Client /127.203.71.151 #572/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:49:38] [RCON Client /127.203.71.151 #571/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:49:55] [Server thread/INFO]: No player was found
+[12:50:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
+[12:50:00] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
+[12:50:01] [RCON Client /127.116.107.223 #573/INFO]: Thread RCON Client /127.116.107.223 shutting down
+[12:50:01] [RCON Client /127.116.107.223 #574/INFO]: Thread RCON Client /127.116.107.223 shutting down
+[12:50:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:50:02] [RCON Client /127.0.0.1 #575/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:50:25] [Server thread/INFO]: No player was found
+[12:50:51] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:50:54] [RCON Client /127.203.71.151 #576/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:50:54] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:50:55] [Server thread/INFO]: No player was found
+[12:50:58] [RCON Client /127.203.71.151 #577/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:51:20] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 1 minutes
+[12:51:25] [Server thread/INFO]: No player was found
+[12:51:50] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 30 seconds
+[12:51:55] [Server thread/INFO]: No player was found
+[12:52:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[12:52:02] [RCON Client /127.0.0.1 #578/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[12:52:05] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:52:14] [RCON Client /127.203.71.151 #579/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:52:15] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[12:52:18] [RCON Client /127.203.71.151 #580/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[12:52:20] [Server thread/INFO]: Stopping the server
+[12:52:20] [Server thread/INFO]: Stopping server
+[12:52:20] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[12:52:20] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[12:52:21] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[12:52:21] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:52:21] [Server thread/INFO]: Saving players
+[12:52:21] [Server thread/INFO]: Saving worlds
+[12:52:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 28 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:52:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:52:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:52:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:52:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:52:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:52:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:52:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:52:21] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[12:52:21] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[12:52:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:52:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
