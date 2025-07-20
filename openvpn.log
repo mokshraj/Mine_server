@@ -28,3 +28,9 @@
 2025-07-20 16:10:08 TCP connection established with [AF_INET]193.161.193.99:1194
 2025-07-20 16:10:08 TCPv4_CLIENT link local: (not bound)
 2025-07-20 16:10:08 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:44 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:53 TUN/TAP device tun0 opened
+2025-07-20 16:10:53 net_iface_mtu_set: mtu 1500 for tun0
+2025-07-20 16:10:53 net_iface_up: set tun0 up
+2025-07-20 16:10:53 net_addr_ptp_v4_add: 10.9.15.174 peer 10.9.15.173 dev tun0
+2025-07-20 16:10:53 Initialization Sequence Completed
