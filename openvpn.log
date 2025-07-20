@@ -13,3 +13,18 @@
 2025-07-20 11:55:18 net_iface_up: set tun0 up
 2025-07-20 11:55:18 net_addr_ptp_v4_add: 10.9.15.174 peer 10.9.15.173 dev tun0
 2025-07-20 11:55:18 Initialization Sequence Completed
+2025-07-20 16:10:06 [193.161.193.99] Inactivity timeout (--ping-restart), restarting
+2025-07-20 16:10:06 net_addr_ptp_v4_del: 10.9.15.174 dev tun0
+2025-07-20 16:10:06 SIGUSR1[soft,ping-restart] received, process restarting
+2025-07-20 16:10:07 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:07 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:07 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:07 TCPv4_CLIENT link local: (not bound)
+2025-07-20 16:10:07 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:07 Connection reset, restarting [-1]
+2025-07-20 16:10:07 SIGUSR1[soft,connection-reset] received, process restarting
+2025-07-20 16:10:08 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:08 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:08 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-07-20 16:10:08 TCPv4_CLIENT link local: (not bound)
+2025-07-20 16:10:08 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
