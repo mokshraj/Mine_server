@@ -492,3 +492,18 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [19:07:48] [Server thread/INFO]: No player was found
 [19:08:18] [Server thread/INFO]: No player was found
 [19:08:31] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[19:08:34] [RCON Client /127.203.71.151 #72/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[19:08:34] [RCON Listener #1/INFO]: Thread RCON Client /127.203.71.151 started
+[19:08:34] [RCON Client /127.203.71.151 #73/INFO]: Thread RCON Client /127.203.71.151 shutting down
+[19:08:48] [Server thread/INFO]: No player was found
+[19:09:18] [Server thread/INFO]: No player was found
+[19:09:48] [Server thread/INFO]: No player was found
+[19:09:54] [RCON Listener #1/INFO]: Thread RCON Client /127.109.1.234 started
+[19:09:54] [RCON Client /127.109.1.234 #74/INFO]: Thread RCON Client /127.109.1.234 shutting down
+[19:10:18] [Server thread/INFO]: No player was found
+[19:10:48] [Server thread/INFO]: No player was found
+[19:11:18] [Server thread/INFO]: No player was found
+[19:11:48] [Server thread/INFO]: No player was found
+[19:12:18] [Server thread/INFO]: No player was found
+[19:12:48] [Server thread/INFO]: No player was found
+[19:13:18] [Server thread/INFO]: No player was found
