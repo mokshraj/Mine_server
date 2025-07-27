@@ -149,3 +149,21 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [10:36:48] [Server thread/INFO]: No player was found
 [10:37:18] [Server thread/INFO]: No player was found
 [10:37:48] [Server thread/INFO]: No player was found
+[10:38:18] [Server thread/INFO]: No player was found
+[10:38:37] [Server thread/WARN]: nameispass moved too quickly! -25.065071240478915,11.368171845920372,15.811600830295106
+[10:38:48] [Server thread/INFO]: No player was found
+[10:39:03] [Netty Epoll Server IO #0/INFO]: Disconnecting nameispass for sending keepalive response (624165) out-of-order!
+[10:39:03] [Server thread/INFO]: nameispass lost connection: Timed out
+[10:39:03] [Server thread/INFO]: nameispass left the game
+[10:39:13] [User Authenticator #1/INFO]: UUID of player nameispass is 4a3fada4-1998-310c-b050-8e1e1b69c16a
+[10:39:15] [Server thread/INFO]: nameispass joined the game
+[10:39:15] [Server thread/INFO]: nameispass[/10.9.0.1:55484] logged in with entity id 2139 at ([world]-352.12973217852476, 91.98268309076866, -42.66638672200881)
+[10:39:18] [Server thread/INFO]: No player was found
+[10:39:45] [RCON Client /127.8.190.41 #4/INFO]: Thread RCON Client /127.8.190.41 shutting down
+[10:39:48] [Server thread/INFO]: No player was found
+[10:40:18] [Server thread/INFO]: No player was found
+[10:40:48] [Server thread/INFO]: No player was found
+[10:41:18] [Server thread/INFO]: No player was found
+[10:41:48] [Server thread/INFO]: No player was found
+[10:42:18] [Server thread/INFO]: No player was found
+[10:42:48] [Server thread/INFO]: No player was found
