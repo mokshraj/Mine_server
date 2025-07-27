@@ -167,3 +167,300 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [10:41:48] [Server thread/INFO]: No player was found
 [10:42:18] [Server thread/INFO]: No player was found
 [10:42:48] [Server thread/INFO]: No player was found
+[10:43:18] [Server thread/INFO]: No player was found
+[10:43:48] [Server thread/INFO]: No player was found
+[10:44:18] [Server thread/INFO]: No player was found
+[10:44:48] [Server thread/INFO]: No player was found
+[10:45:01] [Server thread/INFO]: nameispass issued server command: /gamemode survival
+[10:45:01] [Server thread/INFO]: [nameispass: Set own game mode to Survival Mode]
+[10:45:18] [Server thread/INFO]: No player was found
+[10:45:18] [Server thread/INFO]: nameispass was shot by Skeleton
+[10:45:48] [Server thread/INFO]: No player was found
+[10:46:18] [Server thread/INFO]: No player was found
+[10:46:30] [Server thread/INFO]: nameispass issued server command: /lag
+[10:46:39] [Server thread/INFO]: nameispass issued server command: /lag
+[10:46:47] [Server thread/INFO]: nameispass issued server command: /plugins
+[10:46:48] [Server thread/INFO]: No player was found
+[10:47:18] [Server thread/INFO]: No player was found
+[10:47:48] [Server thread/INFO]: No player was found
+[10:47:55] [Server thread/INFO]: nameispass was slain by Drowned
+[10:48:18] [Server thread/INFO]: No player was found
+[10:48:22] [Server thread/WARN]: nameispass moved too quickly! -10.342322207419468,-0.16610926093821377,8.8143105643952
+[10:48:39] [Server thread/WARN]: nameispass moved too quickly! -5.683323168405778,-2.0,-9.805411581907382
+[10:48:45] [Server thread/WARN]: nameispass moved too quickly! 8.525806932251836,-5.757469747882091,-5.656390389321585
+[10:48:48] [Server thread/INFO]: No player was found
+[10:49:18] [Server thread/INFO]: No player was found
+[10:49:32] [RCON Listener #1/INFO]: Thread RCON Client /127.8.190.41 started
+[10:49:48] [Server thread/INFO]: No player was found
+[10:49:55] [Server thread/INFO]: nameispass lost connection: Timed out
+[10:49:55] [Server thread/INFO]: nameispass left the game
+[10:50:18] [Server thread/INFO]: No player was found
+[10:50:48] [Server thread/INFO]: No player was found
+[10:51:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:51:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
+[10:51:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 603ms.
+[10:51:06] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[10:51:06] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:51:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:51:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[10:51:06] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[10:51:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/ConsoleScheduler.jar'...
+[10:51:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ConsoleScheduler.jar' in 182ms.
+[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[10:51:06] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[10:51:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Dynmap-3.7-beta-8-spigot.jar'...
+[10:51:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Dynmap-3.7-beta-8-spigot.jar' in 2619ms.
+[10:51:09] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Dynmap-3.7-beta-8-spigot-1753613467133.jar' in folder 'plugins/.paper-remapped/unknown-origin'
+org.bukkit.plugin.InvalidPluginException: Exception initializing main class `org.dynmap.bukkit.DynmapPlugin'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:114) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:399) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reloadAll(PaperPluginManager.java:481) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:102) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:336) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:700) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	... 44 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:177) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:152) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:195) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:529) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:508) ~[?:?]
+	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
+	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at Dynmap-3.7-beta-8-spigot-1753613467133.jar/org.dynmap.bukkit.DynmapPlugin.<init>(DynmapPlugin.java:222) ~[Dynmap-3.7-beta-8-spigot-1753613467133.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	... 44 more
+[10:51:09] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Dynmap-3.7-beta-8-spigot-1753613467133.jar' in folder 'plugins/.paper-remapped/unknown-origin'
+org.bukkit.plugin.InvalidPluginException: Exception initializing main class `org.dynmap.bukkit.DynmapPlugin'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:114) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:411) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reloadAll(PaperPluginManager.java:481) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:102) ~[PlugManX-2.4.1.jar:?]
+	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:336) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:700) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	... 44 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:177) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:152) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:195) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:529) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:508) ~[?:?]
+	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
+	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at Dynmap-3.7-beta-8-spigot-1753613467133.jar/org.dynmap.bukkit.DynmapPlugin.<init>(DynmapPlugin.java:222) ~[Dynmap-3.7-beta-8-spigot-1753613467133.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	... 44 more
+[10:51:09] [Server thread/WARN]: org.bukkit.plugin.InvalidPluginException: Plugin didn't load any plugin providers?
+[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.lambda$loadPlugin$1(PaperPluginInstanceManager.java:122)
+[10:51:09] [Server thread/WARN]: 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:122)
+[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82)
+[10:51:09] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419)
+[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:411)
+[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356)
+[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470)
+[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.reloadAll(PaperPluginManager.java:481)
+[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:102)
+[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94)
+[10:51:09] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[10:51:09] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:336)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:700)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63)
+[10:51:09] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
+[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[10:51:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[10:51:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4443ms or 88 ticks behind
+[10:51:09] [Craft Scheduler Thread - 37 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:51:09] [Craft Scheduler Thread - 37 - Vault/INFO]: [Vault] No new version available
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[10:51:15] [Server thread/INFO]: No player was found
+[10:51:32] [Server thread/INFO]: [Rcon: Stopping the server]
+[10:51:32] [Server thread/INFO]: Stopping server
+[10:51:32] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[10:51:32] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[10:51:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:51:32] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[10:51:32] [Server thread/INFO]: Saving players
+[10:51:32] [Server thread/INFO]: Saving worlds
+[10:51:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:51:32] [RCON Client /127.8.190.41 #5/INFO]: Thread RCON Client /127.8.190.41 shutting down
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 170 entity chunks, 0 poi chunks in world 'world' in 0.14s
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[10:51:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[10:51:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:51:33] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[10:51:33] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[10:51:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[10:51:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

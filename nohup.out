@@ -7,8 +7,7 @@ Changes not staged for commit:
 	modified:   logs/latest.log
 	modified:   nohup.out
 	modified:   playit.log
-	deleted:    plugins/spark/tmp-client/spark-77ac3eb0d7-profile-data.jfr.tmp
-	modified:   usercache.json
+	deleted:    plugins/spark/tmp-client/spark-bd859b12d0-profile-data.jfr.tmp
 	modified:   world/advancements/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
 	modified:   world/data/raids.dat
 	modified:   world/data/random_sequences.dat
@@ -22,22 +21,14 @@ Changes not staged for commit:
 	modified:   world/level.dat_old
 	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat
 	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat_old
-	modified:   world/poi/r.0.0.mca
 	modified:   world/region/r.-1.-1.mca
-	modified:   world/region/r.-1.-2.mca
 	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.-1.1.mca
 	modified:   world/region/r.-2.-1.mca
-	modified:   world/region/r.-2.-2.mca
 	modified:   world/region/r.-2.0.mca
-	modified:   world/region/r.0.-1.mca
-	modified:   world/region/r.0.-2.mca
-	modified:   world/region/r.0.0.mca
+	modified:   world/region/r.-2.1.mca
 	modified:   world/stats/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
 	modified:   world_nether/DIM-1/data/raids.dat
-	modified:   world_nether/DIM-1/region/r.-1.-1.mca
-	modified:   world_nether/DIM-1/region/r.-1.0.mca
-	modified:   world_nether/DIM-1/region/r.0.-1.mca
-	modified:   world_nether/DIM-1/region/r.0.0.mca
 	modified:   world_nether/level.dat
 	modified:   world_nether/level.dat_old
 	modified:   world_the_end/DIM1/data/raids_end.dat
@@ -45,15 +36,158 @@ Changes not staged for commit:
 	modified:   world_the_end/DIM1/entities/r.-1.0.mca
 	modified:   world_the_end/DIM1/entities/r.0.-1.mca
 	modified:   world_the_end/DIM1/entities/r.0.0.mca
-	modified:   world_the_end/DIM1/region/r.-1.-1.mca
-	modified:   world_the_end/DIM1/region/r.-1.0.mca
-	modified:   world_the_end/DIM1/region/r.0.-1.mca
-	modified:   world_the_end/DIM1/region/r.0.0.mca
 	modified:   world_the_end/level.dat
 	modified:   world_the_end/level.dat_old
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	plugins/spark/tmp-client/spark-bd859b12d0-profile-data.jfr.tmp
+	plugins/EssentialsX-2.21.1.jar
+	plugins/spark/tmp-client/spark-1035f0b4756-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+fatal: unable to stat 'plugins/spark/tmp-client/spark-1035f0b4756-profile-data.jfr.tmp': No such file or directory
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   playit.log
+	deleted:    plugins/spark/tmp-client/spark-bd859b12d0-profile-data.jfr.tmp
+	modified:   world/advancements/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
+	modified:   world/data/raids.dat
+	modified:   world/data/random_sequences.dat
+	modified:   world/entities/r.-1.-1.mca
+	modified:   world/entities/r.-1.0.mca
+	modified:   world/entities/r.-2.-1.mca
+	modified:   world/entities/r.-2.0.mca
+	modified:   world/entities/r.0.-1.mca
+	modified:   world/entities/r.0.0.mca
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat
+	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat_old
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.-1.1.mca
+	modified:   world/region/r.-2.-1.mca
+	modified:   world/region/r.-2.0.mca
+	modified:   world/region/r.-2.1.mca
+	modified:   world/stats/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
+	modified:   world_nether/DIM-1/data/raids.dat
+	modified:   world_nether/level.dat
+	modified:   world_nether/level.dat_old
+	modified:   world_the_end/DIM1/data/raids_end.dat
+	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
+	modified:   world_the_end/DIM1/entities/r.-1.0.mca
+	modified:   world_the_end/DIM1/entities/r.0.-1.mca
+	modified:   world_the_end/DIM1/entities/r.0.0.mca
+	modified:   world_the_end/level.dat
+	modified:   world_the_end/level.dat_old
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	plugins/EssentialsX-2.21.1.jar
+	plugins/spark/tmp-client/spark-1115787fe47-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[master 14bb68e] server save
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   playit.log
+	deleted:    plugins/spark/tmp-client/spark-bd859b12d0-profile-data.jfr.tmp
+	modified:   world/advancements/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
+	modified:   world/data/raids.dat
+	modified:   world/data/random_sequences.dat
+	modified:   world/entities/r.-1.-1.mca
+	modified:   world/entities/r.-1.0.mca
+	modified:   world/entities/r.-2.-1.mca
+	modified:   world/entities/r.-2.0.mca
+	modified:   world/entities/r.0.-1.mca
+	modified:   world/entities/r.0.0.mca
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat
+	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat_old
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.-1.1.mca
+	modified:   world/region/r.-2.-1.mca
+	modified:   world/region/r.-2.0.mca
+	modified:   world/region/r.-2.1.mca
+	modified:   world/stats/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
+	modified:   world_nether/DIM-1/data/raids.dat
+	modified:   world_nether/level.dat
+	modified:   world_nether/level.dat_old
+	modified:   world_the_end/DIM1/data/raids_end.dat
+	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
+	modified:   world_the_end/DIM1/entities/r.-1.0.mca
+	modified:   world_the_end/DIM1/entities/r.0.-1.mca
+	modified:   world_the_end/DIM1/entities/r.0.0.mca
+	modified:   world_the_end/level.dat
+	modified:   world_the_end/level.dat_old
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	plugins/EssentialsX-2.21.1.jar
+	plugins/spark/tmp-client/spark-1115787fe47-profile-data.jfr.tmp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/mokshraj/Mine_server.git
+   e19541b..14bb68e  master -> master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/latest.log
+	modified:   nohup.out
+	modified:   playit.log
+	deleted:    plugins/spark/tmp-client/spark-bd859b12d0-profile-data.jfr.tmp
+	modified:   world/advancements/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
+	modified:   world/data/raids.dat
+	modified:   world/data/random_sequences.dat
+	modified:   world/entities/r.-1.-1.mca
+	modified:   world/entities/r.-1.0.mca
+	modified:   world/entities/r.-2.-1.mca
+	modified:   world/entities/r.-2.0.mca
+	modified:   world/entities/r.0.-1.mca
+	modified:   world/entities/r.0.0.mca
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat
+	modified:   world/playerdata/4a3fada4-1998-310c-b050-8e1e1b69c16a.dat_old
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.-1.1.mca
+	modified:   world/region/r.-2.-1.mca
+	modified:   world/region/r.-2.0.mca
+	modified:   world/region/r.-2.1.mca
+	modified:   world/stats/4a3fada4-1998-310c-b050-8e1e1b69c16a.json
+	modified:   world_nether/DIM-1/data/raids.dat
+	modified:   world_nether/level.dat
+	modified:   world_nether/level.dat_old
+	modified:   world_the_end/DIM1/data/raids_end.dat
+	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
+	modified:   world_the_end/DIM1/entities/r.-1.0.mca
+	modified:   world_the_end/DIM1/entities/r.0.-1.mca
+	modified:   world_the_end/DIM1/entities/r.0.0.mca
+	modified:   world_the_end/level.dat
+	modified:   world_the_end/level.dat_old
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	plugins/EssentialsX-2.21.1.jar
+	plugins/spark/tmp-client/spark-1115787fe47-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
