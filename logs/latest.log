@@ -1,38 +1,39 @@
-[10:34:00] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
-[10:34:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) for Minecraft 1.21.7
-[10:34:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:34:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[10:34:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
- - ConsoleScheduler (1.4.10), PlugManX (2.4.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
-[10:34:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:34:08] [ServerMain/INFO]: Loaded 1407 recipes
-[10:34:08] [ServerMain/INFO]: Loaded 1520 advancements
-[10:34:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[10:34:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 446.6ms
-[10:34:08] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[10:34:08] [Server thread/INFO]: Loading properties
-[10:34:08] [Server thread/INFO]: This server is running Paper version 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
-[10:34:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:34:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:34:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:34:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[10:34:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[10:34:10] [Server thread/INFO]: Default game type: SURVIVAL
-[10:34:10] [Server thread/INFO]: Generating keypair
-[10:34:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:34:10] [Server thread/INFO]: Using epoll channel type
-[10:34:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[10:34:10] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[10:34:10] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[10:34:10] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[10:34:10] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[10:34:10] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[10:34:10] [Server thread/INFO]: [dynmap] version=1.21.7-28-94d60e1 (MC: 1.21.7)
-[10:34:10] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
-[10:34:10] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
-[10:34:10] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.CraftChunk
-[10:34:10] [Server thread/ERROR]: [dynmap] Unable to find method getValue for com.mojang.authlib.properties.Property
-[10:34:10] [Server thread/ERROR]: [dynmap] Error loading org.dynmap.bukkit.helper.BukkitVersionHelperCB
+[10:55:50] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
+[10:55:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) for Minecraft 1.21.7
+[10:55:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:55:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[10:55:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - ConsoleScheduler (1.4.10), Essentials (2.21.1), PlugManX (2.4.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
+[10:55:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:55:58] [ServerMain/INFO]: Loaded 1407 recipes
+[10:55:58] [ServerMain/INFO]: Loaded 1520 advancements
+[10:55:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[10:55:59] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 405.8ms
+[10:55:59] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[10:55:59] [Server thread/INFO]: Loading properties
+[10:55:59] [Server thread/INFO]: This server is running Paper version 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[10:55:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:55:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:55:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:56:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[10:56:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:56:00] [Server thread/INFO]: Default game type: SURVIVAL
+[10:56:00] [Server thread/INFO]: Generating keypair
+[10:56:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:56:00] [Server thread/INFO]: Using epoll channel type
+[10:56:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:56:00] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[10:56:00] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[10:56:00] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[10:56:00] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[10:56:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[10:56:00] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[10:56:00] [Server thread/INFO]: [dynmap] version=1.21.7-28-94d60e1 (MC: 1.21.7)
+[10:56:00] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
+[10:56:00] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
+[10:56:00] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.CraftChunk
+[10:56:00] [Server thread/ERROR]: [dynmap] Unable to find method getValue for com.mojang.authlib.properties.Property
+[10:56:00] [Server thread/ERROR]: [dynmap] Error loading org.dynmap.bukkit.helper.BukkitVersionHelperCB
 java.lang.reflect.InvocationTargetException: null
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
@@ -54,40 +55,84 @@ Caused by: java.lang.IllegalArgumentException: Error initializing dynmap - bukki
 	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:44) ~[Dynmap-3.7-beta-8-spigot.jar:?]
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	... 14 more
-[10:34:10] [Server thread/INFO]: [dynmap] Mod Support API available
-[10:34:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:34:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[10:34:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[10:34:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[10:34:10] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[10:34:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[10:34:10] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[10:34:10] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[10:34:10] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[10:34:10] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[10:34:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[10:34:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:34:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:34:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:34:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:34:10] [Server thread/INFO]: Preparing level "world"
-[10:34:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:34:11] [Server thread/INFO]: Preparing spawn area: 0%
-[10:34:12] [Server thread/INFO]: Preparing spawn area: 0%
-[10:34:12] [Server thread/INFO]: Time elapsed: 970 ms
-[10:34:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:34:12] [Server thread/INFO]: Preparing spawn area: 0%
-[10:34:12] [Server thread/INFO]: Time elapsed: 250 ms
-[10:34:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:34:12] [Server thread/INFO]: Preparing spawn area: 0%
-[10:34:12] [Server thread/INFO]: Time elapsed: 130 ms
-[10:34:12] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[10:34:12] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[10:34:12] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[10:34:12] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[10:34:12] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[10:34:12] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
-[10:34:12] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
+[10:56:00] [Server thread/INFO]: [dynmap] Mod Support API available
+[10:56:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:56:00] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:56:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:56:01] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:56:01] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:56:01] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[10:56:01] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:56:01] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[10:56:01] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[10:56:01] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[10:56:01] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[10:56:01] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[10:56:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:56:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:56:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:56:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:56:01] [Server thread/INFO]: Preparing level "world"
+[10:56:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:56:01] [Server thread/INFO]: Preparing spawn area: 0%
+[10:56:02] [Server thread/INFO]: Preparing spawn area: 2%
+[10:56:02] [Server thread/INFO]: Time elapsed: 945 ms
+[10:56:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:56:02] [Server thread/INFO]: Preparing spawn area: 0%
+[10:56:02] [Server thread/INFO]: Time elapsed: 259 ms
+[10:56:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:56:02] [Server thread/INFO]: Preparing spawn area: 0%
+[10:56:03] [Server thread/INFO]: Time elapsed: 114 ms
+[10:56:03] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[10:56:03] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[10:56:03] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[10:56:03] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[10:56:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[10:56:03] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[10:56:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[10:56:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[10:56:03] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[10:56:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[10:56:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:56:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:56:03] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[10:56:03] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[10:56:03] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[10:56:03] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[10:56:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[10:56:03] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[10:56:04] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[10:56:04] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[10:56:04] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[10:56:04] [Server thread/INFO]: [Essentials] Using locale en
+[10:56:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:56:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:56:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:56:04] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[10:56:04] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[10:56:04] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[10:56:04] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
 	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1094) ~[Dynmap-3.7-beta-8-spigot.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
@@ -104,363 +149,42 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[10:34:13] [Server thread/INFO]: [spark] Starting background profiler...
-[10:34:13] [Server thread/INFO]: Done preparing level "world" (2.252s)
-[10:34:13] [Server thread/INFO]: Starting remote control listener
-[10:34:13] [Server thread/INFO]: Thread RCON Listener started
-[10:34:13] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[10:34:13] [Server thread/INFO]: Running delayed init tasks
-[10:34:13] [Server thread/INFO]: Done (13.690s)! For help, type "help"
-[10:34:13] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
-[10:34:13] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[10:34:13] [Craft Scheduler Thread - 3 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[10:34:18] [Server thread/INFO]: No player was found
-[10:34:48] [Server thread/INFO]: No player was found
-[10:34:54] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[10:34:54] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[10:34:54] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[10:34:54] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
-[10:34:54] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[10:35:13] [User Authenticator #0/INFO]: UUID of player nameispass is 4a3fada4-1998-310c-b050-8e1e1b69c16a
-[10:35:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d2641ce8-eb1b-43d5-a2da-cc024b8daa75, mapped to Bat['Bat'/63, uuid='d2641ce8-eb1b-43d5-a2da-cc024b8daa75', l='ServerLevel[world]', x=78.49, y=7.12, z=26.75, cpos=[4, 1], tl=0, v=true], can't add Bat['Bat'/90, uuid='d2641ce8-eb1b-43d5-a2da-cc024b8daa75', l='ServerLevel[world]', x=81.88, y=10.60, z=20.27, cpos=[5, 1], tl=0, v=false]
-[10:35:15] [Server thread/INFO]: nameispass joined the game
-[10:35:15] [Server thread/INFO]: nameispass[/10.9.0.1:55466] logged in with entity id 83 at ([world]77.69999998807907, 78.0, 10.699999988079071)
-[10:35:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9f32ad9b-046f-49be-8c60-10cdc192983f, mapped to Pig['Pig'/47, uuid='9f32ad9b-046f-49be-8c60-10cdc192983f', l='ServerLevel[world]', x=52.77, y=70.00, z=-31.76, cpos=[3, -2], tl=0, v=true], can't add Pig['Pig'/108, uuid='9f32ad9b-046f-49be-8c60-10cdc192983f', l='ServerLevel[world]', x=57.69, y=68.00, z=-35.50, cpos=[3, -3], tl=0, v=false]
-[10:35:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 030aee84-467c-493a-82e0-f8400acccf0d, mapped to Spider['Spider'/72, uuid='030aee84-467c-493a-82e0-f8400acccf0d', l='ServerLevel[world]', x=74.97, y=23.00, z=69.00, cpos=[4, 4], tl=0, v=true], can't add Spider['Spider'/109, uuid='030aee84-467c-493a-82e0-f8400acccf0d', l='ServerLevel[world]', x=81.50, y=19.00, z=62.50, cpos=[5, 3], tl=0, v=false]
-[10:35:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6d70bfd7-63b1-4c01-b947-450cd8d1e383, mapped to Pig['Pig'/71, uuid='6d70bfd7-63b1-4c01-b947-450cd8d1e383', l='ServerLevel[world]', x=75.79, y=64.00, z=72.80, cpos=[4, 4], tl=0, v=true], can't add Pig['Pig'/126, uuid='6d70bfd7-63b1-4c01-b947-450cd8d1e383', l='ServerLevel[world]', x=85.29, y=63.00, z=74.77, cpos=[5, 4], tl=0, v=false]
-[10:35:17] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 377f4d4e-d5ba-4195-8aa4-9c598de99567, mapped to Squid['Squid'/39, uuid='377f4d4e-d5ba-4195-8aa4-9c598de99567', l='ServerLevel[world]', x=-30.05, y=57.66, z=6.34, cpos=[-2, 0], tl=0, v=true], can't add Squid['Squid'/150, uuid='377f4d4e-d5ba-4195-8aa4-9c598de99567', l='ServerLevel[world]', x=-32.64, y=53.72, z=-1.62, cpos=[-3, -1], tl=0, v=false]
-[10:35:18] [Server thread/INFO]: No player was found
-[10:35:48] [Server thread/INFO]: No player was found
-[10:36:06] [Server thread/INFO]: nameispass issued server command: /gamemode creative
-[10:36:16] [RCON Listener #1/INFO]: Thread RCON Client /127.8.190.41 started
-[10:36:18] [Server thread/INFO]: No player was found
-[10:36:25] [Server thread/INFO]: [Rcon: Made nameispass a server operator]
-[10:36:38] [Server thread/INFO]: nameispass issued server command: /gamemode
-[10:36:45] [Server thread/INFO]: nameispass issued server command: /gamemode creative
-[10:36:45] [Server thread/INFO]: [nameispass: Set own game mode to Creative Mode]
-[10:36:48] [Server thread/INFO]: No player was found
-[10:37:18] [Server thread/INFO]: No player was found
-[10:37:48] [Server thread/INFO]: No player was found
-[10:38:18] [Server thread/INFO]: No player was found
-[10:38:37] [Server thread/WARN]: nameispass moved too quickly! -25.065071240478915,11.368171845920372,15.811600830295106
-[10:38:48] [Server thread/INFO]: No player was found
-[10:39:03] [Netty Epoll Server IO #0/INFO]: Disconnecting nameispass for sending keepalive response (624165) out-of-order!
-[10:39:03] [Server thread/INFO]: nameispass lost connection: Timed out
-[10:39:03] [Server thread/INFO]: nameispass left the game
-[10:39:13] [User Authenticator #1/INFO]: UUID of player nameispass is 4a3fada4-1998-310c-b050-8e1e1b69c16a
-[10:39:15] [Server thread/INFO]: nameispass joined the game
-[10:39:15] [Server thread/INFO]: nameispass[/10.9.0.1:55484] logged in with entity id 2139 at ([world]-352.12973217852476, 91.98268309076866, -42.66638672200881)
-[10:39:18] [Server thread/INFO]: No player was found
-[10:39:45] [RCON Client /127.8.190.41 #4/INFO]: Thread RCON Client /127.8.190.41 shutting down
-[10:39:48] [Server thread/INFO]: No player was found
-[10:40:18] [Server thread/INFO]: No player was found
-[10:40:48] [Server thread/INFO]: No player was found
-[10:41:18] [Server thread/INFO]: No player was found
-[10:41:48] [Server thread/INFO]: No player was found
-[10:42:18] [Server thread/INFO]: No player was found
-[10:42:48] [Server thread/INFO]: No player was found
-[10:43:18] [Server thread/INFO]: No player was found
-[10:43:48] [Server thread/INFO]: No player was found
-[10:44:18] [Server thread/INFO]: No player was found
-[10:44:48] [Server thread/INFO]: No player was found
-[10:45:01] [Server thread/INFO]: nameispass issued server command: /gamemode survival
-[10:45:01] [Server thread/INFO]: [nameispass: Set own game mode to Survival Mode]
-[10:45:18] [Server thread/INFO]: No player was found
-[10:45:18] [Server thread/INFO]: nameispass was shot by Skeleton
-[10:45:48] [Server thread/INFO]: No player was found
-[10:46:18] [Server thread/INFO]: No player was found
-[10:46:30] [Server thread/INFO]: nameispass issued server command: /lag
-[10:46:39] [Server thread/INFO]: nameispass issued server command: /lag
-[10:46:47] [Server thread/INFO]: nameispass issued server command: /plugins
-[10:46:48] [Server thread/INFO]: No player was found
-[10:47:18] [Server thread/INFO]: No player was found
-[10:47:48] [Server thread/INFO]: No player was found
-[10:47:55] [Server thread/INFO]: nameispass was slain by Drowned
-[10:48:18] [Server thread/INFO]: No player was found
-[10:48:22] [Server thread/WARN]: nameispass moved too quickly! -10.342322207419468,-0.16610926093821377,8.8143105643952
-[10:48:39] [Server thread/WARN]: nameispass moved too quickly! -5.683323168405778,-2.0,-9.805411581907382
-[10:48:45] [Server thread/WARN]: nameispass moved too quickly! 8.525806932251836,-5.757469747882091,-5.656390389321585
-[10:48:48] [Server thread/INFO]: No player was found
-[10:49:18] [Server thread/INFO]: No player was found
-[10:49:32] [RCON Listener #1/INFO]: Thread RCON Client /127.8.190.41 started
-[10:49:48] [Server thread/INFO]: No player was found
-[10:49:55] [Server thread/INFO]: nameispass lost connection: Timed out
-[10:49:55] [Server thread/INFO]: nameispass left the game
-[10:50:18] [Server thread/INFO]: No player was found
-[10:50:48] [Server thread/INFO]: No player was found
-[10:51:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[10:51:05] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
-[10:51:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 603ms.
-[10:51:06] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[10:51:06] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[10:51:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[10:51:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
-[10:51:06] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
-[10:51:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/ConsoleScheduler.jar'...
-[10:51:06] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ConsoleScheduler.jar' in 182ms.
-[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[10:51:06] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[10:51:06] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[10:51:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Dynmap-3.7-beta-8-spigot.jar'...
-[10:51:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Dynmap-3.7-beta-8-spigot.jar' in 2619ms.
-[10:51:09] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Dynmap-3.7-beta-8-spigot-1753613467133.jar' in folder 'plugins/.paper-remapped/unknown-origin'
-org.bukkit.plugin.InvalidPluginException: Exception initializing main class `org.dynmap.bukkit.DynmapPlugin'
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:114) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:399) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reloadAll(PaperPluginManager.java:481) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:102) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:336) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:700) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 44 more
-Caused by: java.lang.IllegalStateException: zip file closed
-	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
-	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
-	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516) ~[?:?]
-	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:177) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:152) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:195) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.base/java.lang.Class.forName(Class.java:529) ~[?:?]
-	at java.base/java.lang.Class.forName(Class.java:508) ~[?:?]
-	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
-	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at Dynmap-3.7-beta-8-spigot-1753613467133.jar/org.dynmap.bukkit.DynmapPlugin.<init>(DynmapPlugin.java:222) ~[Dynmap-3.7-beta-8-spigot-1753613467133.jar:?]
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 44 more
-[10:51:09] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Dynmap-3.7-beta-8-spigot-1753613467133.jar' in folder 'plugins/.paper-remapped/unknown-origin'
-org.bukkit.plugin.InvalidPluginException: Exception initializing main class `org.dynmap.bukkit.DynmapPlugin'
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:114) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:411) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.pluginmanager.PaperPluginManager.reloadAll(PaperPluginManager.java:481) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:102) ~[PlugManX-2.4.1.jar:?]
-	at PlugManX-2.4.1.jar/com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:336) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:700) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 44 more
-Caused by: java.lang.IllegalStateException: zip file closed
-	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
-	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
-	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516) ~[?:?]
-	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:177) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:152) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:195) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.base/java.lang.Class.forName(Class.java:529) ~[?:?]
-	at java.base/java.lang.Class.forName(Class.java:508) ~[?:?]
-	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
-	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
-	at Dynmap-3.7-beta-8-spigot-1753613467133.jar/org.dynmap.bukkit.DynmapPlugin.<init>(DynmapPlugin.java:222) ~[Dynmap-3.7-beta-8-spigot-1753613467133.jar:?]
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:106) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	... 44 more
-[10:51:09] [Server thread/WARN]: org.bukkit.plugin.InvalidPluginException: Plugin didn't load any plugin providers?
-[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.lambda$loadPlugin$1(PaperPluginInstanceManager.java:122)
-[10:51:09] [Server thread/WARN]: 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:122)
-[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82)
-[10:51:09] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419)
-[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:411)
-[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:356)
-[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.reload(PaperPluginManager.java:470)
-[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.pluginmanager.PaperPluginManager.reloadAll(PaperPluginManager.java:481)
-[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:102)
-[10:51:09] [Server thread/WARN]: 	at PlugManX-2.4.1.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94)
-[10:51:09] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[10:51:09] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
-[10:51:09] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:345)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:336)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.lambda$runCommand$4(DedicatedServer.java:700)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:63)
-[10:51:09] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
-[10:51:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[10:51:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[10:51:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4443ms or 88 ticks behind
-[10:51:09] [Craft Scheduler Thread - 37 - Vault/INFO]: [Vault] Checking for Updates ... 
-[10:51:09] [Craft Scheduler Thread - 37 - Vault/INFO]: [Vault] No new version available
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[10:51:10] [Craft Scheduler Thread - 38 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[10:51:15] [Server thread/INFO]: No player was found
-[10:51:32] [Server thread/INFO]: [Rcon: Stopping the server]
-[10:51:32] [Server thread/INFO]: Stopping server
-[10:51:32] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
-[10:51:32] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
-[10:51:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[10:51:32] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
-[10:51:32] [Server thread/INFO]: Saving players
-[10:51:32] [Server thread/INFO]: Saving worlds
-[10:51:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[10:51:32] [RCON Client /127.8.190.41 #5/INFO]: Thread RCON Client /127.8.190.41 shutting down
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 170 entity chunks, 0 poi chunks in world 'world' in 0.14s
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[10:51:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[10:51:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[10:51:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[10:51:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:51:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:51:33] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[10:51:33] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[10:51:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[10:51:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[10:56:05] [Server thread/INFO]: [spark] Starting background profiler...
+[10:56:05] [Server thread/INFO]: Done preparing level "world" (4.111s)
+[10:56:05] [Server thread/INFO]: Starting remote control listener
+[10:56:05] [Server thread/INFO]: Thread RCON Listener started
+[10:56:05] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[10:56:05] [Server thread/INFO]: Running delayed init tasks
+[10:56:05] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:56:05] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[10:56:05] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:56:05] [Server thread/INFO]: Done (15.261s)! For help, type "help"
+[10:56:05] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[10:56:05] [Craft Scheduler Thread - 1 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[10:56:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:56:10] [Server thread/INFO]: Error: Player not found.
+[10:56:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:56:40] [Server thread/INFO]: Error: Player not found.
+[10:56:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[10:56:44] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[10:56:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[10:56:44] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[10:56:44] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
+[10:57:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:57:10] [Server thread/INFO]: Error: Player not found.
+[10:57:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:57:40] [Server thread/INFO]: Error: Player not found.
+[10:58:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:58:10] [Server thread/INFO]: Error: Player not found.
+[10:58:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:58:40] [Server thread/INFO]: Error: Player not found.
+[10:59:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:59:10] [Server thread/INFO]: Error: Player not found.
