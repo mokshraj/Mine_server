@@ -316,3 +316,24 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [15:37:19] [RCON Listener #1/INFO]: Thread RCON Client /127.127.218.76 started
 [15:37:19] [RCON Client /127.127.218.76 #19/INFO]: Thread RCON Client /127.127.218.76 shutting down
 [15:37:19] [RCON Client /127.127.218.76 #18/INFO]: Thread RCON Client /127.127.218.76 shutting down
+[15:37:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:37:37] [Server thread/INFO]: Error: Player not found.
+[15:38:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:38:07] [Server thread/INFO]: Error: Player not found.
+[15:38:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:38:37] [Server thread/INFO]: Error: Player not found.
+[15:39:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:39:07] [Server thread/INFO]: Error: Player not found.
+[15:39:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:39:37] [Server thread/INFO]: Error: Player not found.
+[15:40:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:40:07] [Server thread/INFO]: Error: Player not found.
+[15:40:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:40:37] [Server thread/INFO]: Error: Player not found.
+[15:41:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:41:07] [Server thread/INFO]: Error: Player not found.
+[15:41:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:41:37] [Server thread/INFO]: Error: Player not found.
+[15:42:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[15:42:07] [Server thread/INFO]: Error: Player not found.
+[15:42:31] [RCON Listener #1/INFO]: Thread RCON Client /127.127.218.76 started
