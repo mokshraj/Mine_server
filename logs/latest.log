@@ -935,3 +935,25 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [18:54:48] [Server thread/INFO]: Error: Player not found.
 [18:54:53] [RCON Listener #1/INFO]: Thread RCON Client /127.127.218.76 started
 [18:55:03] [RCON Client /127.127.218.76 #97/INFO]: Thread RCON Client /127.127.218.76 shutting down
+[18:55:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:55:18] [Server thread/INFO]: Error: Player not found.
+[18:55:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:55:48] [Server thread/INFO]: Error: Player not found.
+[18:56:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:56:18] [Server thread/INFO]: Error: Player not found.
+[18:56:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:56:48] [Server thread/INFO]: Error: Player not found.
+[18:57:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:57:18] [Server thread/INFO]: Error: Player not found.
+[18:57:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:57:48] [Server thread/INFO]: Error: Player not found.
+[18:58:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:58:18] [Server thread/INFO]: Error: Player not found.
+[18:58:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:58:48] [Server thread/INFO]: Error: Player not found.
+[18:59:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:59:18] [Server thread/INFO]: Error: Player not found.
+[18:59:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[18:59:48] [Server thread/INFO]: Error: Player not found.
+[19:00:04] [RCON Listener #1/INFO]: Thread RCON Client /127.71.183.137 started
+[19:00:05] [RCON Client /127.71.183.137 #98/INFO]: Thread RCON Client /127.71.183.137 shutting down
