@@ -391,3 +391,69 @@
 [01:06:58] [Server thread/INFO]: Error: Player not found.
 [01:07:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
 [01:07:02] [RCON Client /127.0.0.1 #263/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[01:07:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:07:28] [Server thread/INFO]: Error: Player not found.
+[01:07:51] [RCON Listener #1/INFO]: Thread RCON Client /127.127.218.76 started
+[01:07:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:07:58] [Server thread/INFO]: Error: Player not found.
+[01:08:01] [RCON Client /127.127.218.76 #264/INFO]: Thread RCON Client /127.127.218.76 shutting down
+[01:08:23] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 3 minutes
+[01:08:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:08:28] [Server thread/INFO]: Error: Player not found.
+[01:08:52] [RCON Listener #1/INFO]: Thread RCON Client /127.127.218.76 started
+[01:08:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:08:58] [Server thread/INFO]: Error: Player not found.
+[01:09:02] [RCON Client /127.127.218.76 #265/INFO]: Thread RCON Client /127.127.218.76 shutting down
+[01:09:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[01:09:02] [RCON Client /127.0.0.1 #266/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[01:09:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:09:28] [Server thread/INFO]: Error: Player not found.
+[01:09:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:09:58] [Server thread/INFO]: Error: Player not found.
+[01:10:23] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 1 minutes
+[01:10:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:10:28] [Server thread/INFO]: Error: Player not found.
+[01:10:53] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 30 seconds
+[01:10:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[01:10:58] [Server thread/INFO]: Error: Player not found.
+[01:11:02] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[01:11:02] [RCON Client /127.0.0.1 #267/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[01:11:23] [Server thread/INFO]: Stopping the server
+[01:11:23] [Server thread/INFO]: Stopping server
+[01:11:23] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[01:11:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[01:11:23] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[01:11:23] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[01:11:23] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[01:11:23] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[01:11:23] [Server thread/INFO]: Saving players
+[01:11:23] [Server thread/INFO]: Saving worlds
+[01:11:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 26 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:11:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:11:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:11:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:11:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:11:23] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:11:23] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:11:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:11:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
