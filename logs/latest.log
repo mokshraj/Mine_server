@@ -680,3 +680,27 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [09:05:18] [RCON Client /127.127.218.76 #90/INFO]: Thread RCON Client /127.127.218.76 shutting down
 [09:05:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
 [09:05:41] [Server thread/INFO]: Error: Player not found.
+[09:06:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:06:11] [Server thread/INFO]: Error: Player not found.
+[09:06:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:06:41] [Server thread/INFO]: Error: Player not found.
+[09:07:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:07:11] [Server thread/INFO]: Error: Player not found.
+[09:07:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:07:41] [Server thread/INFO]: Error: Player not found.
+[09:08:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:08:11] [Server thread/INFO]: Error: Player not found.
+[09:08:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:08:41] [Server thread/INFO]: Error: Player not found.
+[09:09:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:09:11] [Server thread/INFO]: Error: Player not found.
+[09:09:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:09:41] [Server thread/INFO]: Error: Player not found.
+[09:10:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:10:11] [Server thread/INFO]: Error: Player not found.
+[09:10:15] [RCON Listener #1/INFO]: Thread RCON Client /127.127.218.76 started
+[09:10:15] [RCON Listener #1/INFO]: Thread RCON Client /127.127.218.76 started
+[09:10:15] [RCON Client /127.127.218.76 #92/INFO]: Thread RCON Client /127.127.218.76 shutting down
+[09:10:15] [RCON Client /127.127.218.76 #91/INFO]: Thread RCON Client /127.127.218.76 shutting down
+[09:10:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[09:10:41] [Server thread/INFO]: Error: Player not found.
