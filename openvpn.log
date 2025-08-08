@@ -39,3 +39,32 @@
 2025-08-08 20:07:39 TCP connection established with [AF_INET]193.161.193.99:1194
 2025-08-08 20:07:39 TCPv4_CLIENT link local: (not bound)
 2025-08-08 20:07:39 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-08 20:07:47 Connection reset, restarting [-1]
+2025-08-08 20:07:47 SIGUSR1[soft,connection-reset] received, process restarting
+2025-08-08 20:07:48 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-08 20:07:48 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-08 20:07:51 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-08 20:07:51 TCPv4_CLIENT link local: (not bound)
+2025-08-08 20:07:51 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-08 20:07:59 Connection reset, restarting [-1]
+2025-08-08 20:07:59 SIGUSR1[soft,connection-reset] received, process restarting
+2025-08-08 20:08:00 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-08 20:08:00 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-08 20:08:01 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-08 20:08:01 TCPv4_CLIENT link local: (not bound)
+2025-08-08 20:08:01 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-08 20:09:01 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-08-08 20:09:01 TLS Error: TLS handshake failed
+2025-08-08 20:09:01 Fatal TLS error (check_tls_errors_co), restarting
+2025-08-08 20:09:01 SIGUSR1[soft,tls-error] received, process restarting
+2025-08-08 20:09:02 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-08 20:09:02 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-08 20:09:04 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-08 20:09:04 TCPv4_CLIENT link local: (not bound)
+2025-08-08 20:09:04 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-08 20:09:25 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
+2025-08-08 20:09:28 TUN/TAP device tun0 opened
+2025-08-08 20:09:28 net_iface_mtu_set: mtu 1500 for tun0
+2025-08-08 20:09:28 net_iface_up: set tun0 up
+2025-08-08 20:09:28 net_addr_ptp_v4_add: 10.9.15.174 peer 10.9.15.173 dev tun0
+2025-08-08 20:09:28 Initialization Sequence Completed
