@@ -209,3 +209,24 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [17:21:48] [RCON Listener #1/INFO]: Thread RCON Client /127.93.42.168 started
 [17:21:49] [RCON Listener #1/INFO]: Thread RCON Client /127.93.42.168 started
 [17:21:52] [RCON Client /127.93.42.168 #5/INFO]: Thread RCON Client /127.93.42.168 shutting down
+[17:22:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:22:11] [Server thread/INFO]: Error: Player not found.
+[17:22:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:22:41] [Server thread/INFO]: Error: Player not found.
+[17:23:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:23:11] [Server thread/INFO]: Error: Player not found.
+[17:23:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:23:41] [Server thread/INFO]: Error: Player not found.
+[17:24:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:24:11] [Server thread/INFO]: Error: Player not found.
+[17:24:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:24:41] [Server thread/INFO]: Error: Player not found.
+[17:25:08] [RCON Client /127.93.42.168 #4/INFO]: Thread RCON Client /127.93.42.168 shutting down
+[17:25:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:25:11] [Server thread/INFO]: Error: Player not found.
+[17:25:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:25:41] [Server thread/INFO]: Error: Player not found.
+[17:26:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:26:11] [Server thread/INFO]: Error: Player not found.
+[17:26:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:26:41] [Server thread/INFO]: Error: Player not found.
