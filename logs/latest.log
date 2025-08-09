@@ -228,3 +228,23 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [13:44:58] [Server thread/INFO]: Error: Player not found.
 [13:45:03] [RCON Listener #1/INFO]: Thread RCON Client /127.69.196.64 started
 [13:45:03] [RCON Client /127.69.196.64 #4/INFO]: Thread RCON Client /127.69.196.64 shutting down
+[13:45:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:45:28] [Server thread/INFO]: Error: Player not found.
+[13:45:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:45:58] [Server thread/INFO]: Error: Player not found.
+[13:46:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:46:28] [Server thread/INFO]: Error: Player not found.
+[13:46:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:46:58] [Server thread/INFO]: Error: Player not found.
+[13:47:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:47:28] [Server thread/INFO]: Error: Player not found.
+[13:47:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:47:58] [Server thread/INFO]: Error: Player not found.
+[13:48:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:48:28] [Server thread/INFO]: Error: Player not found.
+[13:48:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:48:58] [Server thread/INFO]: Error: Player not found.
+[13:49:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:49:28] [Server thread/INFO]: Error: Player not found.
+[13:49:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[13:49:58] [Server thread/INFO]: Error: Player not found.
