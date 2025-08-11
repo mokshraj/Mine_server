@@ -145,3 +145,10 @@
 2025-08-11 13:13:37 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
 2025-08-11 13:13:38 Connection reset, restarting [-1]
 2025-08-11 13:13:38 SIGUSR1[soft,connection-reset] received, process restarting
+2025-08-11 13:18:38 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-11 13:18:38 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-11 13:18:38 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-11 13:18:38 TCPv4_CLIENT link local: (not bound)
+2025-08-11 13:18:38 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-11 13:18:38 Connection reset, restarting [-1]
+2025-08-11 13:18:38 SIGUSR1[soft,connection-reset] received, process restarting
