@@ -978,3 +978,25 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [10:23:05] [RCON Client /127.164.221.81 #58/INFO]: Thread RCON Client /127.164.221.81 shutting down
 [10:23:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
 [10:23:33] [Server thread/INFO]: Error: Player not found.
+[10:24:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:24:03] [Server thread/INFO]: Error: Player not found.
+[10:24:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:24:33] [Server thread/INFO]: Error: Player not found.
+[10:25:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:25:03] [Server thread/INFO]: Error: Player not found.
+[10:25:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:25:33] [Server thread/INFO]: Error: Player not found.
+[10:26:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:26:03] [Server thread/INFO]: Error: Player not found.
+[10:26:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:26:33] [Server thread/INFO]: Error: Player not found.
+[10:27:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:27:03] [Server thread/INFO]: Error: Player not found.
+[10:27:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:27:33] [Server thread/INFO]: Error: Player not found.
+[10:28:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:28:03] [Server thread/INFO]: Error: Player not found.
+[10:28:21] [RCON Listener #1/INFO]: Thread RCON Client /127.138.216.104 started
+[10:28:21] [RCON Client /127.138.216.104 #59/INFO]: Thread RCON Client /127.138.216.104 shutting down
+[10:28:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[10:28:33] [Server thread/INFO]: Error: Player not found.
