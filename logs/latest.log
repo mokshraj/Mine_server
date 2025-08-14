@@ -1420,3 +1420,65 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [20:27:45] [Server thread/INFO]: Error: Player not found.
 [20:27:48] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
 [20:27:48] [RCON Client /127.0.0.1 #36/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[20:28:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:28:15] [Server thread/INFO]: Error: Player not found.
+[20:28:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:28:45] [Server thread/INFO]: Error: Player not found.
+[20:29:10] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 3 minutes
+[20:29:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:29:15] [Server thread/INFO]: Error: Player not found.
+[20:29:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:29:45] [Server thread/INFO]: Error: Player not found.
+[20:29:48] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[20:29:48] [RCON Client /127.0.0.1 #37/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[20:30:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:30:15] [Server thread/INFO]: Error: Player not found.
+[20:30:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:30:45] [Server thread/INFO]: Error: Player not found.
+[20:31:10] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 1 minutes
+[20:31:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:31:15] [Server thread/INFO]: Error: Player not found.
+[20:31:40] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 30 seconds
+[20:31:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[20:31:45] [Server thread/INFO]: Error: Player not found.
+[20:31:48] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[20:31:48] [RCON Client /127.0.0.1 #38/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[20:32:10] [Server thread/INFO]: Stopping the server
+[20:32:10] [Server thread/INFO]: Stopping server
+[20:32:10] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[20:32:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[20:32:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[20:32:10] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[20:32:10] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[20:32:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:32:10] [Server thread/INFO]: Saving players
+[20:32:10] [Server thread/INFO]: Saving worlds
+[20:32:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 25 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:32:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:32:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:32:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:32:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:32:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:32:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:32:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:32:10] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[20:32:10] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[20:32:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:32:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
