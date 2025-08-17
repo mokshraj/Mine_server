@@ -357,3 +357,29 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [04:57:29] [Server thread/INFO]: Error: Player not found.
 [04:57:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
 [04:57:59] [Server thread/INFO]: Error: Player not found.
+[04:58:23] [RCON Listener #1/INFO]: Thread RCON Client /127.79.96.245 started
+[04:58:23] [RCON Listener #1/INFO]: Thread RCON Client /127.79.96.245 started
+[04:58:23] [RCON Client /127.79.96.245 #19/INFO]: Thread RCON Client /127.79.96.245 shutting down
+[04:58:24] [RCON Client /127.79.96.245 #18/INFO]: Thread RCON Client /127.79.96.245 shutting down
+[04:58:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:58:29] [Server thread/INFO]: Error: Player not found.
+[04:58:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:58:59] [Server thread/INFO]: Error: Player not found.
+[04:59:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:59:29] [Server thread/INFO]: Error: Player not found.
+[04:59:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:59:59] [Server thread/INFO]: Error: Player not found.
+[05:00:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[05:00:29] [Server thread/INFO]: Error: Player not found.
+[05:00:30] [RCON Listener #1/INFO]: Thread RCON Client /127.118.68.168 started
+[05:00:30] [RCON Client /127.118.68.168 #20/INFO]: Thread RCON Client /127.118.68.168 shutting down
+[05:00:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[05:00:59] [Server thread/INFO]: Error: Player not found.
+[05:01:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[05:01:29] [Server thread/INFO]: Error: Player not found.
+[05:01:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[05:01:59] [Server thread/INFO]: Error: Player not found.
+[05:02:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[05:02:29] [Server thread/INFO]: Error: Player not found.
+[05:02:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[05:02:59] [Server thread/INFO]: Error: Player not found.
