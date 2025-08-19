@@ -206,3 +206,81 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [22:22:27] [Server thread/INFO]: Error: Player not found.
 [22:22:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
 [22:22:57] [Server thread/INFO]: Error: Player not found.
+[22:23:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:23:27] [Server thread/INFO]: Error: Player not found.
+[22:23:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:23:57] [Server thread/INFO]: Error: Player not found.
+[22:24:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:24:27] [Server thread/INFO]: Error: Player not found.
+[22:24:52] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:24:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:24:57] [Server thread/INFO]: Error: Player not found.
+[22:24:58] [RCON Client /127.169.209.115 #4/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:24:58] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:24:59] [RCON Client /127.169.209.115 #5/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:24:59] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:24:59] [RCON Client /127.169.209.115 #6/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:24:59] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:00] [RCON Client /127.169.209.115 #7/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:00] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:01] [RCON Client /127.169.209.115 #8/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:01] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:01] [RCON Client /127.169.209.115 #9/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:02] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:02] [RCON Client /127.169.209.115 #10/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:02] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:03] [RCON Client /127.169.209.115 #11/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:03] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:03] [RCON Client /127.169.209.115 #12/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:04] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:04] [RCON Client /127.169.209.115 #13/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:04] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:05] [RCON Client /127.169.209.115 #14/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:05] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:05] [RCON Client /127.169.209.115 #15/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:06] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:06] [RCON Client /127.169.209.115 #16/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:06] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:07] [RCON Client /127.169.209.115 #17/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:07] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:07] [RCON Client /127.169.209.115 #18/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:08] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:08] [RCON Client /127.169.209.115 #19/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:08] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:09] [RCON Client /127.169.209.115 #20/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:09] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:09] [RCON Client /127.169.209.115 #21/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:10] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:10] [RCON Client /127.169.209.115 #22/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:10] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:11] [RCON Client /127.169.209.115 #23/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:11] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:11] [RCON Client /127.169.209.115 #24/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:12] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:12] [RCON Client /127.169.209.115 #25/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:12] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:13] [RCON Client /127.169.209.115 #26/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:13] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:13] [RCON Client /127.169.209.115 #27/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:14] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:14] [RCON Client /127.169.209.115 #28/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:14] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:15] [RCON Client /127.169.209.115 #29/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:15] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:16] [RCON Client /127.169.209.115 #30/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:16] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:16] [RCON Client /127.169.209.115 #31/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:17] [RCON Listener #1/INFO]: Thread RCON Client /127.169.209.115 started
+[22:25:17] [RCON Client /127.169.209.115 #32/INFO]: Thread RCON Client /127.169.209.115 shutting down
+[22:25:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:25:27] [Server thread/INFO]: Error: Player not found.
+[22:25:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:25:57] [Server thread/INFO]: Error: Player not found.
+[22:26:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:26:27] [Server thread/INFO]: Error: Player not found.
+[22:26:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:26:57] [Server thread/INFO]: Error: Player not found.
+[22:27:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:27:27] [Server thread/INFO]: Error: Player not found.
+[22:27:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[22:27:57] [Server thread/INFO]: Error: Player not found.
