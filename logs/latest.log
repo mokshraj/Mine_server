@@ -1178,3 +1178,25 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [12:31:34] [Server thread/INFO]: Error: Player not found.
 [12:32:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
 [12:32:04] [Server thread/INFO]: Error: Player not found.
+[12:32:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:32:34] [Server thread/INFO]: Error: Player not found.
+[12:33:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:33:04] [Server thread/INFO]: Error: Player not found.
+[12:33:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:33:34] [Server thread/INFO]: Error: Player not found.
+[12:34:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:34:04] [Server thread/INFO]: Error: Player not found.
+[12:34:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:34:34] [Server thread/INFO]: Error: Player not found.
+[12:35:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:35:04] [Server thread/INFO]: Error: Player not found.
+[12:35:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:35:34] [Server thread/INFO]: Error: Player not found.
+[12:35:42] [RCON Listener #1/INFO]: Thread RCON Client /127.192.33.238 started
+[12:35:43] [RCON Client /127.192.33.238 #8/INFO]: Thread RCON Client /127.192.33.238 shutting down
+[12:36:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:36:04] [Server thread/INFO]: Error: Player not found.
+[12:36:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:36:34] [Server thread/INFO]: Error: Player not found.
+[12:37:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:37:04] [Server thread/INFO]: Error: Player not found.
