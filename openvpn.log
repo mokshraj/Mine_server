@@ -1,15 +1,15 @@
-2025-08-20 18:29:20 Note: --cipher is not set. OpenVPN versions before 2.5 defaulted to BF-CBC as fallback when cipher negotiation failed in this case. If you need this fallback please add '--data-ciphers-fallback BF-CBC' to your configuration and/or add BF-CBC to --data-ciphers.
-2025-08-20 18:29:20 OpenVPN 2.6.14 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO]
-2025-08-20 18:29:20 library versions: OpenSSL 3.0.13 30 Jan 2024, LZO 2.10
-2025-08-20 18:29:20 DCO version: N/A
-2025-08-20 18:29:20 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
-2025-08-20 18:29:20 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
-2025-08-20 18:29:20 TCP connection established with [AF_INET]193.161.193.99:1194
-2025-08-20 18:29:20 TCPv4_CLIENT link local: (not bound)
-2025-08-20 18:29:20 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
-2025-08-20 18:29:24 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
-2025-08-20 18:29:26 TUN/TAP device tun0 opened
-2025-08-20 18:29:26 net_iface_mtu_set: mtu 1500 for tun0
-2025-08-20 18:29:26 net_iface_up: set tun0 up
-2025-08-20 18:29:26 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
-2025-08-20 18:29:26 Initialization Sequence Completed
+2025-08-20 23:33:17 Note: --cipher is not set. OpenVPN versions before 2.5 defaulted to BF-CBC as fallback when cipher negotiation failed in this case. If you need this fallback please add '--data-ciphers-fallback BF-CBC' to your configuration and/or add BF-CBC to --data-ciphers.
+2025-08-20 23:33:17 OpenVPN 2.6.14 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO]
+2025-08-20 23:33:17 library versions: OpenSSL 3.0.13 30 Jan 2024, LZO 2.10
+2025-08-20 23:33:17 DCO version: N/A
+2025-08-20 23:33:17 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-20 23:33:17 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-20 23:33:18 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-20 23:33:18 TCPv4_CLIENT link local: (not bound)
+2025-08-20 23:33:18 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-20 23:33:18 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
+2025-08-20 23:33:19 TUN/TAP device tun0 opened
+2025-08-20 23:33:19 net_iface_mtu_set: mtu 1500 for tun0
+2025-08-20 23:33:19 net_iface_up: set tun0 up
+2025-08-20 23:33:19 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
+2025-08-20 23:33:19 Initialization Sequence Completed
