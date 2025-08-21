@@ -1077,3 +1077,69 @@
 [04:28:46] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 5 minutes
 [04:28:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
 [04:28:51] [Server thread/INFO]: Error: Player not found.
+[04:29:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:29:21] [Server thread/INFO]: Error: Player not found.
+[04:29:25] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[04:29:25] [RCON Client /127.0.0.1 #5/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[04:29:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:29:51] [Server thread/INFO]: Error: Player not found.
+[04:30:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:30:21] [Server thread/INFO]: Error: Player not found.
+[04:30:46] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 3 minutes
+[04:30:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:30:51] [Server thread/INFO]: Error: Player not found.
+[04:31:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:31:21] [Server thread/INFO]: Error: Player not found.
+[04:31:25] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[04:31:25] [RCON Client /127.0.0.1 #6/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[04:31:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:31:51] [Server thread/INFO]: Error: Player not found.
+[04:32:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:32:21] [Server thread/INFO]: Error: Player not found.
+[04:32:46] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 1 minutes
+[04:32:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:32:51] [Server thread/INFO]: Error: Player not found.
+[04:33:16] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 30 seconds
+[04:33:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[04:33:21] [Server thread/INFO]: Error: Player not found.
+[04:33:25] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[04:33:25] [RCON Client /127.0.0.1 #7/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[04:33:46] [Server thread/INFO]: Stopping the server
+[04:33:46] [Server thread/INFO]: Stopping server
+[04:33:46] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
+[04:33:46] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[04:33:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[04:33:46] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
+[04:33:46] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
+[04:33:46] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[04:33:46] [Server thread/INFO]: Saving players
+[04:33:46] [Server thread/INFO]: Saving worlds
+[04:33:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 24 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:33:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:33:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:33:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:33:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:33:46] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[04:33:46] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[04:33:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:33:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
