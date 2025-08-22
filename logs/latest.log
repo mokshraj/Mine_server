@@ -1,36 +1,36 @@
-[14:45:59] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
-[14:45:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) for Minecraft 1.21.7
-[14:45:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:46:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[14:46:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+[17:52:00] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
+[17:52:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) for Minecraft 1.21.7
+[17:52:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:52:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[17:52:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
  - ConsoleScheduler (1.4.10), Essentials (2.21.1), PlugManX (2.4.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
-[14:46:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:46:07] [ServerMain/INFO]: Loaded 1407 recipes
-[14:46:07] [ServerMain/INFO]: Loaded 1520 advancements
-[14:46:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[14:46:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 429.4ms
-[14:46:07] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[14:46:07] [Server thread/INFO]: Loading properties
-[14:46:07] [Server thread/INFO]: This server is running Paper version 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
-[14:46:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:46:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:46:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:46:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[14:46:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[14:46:09] [Server thread/INFO]: Default game type: SURVIVAL
-[14:46:09] [Server thread/INFO]: Generating keypair
-[14:46:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:46:09] [Server thread/INFO]: Using epoll channel type
-[14:46:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:46:09] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[14:46:09] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[14:46:09] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[14:46:09] [Server thread/INFO]: [dynmap] version=1.21.7-28-94d60e1 (MC: 1.21.7)
-[14:46:09] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
-[14:46:09] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
-[14:46:09] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.CraftChunk
-[14:46:09] [Server thread/ERROR]: [dynmap] Unable to find method getValue for com.mojang.authlib.properties.Property
-[14:46:09] [Server thread/ERROR]: [dynmap] Error loading org.dynmap.bukkit.helper.BukkitVersionHelperCB
+[17:52:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:52:07] [ServerMain/INFO]: Loaded 1407 recipes
+[17:52:07] [ServerMain/INFO]: Loaded 1520 advancements
+[17:52:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:52:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 429.3ms
+[17:52:08] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[17:52:08] [Server thread/INFO]: Loading properties
+[17:52:08] [Server thread/INFO]: This server is running Paper version 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[17:52:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:52:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:52:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:52:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:52:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:52:09] [Server thread/INFO]: Default game type: SURVIVAL
+[17:52:09] [Server thread/INFO]: Generating keypair
+[17:52:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:52:09] [Server thread/INFO]: Using epoll channel type
+[17:52:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:52:09] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:52:10] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[17:52:10] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[17:52:10] [Server thread/INFO]: [dynmap] version=1.21.7-28-94d60e1 (MC: 1.21.7)
+[17:52:10] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
+[17:52:10] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
+[17:52:10] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.CraftChunk
+[17:52:10] [Server thread/ERROR]: [dynmap] Unable to find method getValue for com.mojang.authlib.properties.Property
+[17:52:10] [Server thread/ERROR]: [dynmap] Error loading org.dynmap.bukkit.helper.BukkitVersionHelperCB
 java.lang.reflect.InvocationTargetException: null
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
@@ -52,40 +52,40 @@ Caused by: java.lang.IllegalArgumentException: Error initializing dynmap - bukki
 	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:44) ~[Dynmap-3.7-beta-8-spigot.jar:?]
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	... 14 more
-[14:46:09] [Server thread/INFO]: [dynmap] Mod Support API available
-[14:46:09] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
-[14:46:09] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
-[14:46:09] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[14:46:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:46:09] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[14:46:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[14:46:09] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[14:46:09] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[14:46:09] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[14:46:09] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[14:46:09] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[14:46:09] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[14:46:09] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[14:46:09] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[14:46:09] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[14:46:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:46:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:46:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:46:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:46:09] [Server thread/INFO]: Preparing level "world"
-[14:46:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:46:10] [Server thread/INFO]: Preparing spawn area: 0%
-[14:46:11] [Server thread/INFO]: Preparing spawn area: 6%
-[14:46:11] [Server thread/INFO]: Time elapsed: 975 ms
-[14:46:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:46:11] [Server thread/INFO]: Preparing spawn area: 0%
-[14:46:11] [Server thread/INFO]: Time elapsed: 194 ms
-[14:46:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:46:11] [Server thread/INFO]: Preparing spawn area: 0%
-[14:46:11] [Server thread/INFO]: Time elapsed: 138 ms
-[14:46:11] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[14:46:11] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
-[14:46:11] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
+[17:52:10] [Server thread/INFO]: [dynmap] Mod Support API available
+[17:52:10] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[17:52:10] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[17:52:10] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[17:52:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:52:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:52:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:52:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:52:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:52:10] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[17:52:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:52:10] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[17:52:10] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[17:52:10] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[17:52:10] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[17:52:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:52:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:52:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:52:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:52:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:52:10] [Server thread/INFO]: Preparing level "world"
+[17:52:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:52:11] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:11] [Server thread/INFO]: Preparing spawn area: 6%
+[17:52:11] [Server thread/INFO]: Time elapsed: 982 ms
+[17:52:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:52:11] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:12] [Server thread/INFO]: Time elapsed: 234 ms
+[17:52:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:52:12] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:12] [Server thread/INFO]: Time elapsed: 149 ms
+[17:52:12] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[17:52:12] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[17:52:12] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
 	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1094) ~[Dynmap-3.7-beta-8-spigot.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
@@ -102,317 +102,87 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[14:46:11] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
-[14:46:11] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
-[14:46:11] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
-[14:46:11] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
-[14:46:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
-[14:46:12] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[14:46:12] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[14:46:12] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[14:46:12] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[14:46:12] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[14:46:12] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[14:46:12] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[14:46:12] [Server thread/INFO]: [Essentials] Using locale en
-[14:46:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[14:46:13] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[14:46:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[14:46:13] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[14:46:13] [Server thread/INFO]: [spark] Starting background profiler...
-[14:46:13] [Server thread/INFO]: Done preparing level "world" (3.725s)
-[14:46:13] [Server thread/INFO]: Starting remote control listener
-[14:46:13] [Server thread/INFO]: Thread RCON Listener started
-[14:46:13] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[14:46:13] [Server thread/INFO]: Running delayed init tasks
-[14:46:13] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[14:46:13] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[14:46:13] [Server thread/INFO]: Done (15.195s)! For help, type "help"
-[14:46:13] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
-[14:46:13] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
-[14:46:13] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
-[14:46:13] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
-[14:46:13] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[14:46:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:46:18] [Server thread/INFO]: Error: Player not found.
-[14:46:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:46:48] [Server thread/INFO]: Error: Player not found.
-[14:46:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[14:46:52] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[14:46:52] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[14:46:52] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[14:46:52] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
-[14:47:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:47:18] [Server thread/INFO]: Error: Player not found.
-[14:47:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:47:48] [Server thread/INFO]: Error: Player not found.
-[14:48:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:48:18] [Server thread/INFO]: Error: Player not found.
-[14:48:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:48:48] [Server thread/INFO]: Error: Player not found.
-[14:49:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:49:18] [Server thread/INFO]: Error: Player not found.
-[14:49:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:49:48] [Server thread/INFO]: Error: Player not found.
-[14:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:50:18] [Server thread/INFO]: Error: Player not found.
-[14:50:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:50:48] [Server thread/INFO]: Error: Player not found.
-[14:51:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:51:18] [Server thread/INFO]: Error: Player not found.
-[14:51:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:51:48] [Server thread/INFO]: Error: Player not found.
-[14:52:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:52:18] [Server thread/INFO]: Error: Player not found.
-[14:52:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:52:48] [Server thread/INFO]: Error: Player not found.
-[14:53:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:53:18] [Server thread/INFO]: Error: Player not found.
-[14:53:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:53:48] [Server thread/INFO]: Error: Player not found.
-[14:54:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:54:18] [Server thread/INFO]: Error: Player not found.
-[14:54:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:54:48] [Server thread/INFO]: Error: Player not found.
-[14:55:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:55:18] [Server thread/INFO]: Error: Player not found.
-[14:55:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:55:48] [Server thread/INFO]: Error: Player not found.
-[14:56:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:56:18] [Server thread/INFO]: Error: Player not found.
-[14:56:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:56:48] [Server thread/INFO]: Error: Player not found.
-[14:57:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:57:18] [Server thread/INFO]: Error: Player not found.
-[14:57:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:57:48] [Server thread/INFO]: Error: Player not found.
-[14:58:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:58:18] [Server thread/INFO]: Error: Player not found.
-[14:58:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:58:48] [Server thread/INFO]: Error: Player not found.
-[14:59:09] [RCON Listener #1/INFO]: Thread RCON Client /127.177.43.37 started
-[14:59:09] [RCON Client /127.177.43.37 #4/INFO]: Thread RCON Client /127.177.43.37 shutting down
-[14:59:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:59:18] [Server thread/INFO]: Error: Player not found.
-[14:59:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[14:59:48] [Server thread/INFO]: Error: Player not found.
-[15:00:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:00:18] [Server thread/INFO]: Error: Player not found.
-[15:00:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:00:48] [Server thread/INFO]: Error: Player not found.
-[15:01:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:01:18] [Server thread/INFO]: Error: Player not found.
-[15:01:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:01:48] [Server thread/INFO]: Error: Player not found.
-[15:02:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:02:18] [Server thread/INFO]: Error: Player not found.
-[15:02:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:02:48] [Server thread/INFO]: Error: Player not found.
-[15:03:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:03:18] [Server thread/INFO]: Error: Player not found.
-[15:03:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:03:48] [Server thread/INFO]: Error: Player not found.
-[15:04:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:04:18] [Server thread/INFO]: Error: Player not found.
-[15:04:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:04:48] [Server thread/INFO]: Error: Player not found.
-[15:05:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:05:18] [Server thread/INFO]: Error: Player not found.
-[15:05:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:05:48] [Server thread/INFO]: Error: Player not found.
-[15:06:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:06:18] [Server thread/INFO]: Error: Player not found.
-[15:06:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:06:48] [Server thread/INFO]: Error: Player not found.
-[15:07:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:07:18] [Server thread/INFO]: Error: Player not found.
-[15:07:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:07:48] [Server thread/INFO]: Error: Player not found.
-[15:08:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:08:18] [Server thread/INFO]: Error: Player not found.
-[15:08:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:08:48] [Server thread/INFO]: Error: Player not found.
-[15:09:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:09:18] [Server thread/INFO]: Error: Player not found.
-[15:09:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:09:48] [Server thread/INFO]: Error: Player not found.
-[15:10:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:10:18] [Server thread/INFO]: Error: Player not found.
-[15:10:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:10:48] [Server thread/INFO]: Error: Player not found.
-[15:11:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:11:18] [Server thread/INFO]: Error: Player not found.
-[15:11:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:11:48] [Server thread/INFO]: Error: Player not found.
-[15:12:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:12:18] [Server thread/INFO]: Error: Player not found.
-[15:12:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:12:48] [Server thread/INFO]: Error: Player not found.
-[15:13:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:13:18] [Server thread/INFO]: Error: Player not found.
-[15:13:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:13:48] [Server thread/INFO]: Error: Player not found.
-[15:14:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:14:18] [Server thread/INFO]: Error: Player not found.
-[15:14:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:14:48] [Server thread/INFO]: Error: Player not found.
-[15:15:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:15:18] [Server thread/INFO]: Error: Player not found.
-[15:15:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:15:48] [Server thread/INFO]: Error: Player not found.
-[15:16:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:16:18] [Server thread/INFO]: Error: Player not found.
-[15:16:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:16:48] [Server thread/INFO]: Error: Player not found.
-[15:17:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:17:18] [Server thread/INFO]: Error: Player not found.
-[15:17:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:17:48] [Server thread/INFO]: Error: Player not found.
-[15:18:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:18:18] [Server thread/INFO]: Error: Player not found.
-[15:18:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:18:48] [Server thread/INFO]: Error: Player not found.
-[15:19:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:19:18] [Server thread/INFO]: Error: Player not found.
-[15:19:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:19:48] [Server thread/INFO]: Error: Player not found.
-[15:20:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:20:18] [Server thread/INFO]: Error: Player not found.
-[15:20:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:20:48] [Server thread/INFO]: Error: Player not found.
-[15:21:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:21:18] [Server thread/INFO]: Error: Player not found.
-[15:21:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:21:48] [Server thread/INFO]: Error: Player not found.
-[15:22:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:22:18] [Server thread/INFO]: Error: Player not found.
-[15:22:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:22:48] [Server thread/INFO]: Error: Player not found.
-[15:23:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:23:18] [Server thread/INFO]: Error: Player not found.
-[15:23:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:23:48] [Server thread/INFO]: Error: Player not found.
-[15:24:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:24:18] [Server thread/INFO]: Error: Player not found.
-[15:24:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:24:48] [Server thread/INFO]: Error: Player not found.
-[15:25:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:25:18] [Server thread/INFO]: Error: Player not found.
-[15:25:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:25:48] [Server thread/INFO]: Error: Player not found.
-[15:26:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:26:18] [Server thread/INFO]: Error: Player not found.
-[15:26:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:26:48] [Server thread/INFO]: Error: Player not found.
-[15:27:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:27:18] [Server thread/INFO]: Error: Player not found.
-[15:27:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:27:48] [Server thread/INFO]: Error: Player not found.
-[15:28:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:28:18] [Server thread/INFO]: Error: Player not found.
-[15:28:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:28:48] [Server thread/INFO]: Error: Player not found.
-[15:29:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:29:18] [Server thread/INFO]: Error: Player not found.
-[15:29:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:29:48] [Server thread/INFO]: Error: Player not found.
-[15:30:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:30:18] [Server thread/INFO]: Error: Player not found.
-[15:30:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:30:48] [Server thread/INFO]: Error: Player not found.
-[15:31:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:31:18] [Server thread/INFO]: Error: Player not found.
-[15:31:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:31:48] [Server thread/INFO]: Error: Player not found.
-[15:32:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:32:18] [Server thread/INFO]: Error: Player not found.
-[15:32:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:32:48] [Server thread/INFO]: Error: Player not found.
-[15:33:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:33:18] [Server thread/INFO]: Error: Player not found.
-[15:33:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:33:48] [Server thread/INFO]: Error: Player not found.
-[15:34:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:34:18] [Server thread/INFO]: Error: Player not found.
-[15:34:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:34:48] [Server thread/INFO]: Error: Player not found.
-[15:35:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:35:18] [Server thread/INFO]: Error: Player not found.
-[15:35:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:35:48] [Server thread/INFO]: Error: Player not found.
-[15:36:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:36:18] [Server thread/INFO]: Error: Player not found.
-[15:36:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:36:48] [Server thread/INFO]: Error: Player not found.
-[15:37:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:37:18] [Server thread/INFO]: Error: Player not found.
-[15:37:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:37:48] [Server thread/INFO]: Error: Player not found.
-[15:38:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:38:18] [Server thread/INFO]: Error: Player not found.
-[15:38:28] [RCON Listener #1/INFO]: Thread RCON Client /127.8.78.199 started
-[15:38:28] [RCON Listener #1/INFO]: Thread RCON Client /127.8.78.199 started
-[15:38:28] [RCON Client /127.8.78.199 #6/INFO]: Thread RCON Client /127.8.78.199 shutting down
-[15:38:28] [RCON Client /127.8.78.199 #5/INFO]: Thread RCON Client /127.8.78.199 shutting down
-[15:38:28] [RCON Listener #1/INFO]: Thread RCON Client /127.8.78.199 started
-[15:38:31] [RCON Client /127.8.78.199 #7/INFO]: Thread RCON Client /127.8.78.199 shutting down
-[15:38:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:38:48] [Server thread/INFO]: Error: Player not found.
-[15:39:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:39:18] [Server thread/INFO]: Error: Player not found.
-[15:39:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:39:48] [Server thread/INFO]: Error: Player not found.
-[15:40:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:40:18] [Server thread/INFO]: Error: Player not found.
-[15:40:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:40:48] [Server thread/INFO]: Error: Player not found.
-[15:41:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:41:18] [Server thread/INFO]: Error: Player not found.
-[15:41:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:41:48] [Server thread/INFO]: Error: Player not found.
-[15:42:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:42:18] [Server thread/INFO]: Error: Player not found.
-[15:42:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:42:48] [Server thread/INFO]: Error: Player not found.
-[15:43:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:43:18] [Server thread/INFO]: Error: Player not found.
-[15:43:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:43:48] [Server thread/INFO]: Error: Player not found.
-[15:44:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:44:18] [Server thread/INFO]: Error: Player not found.
-[15:44:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:44:48] [Server thread/INFO]: Error: Player not found.
-[15:45:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:45:18] [Server thread/INFO]: Error: Player not found.
-[15:45:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[15:45:48] [Server thread/INFO]: Error: Player not found.
+[17:52:12] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[17:52:12] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[17:52:12] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[17:52:12] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[17:52:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[17:52:12] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[17:52:13] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:52:13] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:52:13] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[17:52:13] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[17:52:13] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[17:52:13] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[17:52:13] [Server thread/INFO]: [Essentials] Using locale en
+[17:52:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:52:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:52:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:52:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:52:14] [Server thread/INFO]: [spark] Starting background profiler...
+[17:52:14] [Server thread/INFO]: Done preparing level "world" (4.062s)
+[17:52:14] [Server thread/INFO]: Starting remote control listener
+[17:52:14] [Server thread/INFO]: Thread RCON Listener started
+[17:52:14] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[17:52:14] [Server thread/INFO]: Running delayed init tasks
+[17:52:14] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:52:14] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:52:14] [Server thread/INFO]: Done (15.205s)! For help, type "help"
+[17:52:14] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:52:14] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[17:52:14] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[17:52:15] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
+[17:52:15] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[17:52:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:52:19] [Server thread/INFO]: Error: Player not found.
+[17:52:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:52:49] [Server thread/INFO]: Error: Player not found.
+[17:52:53] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[17:52:53] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[17:52:53] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[17:52:53] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[17:52:53] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
+[17:53:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:53:19] [Server thread/INFO]: Error: Player not found.
+[17:53:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:53:49] [Server thread/INFO]: Error: Player not found.
+[17:54:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:54:19] [Server thread/INFO]: Error: Player not found.
+[17:54:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:54:49] [Server thread/INFO]: Error: Player not found.
+[17:55:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:55:19] [Server thread/INFO]: Error: Player not found.
+[17:55:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:55:49] [Server thread/INFO]: Error: Player not found.
+[17:56:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[17:56:19] [Server thread/INFO]: Error: Player not found.
