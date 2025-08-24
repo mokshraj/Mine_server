@@ -13,3 +13,28 @@
 2025-08-24 20:31:04 net_iface_up: set tun0 up
 2025-08-24 20:31:04 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
 2025-08-24 20:31:04 Initialization Sequence Completed
+2025-08-24 20:57:08 [193.161.193.99] Inactivity timeout (--ping-restart), restarting
+2025-08-24 20:57:08 net_addr_ptp_v4_del: 10.9.5.134 dev tun0
+2025-08-24 20:57:08 SIGUSR1[soft,ping-restart] received, process restarting
+2025-08-24 20:57:09 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-24 20:57:09 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-24 20:57:14 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-24 20:57:14 TCPv4_CLIENT link local: (not bound)
+2025-08-24 20:57:14 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-24 20:58:14 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+2025-08-24 20:58:14 TLS Error: TLS handshake failed
+2025-08-24 20:58:14 Fatal TLS error (check_tls_errors_co), restarting
+2025-08-24 20:58:14 SIGUSR1[soft,tls-error] received, process restarting
+2025-08-24 20:58:15 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-24 20:58:15 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-24 20:58:19 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-24 20:58:19 TCPv4_CLIENT link local: (not bound)
+2025-08-24 20:58:19 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-24 20:58:37 Connection reset, restarting [-1]
+2025-08-24 20:58:37 SIGUSR1[soft,connection-reset] received, process restarting
+2025-08-24 20:58:38 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-24 20:58:38 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-24 21:00:38 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection timed out
+2025-08-24 21:00:38 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-24 21:00:39 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-24 21:00:39 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
