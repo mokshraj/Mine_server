@@ -726,3 +726,27 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [12:17:46] [RCON Client /127.116.107.223 #51/INFO]: Thread RCON Client /127.116.107.223 shutting down
 [12:18:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
 [12:18:11] [Server thread/INFO]: Error: Player not found.
+[12:18:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:18:41] [Server thread/INFO]: Error: Player not found.
+[12:19:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:19:11] [Server thread/INFO]: Error: Player not found.
+[12:19:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:19:41] [Server thread/INFO]: Error: Player not found.
+[12:20:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:20:11] [Server thread/INFO]: Error: Player not found.
+[12:20:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:20:41] [Server thread/INFO]: Error: Player not found.
+[12:21:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:21:11] [Server thread/INFO]: Error: Player not found.
+[12:21:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:21:41] [Server thread/INFO]: Error: Player not found.
+[12:22:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:22:11] [Server thread/INFO]: Error: Player not found.
+[12:22:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:22:41] [Server thread/INFO]: Error: Player not found.
+[12:23:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[12:23:11] [Server thread/INFO]: Error: Player not found.
+[12:23:13] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
+[12:23:13] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
+[12:23:14] [RCON Client /127.116.107.223 #53/INFO]: Thread RCON Client /127.116.107.223 shutting down
+[12:23:14] [RCON Client /127.116.107.223 #54/INFO]: Thread RCON Client /127.116.107.223 shutting down
