@@ -4,8 +4,17 @@ Your branch is up to date with 'origin/master'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   filebrowser.db
-	modified:   filebrowser.log
+	modified:   logs/latest.log
 	modified:   nohup.out
+	modified:   openvpn.log
+	modified:   openvpn.pid
+	modified:   playit.log
+	modified:   server.properties
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/2025-08-24-1.log.gz
+	plugins/spark/tmp-client/spark-16dd50bc35-libasyncProfiler.so.tmp
+	plugins/spark/tmp-client/spark-4ec6d50064-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")

@@ -1,105 +1,192 @@
-[00:00:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:00:09] [Server thread/INFO]: Error: Player not found.
-[00:00:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:00:39] [Server thread/INFO]: Error: Player not found.
-[00:01:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:01:09] [Server thread/INFO]: Error: Player not found.
-[00:01:19] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
-[00:01:19] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
-[00:01:19] [RCON Client /127.116.107.223 #147/INFO]: Thread RCON Client /127.116.107.223 shutting down
-[00:01:19] [RCON Client /127.116.107.223 #148/INFO]: Thread RCON Client /127.116.107.223 shutting down
-[00:01:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:01:39] [Server thread/INFO]: Error: Player not found.
-[00:02:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:02:09] [Server thread/INFO]: Error: Player not found.
-[00:02:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:02:39] [Server thread/INFO]: Error: Player not found.
-[00:03:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:03:09] [Server thread/INFO]: Error: Player not found.
-[00:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:03:39] [Server thread/INFO]: Error: Player not found.
-[00:04:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:04:09] [Server thread/INFO]: Error: Player not found.
-[00:04:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:04:39] [Server thread/INFO]: Error: Player not found.
-[00:05:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:05:09] [Server thread/INFO]: Error: Player not found.
-[00:05:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:05:39] [Server thread/INFO]: Error: Player not found.
-[00:06:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:06:09] [Server thread/INFO]: Error: Player not found.
-[00:06:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:06:39] [Server thread/INFO]: Error: Player not found.
-[00:06:50] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
-[00:06:51] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
-[00:06:51] [RCON Client /127.116.107.223 #149/INFO]: Thread RCON Client /127.116.107.223 shutting down
-[00:06:51] [RCON Client /127.116.107.223 #150/INFO]: Thread RCON Client /127.116.107.223 shutting down
-[00:07:04] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 5 minutes
-[00:07:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:07:09] [Server thread/INFO]: Error: Player not found.
-[00:07:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:07:39] [Server thread/INFO]: Error: Player not found.
-[00:07:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[00:07:44] [RCON Client /127.0.0.1 #151/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[00:08:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:08:09] [Server thread/INFO]: Error: Player not found.
-[00:08:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:08:39] [Server thread/INFO]: Error: Player not found.
-[00:09:04] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 3 minutes
-[00:09:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:09:09] [Server thread/INFO]: Error: Player not found.
-[00:09:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:09:39] [Server thread/INFO]: Error: Player not found.
-[00:09:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[00:09:44] [RCON Client /127.0.0.1 #152/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[00:10:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:10:09] [Server thread/INFO]: Error: Player not found.
-[00:10:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:10:39] [Server thread/INFO]: Error: Player not found.
-[00:11:04] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 1 minutes
-[00:11:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:11:09] [Server thread/INFO]: Error: Player not found.
-[00:11:34] [Server thread/INFO]: [Not Secure] [Server] Server will stop in 30 seconds
-[00:11:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
-[00:11:39] [Server thread/INFO]: Error: Player not found.
-[00:11:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[00:11:44] [RCON Client /127.0.0.1 #153/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[00:12:04] [Server thread/INFO]: Stopping the server
-[00:12:05] [Server thread/INFO]: Stopping server
-[00:12:05] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
-[00:12:05] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
-[00:12:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[00:12:05] [Server thread/INFO]: [ConsoleScheduler] Disabling ConsoleScheduler v1.4.10
-[00:12:05] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 disabled.
-[00:12:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[00:12:05] [Server thread/INFO]: Saving players
-[00:12:05] [Server thread/INFO]: Saving worlds
-[00:12:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 24 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[00:12:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[00:12:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[00:12:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[00:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:12:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:12:05] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[00:12:05] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[00:12:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:12:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:15:31] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9; Eclipse Adoptium Temurin-22.0.2+9) on Linux 6.11.0-1018-azure (amd64)
+[00:15:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) for Minecraft 1.21.7
+[00:15:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:15:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[00:15:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - ConsoleScheduler (1.4.10), Essentials (2.21.1), PlugManX (2.4.1), Vault (1.7.3-b131), dynmap (3.7-SNAPSHOT-968)
+[00:15:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:15:38] [ServerMain/INFO]: Loaded 1407 recipes
+[00:15:38] [ServerMain/INFO]: Loaded 1520 advancements
+[00:15:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:15:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 414.8ms
+[00:15:39] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[00:15:39] [Server thread/INFO]: Loading properties
+[00:15:39] [Server thread/INFO]: This server is running Paper version 1.21.7-28-main@94d60e1 (2025-07-14T21:13:45Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[00:15:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:15:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:15:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:15:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:15:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:15:40] [Server thread/INFO]: Default game type: SURVIVAL
+[00:15:40] [Server thread/INFO]: Generating keypair
+[00:15:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:15:41] [Server thread/INFO]: Using epoll channel type
+[00:15:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:15:41] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[00:15:41] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[00:15:41] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[00:15:41] [Server thread/INFO]: [dynmap] version=1.21.7-28-94d60e1 (MC: 1.21.7)
+[00:15:41] [Server thread/ERROR]: [dynmap] Cannot find [Lnet.minecraft.server.BiomeBase;
+[00:15:41] [Server thread/ERROR]: [dynmap] Cannot find net.minecraft.server.BiomeStorage
+[00:15:41] [Server thread/ERROR]: [dynmap] Unable to find method getHandle for org.bukkit.craftbukkit.CraftChunk
+[00:15:41] [Server thread/ERROR]: [dynmap] Unable to find method getValue for com.mojang.authlib.properties.Property
+[00:15:41] [Server thread/ERROR]: [dynmap] Error loading org.dynmap.bukkit.helper.BukkitVersionHelperCB
+java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.Helper.loadVersionHelper(Helper.java:15) ~[Dynmap-3.7-beta-8-spigot.jar:?]
+	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.Helper.getHelper(Helper.java:109) ~[Dynmap-3.7-beta-8-spigot.jar:?]
+	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.onLoad(DynmapPlugin.java:900) ~[Dynmap-3.7-beta-8-spigot.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:566) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:235) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
+	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.helper.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:166) ~[Dynmap-3.7-beta-8-spigot.jar:?]
+	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:44) ~[Dynmap-3.7-beta-8-spigot.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	... 14 more
+[00:15:41] [Server thread/INFO]: [dynmap] Mod Support API available
+[00:15:41] [Server thread/INFO]: [ConsoleScheduler] Loading server plugin ConsoleScheduler v1.4.10
+[00:15:41] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[00:15:41] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[00:15:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:15:41] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:15:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:15:41] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:15:41] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:15:41] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[00:15:41] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[00:15:41] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[00:15:41] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[00:15:41] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[00:15:41] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[00:15:41] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[00:15:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:15:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:15:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:15:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:15:41] [Server thread/INFO]: Preparing level "world"
+[00:15:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:15:42] [Server thread/INFO]: Preparing spawn area: 0%
+[00:15:42] [Server thread/INFO]: Preparing spawn area: 6%
+[00:15:43] [Server thread/INFO]: Time elapsed: 977 ms
+[00:15:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:15:43] [Server thread/INFO]: Preparing spawn area: 0%
+[00:15:43] [Server thread/INFO]: Time elapsed: 209 ms
+[00:15:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:15:43] [Server thread/INFO]: Preparing spawn area: 0%
+[00:15:43] [Server thread/INFO]: Time elapsed: 167 ms
+[00:15:43] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[00:15:43] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[00:15:43] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
+	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1094) ~[Dynmap-3.7-beta-8-spigot.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:916) ~[Dynmap-3.7-beta-8-spigot.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-28-94d60e1]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+[00:15:43] [Server thread/INFO]: [ConsoleScheduler] Enabling ConsoleScheduler v1.4.10
+[00:15:43] [Server thread/INFO]: [ConsoleScheduler] Vault Found! Hooking as permission system
+[00:15:43] [Server thread/INFO]: [ConsoleScheduler] By Boomer113 - v1.4.10 enabled.
+[00:15:43] [Server thread/INFO]: [ConsoleScheduler] Command execution will start in 5 seconds.
+[00:15:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[00:15:44] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:15:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:15:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:15:44] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[00:15:44] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[00:15:44] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:15:44] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[00:15:44] [Server thread/INFO]: [Essentials] Using locale en
+[00:15:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:15:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:15:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:15:45] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:15:45] [Server thread/INFO]: [spark] Starting background profiler...
+[00:15:45] [Server thread/INFO]: Done preparing level "world" (3.876s)
+[00:15:45] [Server thread/INFO]: Starting remote control listener
+[00:15:45] [Server thread/INFO]: Thread RCON Listener started
+[00:15:45] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[00:15:45] [Server thread/INFO]: Running delayed init tasks
+[00:15:45] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:15:45] [Server thread/INFO]: Done (15.143s)! For help, type "help"
+[00:15:45] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:15:45] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:15:45] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has started executing commands
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: -------------[ConsoleScheduler]--------------
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command1
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command2
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command3
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command4
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command5
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: getConfig contains CommandSchedule.Command6
+[00:15:45] [Craft Scheduler Thread - 2 - ConsoleScheduler/INFO]: [ConsoleScheduler] has attempted to put 6 commands on schedule.
+[00:15:45] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
+[00:15:45] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[00:15:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:15:50] [Server thread/INFO]: Error: Player not found.
+[00:16:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:16:20] [Server thread/INFO]: Error: Player not found.
+[00:16:24] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[00:16:24] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[00:16:24] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[00:16:24] [RCON Client /127.0.0.1 #3/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[00:16:24] [Server thread/INFO]: [Not Secure] [Rcon] Hello world !
+[00:16:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:16:50] [Server thread/INFO]: Error: Player not found.
+[00:17:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:17:20] [Server thread/INFO]: Error: Player not found.
+[00:17:45] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
+[00:17:45] [RCON Listener #1/INFO]: Thread RCON Client /127.116.107.223 started
+[00:17:45] [RCON Client /127.116.107.223 #5/INFO]: Thread RCON Client /127.116.107.223 shutting down
+[00:17:45] [RCON Client /127.116.107.223 #4/INFO]: Thread RCON Client /127.116.107.223 shutting down
+[00:17:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:17:50] [Server thread/INFO]: Error: Player not found.
+[00:18:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:18:20] [Server thread/INFO]: Error: Player not found.
+[00:18:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:18:50] [Server thread/INFO]: Error: Player not found.
+[00:19:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:19:20] [Server thread/INFO]: Error: Player not found.
+[00:19:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg server Keep_alive
+[00:19:50] [Server thread/INFO]: Error: Player not found.
