@@ -2,83 +2,10 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   logs/latest.log
-	modified:   nohup.out
-	modified:   playit.log
-	deleted:    plugins/spark/tmp-client/spark-fec5fc93faa-profile-data.jfr.tmp
-	modified:   world/data/raids.dat
-	modified:   world/entities/r.-1.-1.mca
-	modified:   world/entities/r.-1.0.mca
-	modified:   world/entities/r.0.-1.mca
-	modified:   world/entities/r.0.0.mca
-	modified:   world/level.dat
-	modified:   world/level.dat_old
-	modified:   world_nether/DIM-1/data/raids.dat
-	modified:   world_nether/level.dat
-	modified:   world_nether/level.dat_old
-	modified:   world_the_end/DIM1/data/raids_end.dat
-	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
-	modified:   world_the_end/DIM1/entities/r.-1.0.mca
-	modified:   world_the_end/DIM1/entities/r.0.-1.mca
-	modified:   world_the_end/DIM1/entities/r.0.0.mca
-	modified:   world_the_end/level.dat
-	modified:   world_the_end/level.dat_old
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	plugins/spark/tmp-client/spark-10323930d2bc-profile-data.jfr.tmp
-
-no changes added to commit (use "git add" and/or "git commit -a")
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	modified:   logs/latest.log
-	modified:   nohup.out
-	modified:   playit.log
-	renamed:    plugins/spark/tmp-client/spark-fec5fc93faa-profile-data.jfr.tmp -> plugins/spark/tmp-client/spark-10323930d2bc-profile-data.jfr.tmp
-	modified:   world/data/raids.dat
-	modified:   world/entities/r.-1.-1.mca
-	modified:   world/entities/r.-1.0.mca
-	modified:   world/entities/r.0.-1.mca
-	modified:   world/entities/r.0.0.mca
-	modified:   world/level.dat
-	modified:   world/level.dat_old
-	modified:   world_nether/DIM-1/data/raids.dat
-	modified:   world_nether/level.dat
-	modified:   world_nether/level.dat_old
-	modified:   world_the_end/DIM1/data/raids_end.dat
-	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
-	modified:   world_the_end/DIM1/entities/r.-1.0.mca
-	modified:   world_the_end/DIM1/entities/r.0.-1.mca
-	modified:   world_the_end/DIM1/entities/r.0.0.mca
-	modified:   world_the_end/level.dat
-	modified:   world_the_end/level.dat_old
-
-[master b4b9105] server save
- 21 files changed, 615 insertions(+), 2 deletions(-)
- rename plugins/spark/tmp-client/{spark-fec5fc93faa-profile-data.jfr.tmp => spark-10323930d2bc-profile-data.jfr.tmp} (66%)
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   nohup.out
-
-no changes added to commit (use "git add" and/or "git commit -a")
-To https://github.com/mokshraj/Mine_server.git
-   f4aa9c0..b4b9105  master -> master
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+	modified:   filebrowser.db
+	modified:   filebrowser.log
 	modified:   nohup.out
 
 no changes added to commit (use "git add" and/or "git commit -a")
