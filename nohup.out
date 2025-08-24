@@ -7,7 +7,7 @@ Changes not staged for commit:
 	modified:   logs/latest.log
 	modified:   nohup.out
 	modified:   playit.log
-	deleted:    plugins/spark/tmp-client/spark-11840df5e35-profile-data.jfr.tmp
+	deleted:    plugins/spark/tmp-client/spark-15e1a44c966-profile-data.jfr.tmp
 	modified:   world/data/raids.dat
 	modified:   world/entities/r.-1.-1.mca
 	modified:   world/entities/r.-1.0.mca
@@ -15,15 +15,7 @@ Changes not staged for commit:
 	modified:   world/entities/r.0.0.mca
 	modified:   world/level.dat
 	modified:   world/level.dat_old
-	modified:   world/region/r.-1.-1.mca
-	modified:   world/region/r.-1.0.mca
-	modified:   world/region/r.0.-1.mca
-	modified:   world/region/r.0.0.mca
 	modified:   world_nether/DIM-1/data/raids.dat
-	modified:   world_nether/DIM-1/region/r.-1.-1.mca
-	modified:   world_nether/DIM-1/region/r.-1.0.mca
-	modified:   world_nether/DIM-1/region/r.0.-1.mca
-	modified:   world_nether/DIM-1/region/r.0.0.mca
 	modified:   world_nether/level.dat
 	modified:   world_nether/level.dat_old
 	modified:   world_the_end/DIM1/data/raids_end.dat
@@ -31,15 +23,11 @@ Changes not staged for commit:
 	modified:   world_the_end/DIM1/entities/r.-1.0.mca
 	modified:   world_the_end/DIM1/entities/r.0.-1.mca
 	modified:   world_the_end/DIM1/entities/r.0.0.mca
-	modified:   world_the_end/DIM1/region/r.-1.-1.mca
-	modified:   world_the_end/DIM1/region/r.-1.0.mca
-	modified:   world_the_end/DIM1/region/r.0.-1.mca
-	modified:   world_the_end/DIM1/region/r.0.0.mca
 	modified:   world_the_end/level.dat
 	modified:   world_the_end/level.dat_old
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	plugins/spark/tmp-client/spark-15e1a44c966-profile-data.jfr.tmp
+	plugins/spark/tmp-client/spark-1a3f3a804e0-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
