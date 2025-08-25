@@ -56,3 +56,16 @@
 2025-08-25 02:24:04 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
 2025-08-25 02:24:05 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
 2025-08-25 02:24:05 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 02:26:05 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection timed out
+2025-08-25 02:26:05 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 02:26:06 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 02:26:06 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 02:26:06 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-25 02:26:06 TCPv4_CLIENT link local: (not bound)
+2025-08-25 02:26:06 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-25 02:26:09 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
+2025-08-25 02:26:13 TUN/TAP device tun0 opened
+2025-08-25 02:26:13 net_iface_mtu_set: mtu 1500 for tun0
+2025-08-25 02:26:13 net_iface_up: set tun0 up
+2025-08-25 02:26:13 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
+2025-08-25 02:26:13 Initialization Sequence Completed
