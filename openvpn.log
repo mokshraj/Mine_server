@@ -1,49 +1,15 @@
-2025-08-24 20:31:01 Note: --cipher is not set. OpenVPN versions before 2.5 defaulted to BF-CBC as fallback when cipher negotiation failed in this case. If you need this fallback please add '--data-ciphers-fallback BF-CBC' to your configuration and/or add BF-CBC to --data-ciphers.
-2025-08-24 20:31:01 OpenVPN 2.6.14 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO]
-2025-08-24 20:31:01 library versions: OpenSSL 3.0.13 30 Jan 2024, LZO 2.10
-2025-08-24 20:31:01 DCO version: N/A
-2025-08-24 20:31:01 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
-2025-08-24 20:31:01 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
-2025-08-24 20:31:01 TCP connection established with [AF_INET]193.161.193.99:1194
-2025-08-24 20:31:01 TCPv4_CLIENT link local: (not bound)
-2025-08-24 20:31:01 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
-2025-08-24 20:31:03 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
-2025-08-24 20:31:04 TUN/TAP device tun0 opened
-2025-08-24 20:31:04 net_iface_mtu_set: mtu 1500 for tun0
-2025-08-24 20:31:04 net_iface_up: set tun0 up
-2025-08-24 20:31:04 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
-2025-08-24 20:31:04 Initialization Sequence Completed
-2025-08-24 20:57:08 [193.161.193.99] Inactivity timeout (--ping-restart), restarting
-2025-08-24 20:57:08 net_addr_ptp_v4_del: 10.9.5.134 dev tun0
-2025-08-24 20:57:08 SIGUSR1[soft,ping-restart] received, process restarting
-2025-08-24 20:57:09 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
-2025-08-24 20:57:09 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
-2025-08-24 20:57:14 TCP connection established with [AF_INET]193.161.193.99:1194
-2025-08-24 20:57:14 TCPv4_CLIENT link local: (not bound)
-2025-08-24 20:57:14 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
-2025-08-24 20:58:14 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
-2025-08-24 20:58:14 TLS Error: TLS handshake failed
-2025-08-24 20:58:14 Fatal TLS error (check_tls_errors_co), restarting
-2025-08-24 20:58:14 SIGUSR1[soft,tls-error] received, process restarting
-2025-08-24 20:58:15 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
-2025-08-24 20:58:15 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
-2025-08-24 20:58:19 TCP connection established with [AF_INET]193.161.193.99:1194
-2025-08-24 20:58:19 TCPv4_CLIENT link local: (not bound)
-2025-08-24 20:58:19 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
-2025-08-24 20:58:37 Connection reset, restarting [-1]
-2025-08-24 20:58:37 SIGUSR1[soft,connection-reset] received, process restarting
-2025-08-24 20:58:38 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
-2025-08-24 20:58:38 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
-2025-08-24 21:00:38 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection timed out
-2025-08-24 21:00:38 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
-2025-08-24 21:00:39 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
-2025-08-24 21:00:39 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
-2025-08-24 21:01:47 TCP connection established with [AF_INET]193.161.193.99:1194
-2025-08-24 21:01:47 TCPv4_CLIENT link local: (not bound)
-2025-08-24 21:01:47 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
-2025-08-24 21:02:10 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
-2025-08-24 21:02:14 TUN/TAP device tun0 opened
-2025-08-24 21:02:14 net_iface_mtu_set: mtu 1500 for tun0
-2025-08-24 21:02:14 net_iface_up: set tun0 up
-2025-08-24 21:02:14 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
-2025-08-24 21:02:14 Initialization Sequence Completed
+2025-08-25 01:36:00 Note: --cipher is not set. OpenVPN versions before 2.5 defaulted to BF-CBC as fallback when cipher negotiation failed in this case. If you need this fallback please add '--data-ciphers-fallback BF-CBC' to your configuration and/or add BF-CBC to --data-ciphers.
+2025-08-25 01:36:00 OpenVPN 2.6.14 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO]
+2025-08-25 01:36:00 library versions: OpenSSL 3.0.13 30 Jan 2024, LZO 2.10
+2025-08-25 01:36:00 DCO version: N/A
+2025-08-25 01:36:00 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 01:36:00 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 01:36:00 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-25 01:36:00 TCPv4_CLIENT link local: (not bound)
+2025-08-25 01:36:00 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-25 01:36:01 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
+2025-08-25 01:36:02 TUN/TAP device tun0 opened
+2025-08-25 01:36:02 net_iface_mtu_set: mtu 1500 for tun0
+2025-08-25 01:36:02 net_iface_up: set tun0 up
+2025-08-25 01:36:02 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
+2025-08-25 01:36:02 Initialization Sequence Completed
