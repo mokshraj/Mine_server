@@ -131,3 +131,32 @@
 2025-08-25 06:01:32 Connection reset, restarting [-1]
 2025-08-25 06:01:32 net_addr_ptp_v4_del: 10.9.2.158 dev tun0
 2025-08-25 06:01:32 SIGUSR1[soft,connection-reset] received, process restarting
+2025-08-25 06:01:33 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 06:01:33 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:33 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection timed out
+2025-08-25 06:03:33 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 06:03:34 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:34 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:39 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:39 TCPv4_CLIENT link local: (not bound)
+2025-08-25 06:03:39 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:50 Connection reset, restarting [-1]
+2025-08-25 06:03:50 SIGUSR1[soft,connection-reset] received, process restarting
+2025-08-25 06:03:51 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:51 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:51 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-25 06:03:51 TCPv4_CLIENT link local: (not bound)
+2025-08-25 06:03:51 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-25 06:04:13 Connection reset, restarting [-1]
+2025-08-25 06:04:13 SIGUSR1[soft,connection-reset] received, process restarting
+2025-08-25 06:04:14 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 06:04:14 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 06:04:16 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-25 06:04:16 TCPv4_CLIENT link local: (not bound)
+2025-08-25 06:04:16 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-25 06:04:27 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
+2025-08-25 06:04:28 TUN/TAP device tun0 opened
+2025-08-25 06:04:28 net_iface_mtu_set: mtu 1500 for tun0
+2025-08-25 06:04:28 net_iface_up: set tun0 up
+2025-08-25 06:04:28 net_addr_ptp_v4_add: 10.9.5.82 peer 10.9.5.81 dev tun0
+2025-08-25 06:04:28 Initialization Sequence Completed
