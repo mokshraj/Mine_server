@@ -69,3 +69,47 @@
 2025-08-25 02:26:13 net_iface_up: set tun0 up
 2025-08-25 02:26:13 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
 2025-08-25 02:26:13 Initialization Sequence Completed
+2025-08-25 05:49:53 [193.161.193.99] Inactivity timeout (--ping-restart), restarting
+2025-08-25 05:49:53 net_addr_ptp_v4_del: 10.9.5.134 dev tun0
+2025-08-25 05:49:53 SIGUSR1[soft,ping-restart] received, process restarting
+2025-08-25 05:49:54 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:49:54 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:30 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:30 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:31 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:31 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:31 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:31 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:32 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:32 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:32 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:32 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:33 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:33 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:33 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:33 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:34 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:34 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:34 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:34 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:35 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:35 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:35 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:35 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:37 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:37 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:37 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:37 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:41 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:41 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:41 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:41 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:50:49 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:49 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:50:50 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection refused
+2025-08-25 05:50:50 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 05:51:06 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 05:51:06 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 05:51:06 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-25 05:51:06 TCPv4_CLIENT link local: (not bound)
+2025-08-25 05:51:06 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
