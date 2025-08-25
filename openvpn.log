@@ -25,3 +25,16 @@
 2025-08-25 02:15:44 TCP connection established with [AF_INET]193.161.193.99:1194
 2025-08-25 02:15:44 TCPv4_CLIENT link local: (not bound)
 2025-08-25 02:15:44 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-25 02:16:36 Server poll timeout, restarting
+2025-08-25 02:16:36 SIGUSR1[soft,server_poll] received, process restarting
+2025-08-25 02:16:36 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 02:16:36 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 02:16:37 TCP connection established with [AF_INET]193.161.193.99:1194
+2025-08-25 02:16:37 TCPv4_CLIENT link local: (not bound)
+2025-08-25 02:16:37 TCPv4_CLIENT link remote: [AF_INET]193.161.193.99:1194
+2025-08-25 02:16:51 [193.161.193.99] Peer Connection Initiated with [AF_INET]193.161.193.99:1194
+2025-08-25 02:16:52 TUN/TAP device tun0 opened
+2025-08-25 02:16:52 net_iface_mtu_set: mtu 1500 for tun0
+2025-08-25 02:16:52 net_iface_up: set tun0 up
+2025-08-25 02:16:52 net_addr_ptp_v4_add: 10.9.5.134 peer 10.9.5.133 dev tun0
+2025-08-25 02:16:52 Initialization Sequence Completed
