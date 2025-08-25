@@ -221,3 +221,9 @@
 2025-08-25 06:29:12 SIGUSR1[soft,connection-reset] received, process restarting
 2025-08-25 06:30:16 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
 2025-08-25 06:30:16 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 06:32:16 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection timed out
+2025-08-25 06:32:16 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
+2025-08-25 06:34:24 TCP/UDP: Preserving recently used remote address: [AF_INET]193.161.193.99:1194
+2025-08-25 06:34:24 Attempting to establish TCP connection with [AF_INET]193.161.193.99:1194
+2025-08-25 06:36:24 TCP: connect to [AF_INET]193.161.193.99:1194 failed: Connection timed out
+2025-08-25 06:36:24 SIGUSR1[connection failed(soft),connection-failed] received, process restarting
