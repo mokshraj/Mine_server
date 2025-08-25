@@ -2,19 +2,44 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   logs/latest.log
 	modified:   nohup.out
-	modified:   openvpn.log
-	modified:   openvpn.pid
 	modified:   playit.log
-	modified:   server.properties
+	deleted:    plugins/spark/tmp-client/spark-59e6bc0891-profile-data.jfr.tmp
+	modified:   world/data/raids.dat
+	modified:   world/entities/r.-1.-1.mca
+	modified:   world/entities/r.-1.0.mca
+	modified:   world/entities/r.0.-1.mca
+	modified:   world/entities/r.0.0.mca
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.0.-1.mca
+	modified:   world/region/r.0.0.mca
+	modified:   world_nether/DIM-1/data/raids.dat
+	modified:   world_nether/DIM-1/region/r.-1.-1.mca
+	modified:   world_nether/DIM-1/region/r.-1.0.mca
+	modified:   world_nether/DIM-1/region/r.0.-1.mca
+	modified:   world_nether/DIM-1/region/r.0.0.mca
+	modified:   world_nether/level.dat
+	modified:   world_nether/level.dat_old
+	modified:   world_the_end/DIM1/data/raids_end.dat
+	modified:   world_the_end/DIM1/entities/r.-1.-1.mca
+	modified:   world_the_end/DIM1/entities/r.-1.0.mca
+	modified:   world_the_end/DIM1/entities/r.0.-1.mca
+	modified:   world_the_end/DIM1/entities/r.0.0.mca
+	modified:   world_the_end/DIM1/region/r.-1.-1.mca
+	modified:   world_the_end/DIM1/region/r.-1.0.mca
+	modified:   world_the_end/DIM1/region/r.0.-1.mca
+	modified:   world_the_end/DIM1/region/r.0.0.mca
+	modified:   world_the_end/level.dat
+	modified:   world_the_end/level.dat_old
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	logs/2025-08-25-1.log.gz
-	plugins/spark/tmp-client/spark-21ff208076-libasyncProfiler.so.tmp
-	plugins/spark/tmp-client/spark-59e6bc0891-profile-data.jfr.tmp
+	plugins/spark/tmp-client/spark-9fc0205294-profile-data.jfr.tmp
 
 no changes added to commit (use "git add" and/or "git commit -a")
