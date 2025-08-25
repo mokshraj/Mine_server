@@ -128,3 +128,6 @@
 2025-08-25 05:53:23 net_iface_up: set tun0 up
 2025-08-25 05:53:23 net_addr_ptp_v4_add: 10.9.2.158 peer 10.9.2.157 dev tun0
 2025-08-25 05:53:23 Initialization Sequence Completed
+2025-08-25 06:01:32 Connection reset, restarting [-1]
+2025-08-25 06:01:32 net_addr_ptp_v4_del: 10.9.2.158 dev tun0
+2025-08-25 06:01:32 SIGUSR1[soft,connection-reset] received, process restarting
